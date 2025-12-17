@@ -48,6 +48,7 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
           className="btn btn-secondary"
           style={{ padding: '0.6rem', borderRadius: '50%' }}
           title={`Switch to ${theme === 'dark' ? 'Light' : 'Dark'} Mode`}
+          aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
         >
           {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
         </button>

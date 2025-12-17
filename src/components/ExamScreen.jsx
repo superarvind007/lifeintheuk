@@ -265,6 +265,31 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
     setCurrentIdx(Math.min(questions.length - 1, currentIdx + 1));
   };
 
+  // Helper to determine text color based on background status
+  const getTextColor = (idx) => {
+    // Current question (Active/Blue) or Flagged (Orange) or Answered (Green) -> White text is best
+    if (idx === currentIdx) return 'white';
+
+    const q = questions[idx];
+    const ans = answers[q.question_id] || [];
+
+    // Check specific conditions that return colorful backgrounds
+    if (isFromFlaggedSet) {
+      const wasOriginallyFlagged = questionsFlaggedStatus[q.question_id];
+      // If it has a color status, return white
+      if (wasOriginallyFlagged) return 'white';
+      // If random/unflagged, it might be grey
+    }
+
+    if (flagged.has(q.question_id)) return 'white'; // Warning (Orange)
+    if (ans.length > 0) return 'white'; // Success (Green)
+
+    // Default case: bg-tertiary (Unanswered/Unvisited)
+    // In Dark Mode: bg-tertiary is dark -> Text should be light (primary)
+    // In Light Mode: bg-tertiary is light -> Text should be dark (primary)
+    return 'var(--text-primary)';
+  };
+
   return (
     <div className="container" style={{ padding: 0, maxWidth: '100%', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
 
@@ -335,6 +360,12 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
             {questions.map((q, idx) => {
               const isFlagged = flagged.has(q.question_id);
               const wasOriginallyFlagged = isFromFlaggedSet ? questionsFlaggedStatus[q.question_id] : false;
+              const hasAnswered = (answers[q.question_id] || []).length > 0;
+
+              let statusText = "Unanwsered";
+              if (idx === currentIdx) statusText = "Current Question";
+              else if (isFlagged) statusText = "Flagged";
+              else if (hasAnswered) statusText = "Answered";
 
               return (
                 <button
@@ -344,15 +375,18 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
                     // On mobile, close sidebar after selection
                     if (window.innerWidth < 768) setShowNav(false);
                   }}
+                  aria-label={`Question ${idx + 1}: ${statusText}`}
+                  aria-current={idx === currentIdx ? 'true' : undefined}
                   style={{
                     aspectRatio: '1',
                     background: getStatusColor(idx),
-                    color: 'white',
+                    color: getTextColor(idx),
                     borderRadius: '0.5rem',
-                    border: idx === currentIdx ? '2px solid white' : 'none',
+                    border: idx === currentIdx ? '2px solid var(--accent)' : 'none',
                     fontWeight: 'bold',
                     position: 'relative',
-                    cursor: 'pointer'
+                    cursor: 'pointer',
+                    boxShadow: idx === currentIdx ? '0 0 0 2px var(--bg-secondary), 0 0 0 4px var(--accent)' : 'none'
                   }}
                 >
                   {idx + 1}
