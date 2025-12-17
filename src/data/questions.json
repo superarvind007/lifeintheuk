@@ -1,0 +1,3712 @@
+[
+  {
+    "question_id": 1,
+    "question_detail": "What is the scientific contribution of Isaac Newton in the field of science?",
+    "possible_answers": [
+      "Cloning",
+      "Discovery of gravity",
+      "Development of the steam engine",
+      "Invention of the lightbulb"
+    ],
+    "correct_answers": [
+      "Discovery of gravity"
+    ],
+    "explanation": "Isaac Newton is famous for formulating the law of universal gravitation after studying the motion of objects and planets."
+  },
+  {
+    "question_id": 2,
+    "question_detail": "Who were supporters of King Charles I during the English Civil War?",
+    "possible_answers": [
+      "Roundheads",
+      "Parliamentarians",
+      "Cavaliers",
+      "Gentry"
+    ],
+    "correct_answers": [
+      "Cavaliers"
+    ],
+    "explanation": "Supporters of King Charles I were called Cavaliers, while supporters of Parliament were known as Roundheads."
+  },
+  {
+    "question_id": 3,
+    "question_detail": "Who was the longest-serving British Prime Minister of the 20th century?",
+    "possible_answers": [
+      "Winston Churchill",
+      "Margaret Thatcher",
+      "Harold Macmillan",
+      "Tony Blair"
+    ],
+    "correct_answers": [
+      "Margaret Thatcher"
+    ],
+    "explanation": "Margaret Thatcher served as Prime Minister from 1979 to 1990, making her the longest-serving UK Prime Minister of the 20th century."
+  },
+  {
+    "question_id": 4,
+    "question_detail": "Who was the British Prime Minister known for delivering the ‘wind of change’ speech about decolonisation and independence for countries of the Empire?",
+    "possible_answers": [
+      "Clement Attlee",
+      "Winston Churchill",
+      "Tony Blair",
+      "Harold Macmillan"
+    ],
+    "correct_answers": [
+      "Harold Macmillan"
+    ],
+    "explanation": "Harold Macmillan gave the 1960 'wind of change' speech signalling the UK’s acceptance of decolonisation in Africa and elsewhere."
+  },
+  {
+    "question_id": 5,
+    "question_detail": "Which TWO are the fundamental responsibilities of a UK resident or citizen?",
+    "possible_answers": [
+      "Voting in all elections",
+      "Tolerance of different beliefs",
+      "Looking after yourself and your family",
+      "Joining a trade union"
+    ],
+    "correct_answers": [
+      "Tolerance of different beliefs",
+      "Looking after yourself and your family"
+    ],
+    "explanation": "Citizens are expected to be tolerant of others’ beliefs and to take responsibility for themselves and their families; voting and union membership are voluntary."
+  },
+  {
+    "question_id": 6,
+    "question_detail": "Where is the Grand National horse race held?",
+    "possible_answers": [
+      "Newmarket",
+      "Aintree",
+      "Ascot",
+      "Ayr"
+    ],
+    "correct_answers": [
+      "Aintree"
+    ],
+    "explanation": "The Grand National, a famous steeplechase, takes place at Aintree Racecourse near Liverpool."
+  },
+  {
+    "question_id": 7,
+    "question_detail": "Who is responsible for maintaining order during House of Commons debates?",
+    "possible_answers": [
+      "The Prime Minister",
+      "The Chancellor",
+      "The Speaker",
+      "The Leader of the Opposition"
+    ],
+    "correct_answers": [
+      "The Speaker"
+    ],
+    "explanation": "The Speaker of the House of Commons chairs debates, calls MPs to speak, and ensures that rules are followed."
+  },
+  {
+    "question_id": 8,
+    "question_detail": "Which flower is associated with Scotland?",
+    "possible_answers": [
+      "Rose",
+      "Daffodil",
+      "Shamrock",
+      "Thistle"
+    ],
+    "correct_answers": [
+      "Thistle"
+    ],
+    "explanation": "The national emblem of Scotland is the thistle, while England uses the rose, Wales the daffodil, and Ireland the shamrock."
+  },
+  {
+    "question_id": 9,
+    "question_detail": "What percentage of people identified as Jewish in the 2009 Citizenship Survey?",
+    "possible_answers": [
+      "0.5%",
+      "1%",
+      "2%",
+      "4%"
+    ],
+    "correct_answers": [
+      "0.5%"
+    ],
+    "explanation": "In the 2009 Citizenship Survey, about 0.5% of respondents identified as Jewish."
+  },
+  {
+    "question_id": 10,
+    "question_detail": "For which discovery did Alexander Fleming win the Nobel Prize in Medicine in 1945?",
+    "possible_answers": [
+      "The discovery of the smallpox vaccine",
+      "The invention of antiseptics",
+      "The discovery of penicillin",
+      "The development of chemotherapy"
+    ],
+    "correct_answers": [
+      "The discovery of penicillin"
+    ],
+    "explanation": "Alexander Fleming discovered penicillin in 1928, and this work on antibiotics earned him a share of the Nobel Prize in 1945."
+  },
+  {
+    "question_id": 11,
+    "question_detail": "Which TWO are devolved powers of the Northern Ireland Assembly?",
+    "possible_answers": [
+      "Immigration",
+      "Education",
+      "Foreign Affairs",
+      "Health"
+    ],
+    "correct_answers": [
+      "Education",
+      "Health"
+    ],
+    "explanation": "The Northern Ireland Assembly has powers over areas such as education and health, while immigration and foreign affairs remain reserved to the UK Parliament."
+  },
+  {
+    "question_id": 12,
+    "question_detail": "What was the outcome of the Glorious Revolution?",
+    "possible_answers": [
+      "End of the monarchy",
+      "Beginning of constitutional monarchy",
+      "Restoration of Charles II",
+      "Creation of the Commonwealth"
+    ],
+    "correct_answers": [
+      "Beginning of constitutional monarchy"
+    ],
+    "explanation": "The Glorious Revolution of 1688 led to William and Mary taking the throne and to a constitutional monarchy with limits on royal power."
+  },
+  {
+    "question_id": 13,
+    "question_detail": "In which English county is the monument of Stonehenge located?",
+    "possible_answers": [
+      "Cornwall",
+      "Wiltshire",
+      "Yorkshire",
+      "Somerset"
+    ],
+    "correct_answers": [
+      "Wiltshire"
+    ],
+    "explanation": "Stonehenge is a prehistoric stone circle located on Salisbury Plain in Wiltshire, southern England."
+  },
+  {
+    "question_id": 14,
+    "question_detail": "What materials were primarily used to construct the Crystal Palace for the Great Exhibition of 1851 in Hyde Park, London?",
+    "possible_answers": [
+      "Brick and wood",
+      "Stone and concrete",
+      "Steel and glass",
+      "Steel and brick"
+    ],
+    "correct_answers": [
+      "Steel and glass"
+    ],
+    "explanation": "The Crystal Palace was an innovative structure built largely from cast iron (steel) and glass for the Great Exhibition of 1851."
+  },
+  {
+    "question_id": 15,
+    "question_detail": "Who invented jet engine?",
+    "possible_answers": [
+      "Christopher Cockerell",
+      "Frank Whittle",
+      "Robert Watson-Watt",
+      "Alan Turing"
+    ],
+    "correct_answers": [
+      "Frank Whittle"
+    ],
+    "explanation": "Sir Frank Whittle, a British engineer, is credited with inventing the turbojet engine in the 1930s."
+  },
+  {
+    "question_id": 16,
+    "question_detail": "When is Halloween traditionally celebrated in the UK?",
+    "possible_answers": [
+      "11 October",
+      "31 October",
+      "5 November",
+      "11 November"
+    ],
+    "correct_answers": [
+      "31 October"
+    ],
+    "explanation": "Halloween is celebrated on the evening of 31 October, with traditions such as dressing up and trick-or-treating."
+  },
+  {
+    "question_id": 17,
+    "question_detail": "Who became Prime Minister after Mrs. Thatcher and helped establish the Northern Ireland peace process?",
+    "possible_answers": [
+      "John Major",
+      "Tony Blair",
+      "David Cameron",
+      "Gordon Brown"
+    ],
+    "correct_answers": [
+      "John Major"
+    ],
+    "explanation": "John Major succeeded Margaret Thatcher in 1990 and his government played a key role in early steps towards the Northern Ireland peace process."
+  },
+  {
+    "question_id": 18,
+    "question_detail": "Where was William Shakespeare born?",
+    "possible_answers": [
+      "London",
+      "Stratford-upon-Avon",
+      "Lincolnshire",
+      "Cambridge"
+    ],
+    "correct_answers": [
+      "Stratford-upon-Avon"
+    ],
+    "explanation": "William Shakespeare was born in Stratford-upon-Avon, a market town in Warwickshire, England."
+  },
+  {
+    "question_id": 19,
+    "question_detail": "Which court handles minor criminal offences in England, Wales, and Northern Ireland?",
+    "possible_answers": [
+      "Crown Court",
+      "Justice of the Peace Court",
+      "High Court",
+      "Magistrates’ Court"
+    ],
+    "correct_answers": [
+      "Magistrates’ Court"
+    ],
+    "explanation": "Most minor criminal cases are heard first in Magistrates’ Courts in England, Wales, and Northern Ireland."
+  },
+  {
+    "question_id": 20,
+    "question_detail": "From which countries did glass manufacturers, weavers, engineers, and builders come to England to trade and work in the Middle Ages?",
+    "possible_answers": [
+      "Glass manufacturers - Italy, Weavers - France, Engineers - Germany, Builders - Holland",
+      "Glass manufacturers - France, Weavers - Germany, Engineers - Holland, Builders - Italy",
+      "Glass manufacturers - Germany, Weavers - Italy, Engineers - France, Builders - Holland",
+      "Glass manufacturers - Holland, Weavers - Italy, Engineers - France, Builders - Germany"
+    ],
+    "correct_answers": [
+      "Glass manufacturers - Italy, Weavers - France, Engineers - Germany, Builders - Holland"
+    ],
+    "explanation": "Skilled workers from across Europe came to medieval England, including glass makers from Italy, weavers from France, engineers from Germany, and builders from Holland."
+  },
+  {
+    "question_id": 21,
+    "question_detail": "What was the name of the great survey ordered by William the Conqueror to record land, property, and livestock across England?",
+    "possible_answers": [
+      "Magna Carta",
+      "Anglo-Saxon Chronicle",
+      "Book of Kells",
+      "Domesday Book"
+    ],
+    "correct_answers": [
+      "Domesday Book"
+    ],
+    "explanation": "William the Conqueror ordered the Domesday Book in 1085–1086 to record landholdings and resources in England."
+  },
+  {
+    "question_id": 22,
+    "question_detail": "Which rower won gold medals in FIVE consecutive Olympic Games?",
+    "possible_answers": [
+      "Sir Chris Hoy",
+      "Sir Steve Redgrave",
+      "David Weir",
+      "Bradley Wiggins"
+    ],
+    "correct_answers": [
+      "Sir Steve Redgrave"
+    ],
+    "explanation": "Sir Steve Redgrave won rowing gold medals at five consecutive Olympic Games from 1984 to 2000."
+  },
+  {
+    "question_id": 23,
+    "question_detail": "Which was the last major battle fought between Britain and France?",
+    "possible_answers": [
+      "The Battle of Austerlitz",
+      "The Battle of Waterloo",
+      "The Battle of Hastings",
+      "The Battle of Agincourt"
+    ],
+    "correct_answers": [
+      "The Battle of Waterloo"
+    ],
+    "explanation": "The Battle of Waterloo in 1815 was the final major battle between Britain and France, ending the Napoleonic Wars."
+  },
+  {
+    "question_id": 24,
+    "question_detail": "Which part of the UK celebrates St Andrew’s Day?",
+    "possible_answers": [
+      "England",
+      "Scotland",
+      "Wales",
+      "Northern Ireland"
+    ],
+    "correct_answers": [
+      "Scotland"
+    ],
+    "explanation": "St Andrew’s Day on 30 November is the national day of Scotland and is especially celebrated there."
+  },
+  {
+    "question_id": 25,
+    "question_detail": "Who is the patron saint of Scotland?",
+    "possible_answers": [
+      "St Andrew",
+      "St David",
+      "St George",
+      "St Patrick"
+    ],
+    "correct_answers": [
+      "St Andrew"
+    ],
+    "explanation": "St Andrew is the patron saint of Scotland and is celebrated on St Andrew’s Day, 30 November."
+  },
+  {
+    "question_id": 26,
+    "question_detail": "What is the role of Police Community Support Officers (PCSOs) in the UK?",
+    "possible_answers": [
+      "Lead criminal investigations",
+      "Patrol the streets",
+      "Support police at crime scenes",
+      "Manage the police complaints system"
+    ],
+    "correct_answers": [
+      "Patrol the streets",
+      "Support police at crime scenes"
+    ],
+    "explanation": "PCSOs support regular police officers through high‑visibility patrols and assistance at incidents, rather than leading major investigations or handling complaints. [web:87][web:88]"
+  },
+  {
+    "question_id": 27,
+    "question_detail": "Which TWO of the following are traditional games often played in UK pubs?",
+    "possible_answers": [
+      "Pool",
+      "Darts",
+      "Table tennis",
+      "Foosball"
+    ],
+    "correct_answers": [
+      "Pool",
+      "Darts"
+    ],
+    "explanation": "Pool and darts are long‑standing traditional pub games widely played in pubs across the UK."
+  },
+  {
+    "question_id": 28,
+    "question_detail": "How is the Speaker of the House of Commons elected?",
+    "possible_answers": [
+      "By a public vote in a general election",
+      "By the Prime Minister’s appointment",
+      "By other MPs in a secret ballot",
+      "By the Monarch’s decision"
+    ],
+    "correct_answers": [
+      "By other MPs in a secret ballot"
+    ],
+    "explanation": "The Speaker is chosen by Members of Parliament in the House of Commons through an internal secret ballot."
+  },
+  {
+    "question_id": 29,
+    "question_detail": "What is the minimum age to buy alcohol in a pub or night club in the UK?",
+    "possible_answers": [
+      "16",
+      "18",
+      "19",
+      "21"
+    ],
+    "correct_answers": [
+      "18"
+    ],
+    "explanation": "In the UK, people must normally be at least 18 years old to buy alcohol in pubs, bars or nightclubs."
+  },
+  {
+    "question_id": 30,
+    "question_detail": "Which region was William the Conqueror from before he became King of England?",
+    "possible_answers": [
+      "Saxony",
+      "Scandinavia",
+      "Flanders",
+      "Normandy"
+    ],
+    "correct_answers": [
+      "Normandy"
+    ],
+    "explanation": "William was Duke of Normandy, a region in northern France, before becoming king after 1066."
+  },
+  {
+    "question_id": 31,
+    "question_detail": "Why did King John agree to sign the Magna Carta in 1215?",
+    "possible_answers": [
+      "To establish the Church of England",
+      "To gain more territory",
+      "To be subject to the law like other citizens",
+      "To become the head of Parliament"
+    ],
+    "correct_answers": [
+      "To be subject to the law like other citizens"
+    ],
+    "explanation": "King John agreed to Magna Carta under baronial pressure, accepting that the monarch must obey the law like others."
+  },
+  {
+    "question_id": 32,
+    "question_detail": "What is the minimum age required for jury service in the UK?",
+    "possible_answers": [
+      "16",
+      "18",
+      "21",
+      "25"
+    ],
+    "correct_answers": [
+      "18"
+    ],
+    "explanation": "People aged 18 to 75 on the electoral register can normally be called for jury service in the UK."
+  },
+  {
+    "question_id": 33,
+    "question_detail": "Who developed the television, achieving the first broadcast between London and Glasgow in 1932?",
+    "possible_answers": [
+      "Sir Robert Watson-Watt",
+      "John Logie Baird",
+      "Alan Turing",
+      "James Goodfellow"
+    ],
+    "correct_answers": [
+      "John Logie Baird"
+    ],
+    "explanation": "Scottish inventor John Logie Baird developed early television technology and demonstrated broadcasts between London and Glasgow in the early 1930s."
+  },
+  {
+    "question_id": 34,
+    "question_detail": "What is the minimum age for buying tobacco products in the UK?",
+    "possible_answers": [
+      "16",
+      "18",
+      "19",
+      "21"
+    ],
+    "correct_answers": [
+      "18"
+    ],
+    "explanation": "The minimum legal age to buy tobacco products in the UK is 18."
+  },
+  {
+    "question_id": 35,
+    "question_detail": "What was the process in Scotland where small farms were cleared for sheep and cattle?",
+    "possible_answers": [
+      "Act of Union",
+      "Rebellion of the Clans",
+      "Highland Clearances",
+      "Agricultural Revolution"
+    ],
+    "correct_answers": [
+      "Highland Clearances"
+    ],
+    "explanation": "The Highland Clearances were the forced evictions of tenants from Scottish Highlands to make way for sheep and cattle farming."
+  },
+  {
+    "question_id": 36,
+    "question_detail": "How often are Prime Minister’s Questions held while Parliament is sitting?",
+    "possible_answers": [
+      "Every day",
+      "Every week",
+      "Every two weeks",
+      "Once a month"
+    ],
+    "correct_answers": [
+      "Every week"
+    ],
+    "explanation": "Prime Minister’s Questions (PMQs) take place weekly, usually for about half an hour, when Parliament is in session."
+  },
+  {
+    "question_id": 37,
+    "question_detail": "What are public holidays in the UK, when banks and many businesses close, called?",
+    "possible_answers": [
+      "National Holidays",
+      "Festival days",
+      "Bank holidays",
+      "National days"
+    ],
+    "correct_answers": [
+      "Bank holidays"
+    ],
+    "explanation": "Official public holidays in the UK are commonly known as bank holidays, when banks and many workplaces close."
+  },
+  {
+    "question_id": 38,
+    "question_detail": "In 1847, what was the law that limited the number of working hours for women and children?",
+    "possible_answers": [
+      "8 hours per day",
+      "10 hours per day",
+      "12 hours per day",
+      "9 hours per day"
+    ],
+    "correct_answers": [
+      "10 hours per day"
+    ],
+    "explanation": "The Factories Act 1847, known as the Ten Hours Act, restricted women and young people to a 10‑hour working day in textile mills. [web:89][web:91][web:93]"
+  },
+  {
+    "question_id": 39,
+    "question_detail": "When was the Magna Carta created?",
+    "possible_answers": [
+      "1066",
+      "1348",
+      "1485",
+      "1215"
+    ],
+    "correct_answers": [
+      "1215"
+    ],
+    "explanation": "Magna Carta was agreed between King John and his barons at Runnymede in 1215."
+  },
+  {
+    "question_id": 40,
+    "question_detail": "Who was a key figure in nursing during the Crimean War?",
+    "possible_answers": [
+      "Clara Barton",
+      "Mary Seacole",
+      "Florence Nightingale",
+      "Nightingale Pledge"
+    ],
+    "correct_answers": [
+      "Florence Nightingale"
+    ],
+    "explanation": "Florence Nightingale became famous for organising nursing care for wounded soldiers during the Crimean War."
+  },
+  {
+    "question_id": 41,
+    "question_detail": "What is Florence Nightingale most famous for?",
+    "possible_answers": [
+      "Scientist",
+      "Nurse",
+      "Author",
+      "Doctor"
+    ],
+    "correct_answers": [
+      "Nurse"
+    ],
+    "explanation": "Florence Nightingale is remembered as a pioneering nurse and reformer of hospital hygiene and training."
+  },
+  {
+    "question_id": 42,
+    "question_detail": "Who was the first Briton to win Olympic gold in the 10,000 metres?",
+    "possible_answers": [
+      "Dame Kelly Holmes",
+      "Jessica Ennis",
+      "Sir Roger Bannister",
+      "Mo Farah"
+    ],
+    "correct_answers": [
+      "Mo Farah"
+    ],
+    "explanation": "Mo Farah became the first British athlete to win Olympic gold in the 10,000 metres at the 2012 London Games."
+  },
+  {
+    "question_id": 43,
+    "question_detail": "The Man Booker Prize is awarded in which field?",
+    "possible_answers": [
+      "Science",
+      "Music",
+      "Literature",
+      "Film"
+    ],
+    "correct_answers": [
+      "Literature"
+    ],
+    "explanation": "The Man Booker Prize (now known as the Booker Prize) is a prestigious literary award for novels."
+  },
+  {
+    "question_id": 44,
+    "question_detail": "How can you contact an MP at their constituency office?",
+    "possible_answers": [
+      "By letter or telephone",
+      "By social media only",
+      "By visiting Parliament",
+      "By attending local surgeries"
+    ],
+    "correct_answers": [
+      "By letter or telephone",
+      "By attending local surgeries"
+    ],
+    "explanation": "Constituents can contact MPs by writing, phoning their local office, or meeting them at regular constituency surgeries."
+  },
+  {
+    "question_id": 45,
+    "question_detail": "Which traditional Scottish song, often sung in the UK to celebrate the New Year, was written by Robert Burns?",
+    "possible_answers": [
+      "God Save the King",
+      "Rule, Britannia!",
+      "Auld Lang Syne",
+      "Jerusalem"
+    ],
+    "correct_answers": [
+      "Auld Lang Syne"
+    ],
+    "explanation": "The New Year song 'Auld Lang Syne' is based on words by Scottish poet Robert Burns."
+  },
+  {
+    "question_id": 46,
+    "question_detail": "What is the minimum age to drive a car or motorcycle in the UK?",
+    "possible_answers": [
+      "16",
+      "17",
+      "18",
+      "21"
+    ],
+    "correct_answers": [
+      "17"
+    ],
+    "explanation": "The usual minimum age to drive a car or most motorcycles in the UK is 17, after obtaining a provisional licence and meeting test requirements."
+  },
+  {
+    "question_id": 47,
+    "question_detail": "Which battle marked the end of the Wars of the Roses?",
+    "possible_answers": [
+      "Battle of Hastings",
+      "Battle of Agincourt",
+      "Battle of Bosworth Field",
+      "Battle of Waterloo"
+    ],
+    "correct_answers": [
+      "Battle of Bosworth Field"
+    ],
+    "explanation": "The Battle of Bosworth Field in 1485 ended the Wars of the Roses and brought Henry VII to the throne."
+  },
+  {
+    "question_id": 48,
+    "question_detail": "Who composed The Planets, a suite of pieces themed around the planets of the solar system?",
+    "possible_answers": [
+      "George Frederick Handel",
+      "Gustav Holst",
+      "Henry Purcell",
+      "Sir Edward Elgar"
+    ],
+    "correct_answers": [
+      "Gustav Holst"
+    ],
+    "explanation": "The orchestral suite 'The Planets' was composed by English composer Gustav Holst between 1914 and 1917. [web:92][web:94][web:96]"
+  },
+  {
+    "question_id": 49,
+    "question_detail": "Which crop's failure caused the Great Famine in Ireland during the 19th century?",
+    "possible_answers": [
+      "Potato",
+      "Wheat",
+      "Oats",
+      "Barley"
+    ],
+    "correct_answers": [
+      "Potato"
+    ],
+    "explanation": "The Irish Great Famine of the 1840s was caused by repeated failures of the potato crop, the staple food of much of the population. [web:100][web:103][web:97]"
+  },
+  {
+    "question_id": 50,
+    "question_detail": "Which British artist is associated with the Pop Art movement?",
+    "possible_answers": [
+      "David Allan",
+      "Lucian Freud",
+      "David Hockney",
+      "Sir John Lavery"
+    ],
+    "correct_answers": [
+      "David Hockney"
+    ],
+    "explanation": "David Hockney is a leading British artist closely associated with the Pop Art movement of the 1960s. [web:101][web:104]"
+  },
+  {
+    "question_id": 51,
+    "question_detail": "What is the official home of the Prime Minister?",
+    "possible_answers": [
+      "10 Downing Street",
+      "Chequers",
+      "Clarence House",
+      "Palace of Westminster"
+    ],
+    "correct_answers": [
+      "10 Downing Street"
+    ],
+    "explanation": "The official residence and office of the UK Prime Minister is 10 Downing Street in London."
+  },
+  {
+    "question_id": 52,
+    "question_detail": "What did the Habeas Corpus Act of 1679 do?",
+    "possible_answers": [
+      "Trial by jury",
+      "Prisoner has right to court hearing",
+      "Freedom of speech",
+      "Votes for women"
+    ],
+    "correct_answers": [
+      "Prisoner has right to court hearing"
+    ],
+    "explanation": "The Habeas Corpus Act strengthened the right of individuals not to be detained without being brought before a court."
+  },
+  {
+    "question_id": 53,
+    "question_detail": "Where was King James I of England originally from?",
+    "possible_answers": [
+      "Scotland",
+      "Ireland",
+      "Wales",
+      "France"
+    ],
+    "correct_answers": [
+      "Scotland"
+    ],
+    "explanation": "James I of England was previously James VI of Scotland, so he originally came from Scotland."
+  },
+  {
+    "question_id": 54,
+    "question_detail": "When was the United Nations set up?",
+    "possible_answers": [
+      "After the First World War, 1918",
+      "After the Second World War, 1945",
+      "During the Cold War, 1947",
+      "In the 19th century"
+    ],
+    "correct_answers": [
+      "After the Second World War, 1945"
+    ],
+    "explanation": "The United Nations was created in 1945 after the Second World War to promote peace and international cooperation."
+  },
+  {
+    "question_id": 55,
+    "question_detail": "What are the TWO primary purposes of NATO?",
+    "possible_answers": [
+      "To maintain peace between all of its members",
+      "To help each other if they come under attack",
+      "To create laws for European countries",
+      "To oversee global human rights"
+    ],
+    "correct_answers": [
+      "To maintain peace between all of its members",
+      "To help each other if they come under attack"
+    ],
+    "explanation": "NATO is a defensive alliance whose members seek to maintain peace and promise mutual defence if any member is attacked."
+  },
+  {
+    "question_id": 56,
+    "question_detail": "Who became Britain’s Prime Minister during the Second World War in 1940?",
+    "possible_answers": [
+      "Clement Attlee",
+      "John Major",
+      "Winston Churchill",
+      "Margaret Thatcher"
+    ],
+    "correct_answers": [
+      "Winston Churchill"
+    ],
+    "explanation": "Winston Churchill became Prime Minister in 1940 and led Britain through most of the Second World War."
+  },
+  {
+    "question_id": 57,
+    "question_detail": "If someone is trying to persuade you to join an extremist or terrorist cause, whom should you contact?",
+    "possible_answers": [
+      "Armed forces",
+      "Ignore them",
+      "Local council",
+      "Local police"
+    ],
+    "correct_answers": [
+      "Local police"
+    ],
+    "explanation": "People are advised to report extremist or terrorist approaches to the local police so that they can investigate and provide protection."
+  },
+  {
+    "question_id": 58,
+    "question_detail": "What is the term used for MPs who do not represent any of the main political parties?",
+    "possible_answers": [
+      "Ministers of State",
+      "Independents",
+      "Ministers",
+      "Lobbyists"
+    ],
+    "correct_answers": [
+      "Independents"
+    ],
+    "explanation": "MPs who are not members of an organised political party in Parliament are known as independent MPs."
+  },
+  {
+    "question_id": 59,
+    "question_detail": "How are UK civil servants selected?",
+    "possible_answers": [
+      "They are elected by the public",
+      "They are chosen by MPs",
+      "They are appointed based on political views",
+      "They are selected on merit through an application process"
+    ],
+    "correct_answers": [
+      "They are selected on merit through an application process"
+    ],
+    "explanation": "Civil servants are politically neutral officials recruited on merit through open application and selection procedures."
+  },
+  {
+    "question_id": 60,
+    "question_detail": "Which of the following is a place of worship for Jews in the UK?",
+    "possible_answers": [
+      "Temple",
+      "Mosque",
+      "Gurdwara",
+      "Synagogue"
+    ],
+    "correct_answers": [
+      "Synagogue"
+    ],
+    "explanation": "Jews worship in synagogues, where religious services and community activities take place."
+  },
+  {
+    "question_id": 61,
+    "question_detail": "When do television and newspapers often feature joke stories?",
+    "possible_answers": [
+      "Halloween",
+      "Boxing Day",
+      "April Fool’s Day",
+      "Valentine’s Day"
+    ],
+    "correct_answers": [
+      "April Fool’s Day"
+    ],
+    "explanation": "On 1 April, April Fool’s Day, media outlets sometimes run humorous or fictitious stories as jokes."
+  },
+  {
+    "question_id": 62,
+    "question_detail": "What is the most famous Rugby Union competition?",
+    "possible_answers": [
+      "Six Nations Championship",
+      "Premier League",
+      "Super League",
+      "British Cup"
+    ],
+    "correct_answers": [
+      "Six Nations Championship"
+    ],
+    "explanation": "The Six Nations Championship is the leading annual Rugby Union competition involving England, Scotland, Wales, Ireland, France and Italy."
+  },
+  {
+    "question_id": 63,
+    "question_detail": "Who became famous in silent movies for playing a tramp character?",
+    "possible_answers": [
+      "Sir Rex Harrison",
+      "Charlie Chaplin",
+      "Richard Burton",
+      "Laurence Olivier"
+    ],
+    "correct_answers": [
+      "Charlie Chaplin"
+    ],
+    "explanation": "Charlie Chaplin gained worldwide fame in silent films for his comic 'Little Tramp' character."
+  },
+  {
+    "question_id": 64,
+    "question_detail": "How many national parks are there in the UK?",
+    "possible_answers": [
+      "10",
+      "12",
+      "15",
+      "18"
+    ],
+    "correct_answers": [
+      "15"
+    ],
+    "explanation": "There are currently 15 national parks in the UK, protecting important landscapes and wildlife. [web:102][web:105]"
+  },
+  {
+    "question_id": 65,
+    "question_detail": "Where is the Eden Project located?",
+    "possible_answers": [
+      "London",
+      "Cornwall",
+      "Edinburgh",
+      "Conway"
+    ],
+    "correct_answers": [
+      "Cornwall"
+    ],
+    "explanation": "The Eden Project, a series of large biomes housing plants from around the world, is located in Cornwall in south‑west England."
+  },
+  {
+    "question_id": 66,
+    "question_detail": "Which TWO are roles of the Monarch?",
+    "possible_answers": [
+      "Appointing the Prime Minister",
+      "Making government policies",
+      "Opening the parliamentary session",
+      "Scrutinising law passed by Parliament"
+    ],
+    "correct_answers": [
+      "Appointing the Prime Minister",
+      "Opening the parliamentary session"
+    ],
+    "explanation": "The Monarch formally appoints the Prime Minister and opens each new parliamentary session, while day‑to‑day policy and scrutiny are carried out by elected bodies."
+  },
+  {
+    "question_id": 67,
+    "question_detail": "What is true about the Speaker of the House of Commons?",
+    "possible_answers": [
+      "Remain Neutral and does not represent any political party",
+      "Debates actively with MPs",
+      "Always votes on major issues",
+      "Ensures debates are conducted fairly"
+    ],
+    "correct_answers": [
+      "Remain Neutral and does not represent any political party",
+      "Ensures debates are conducted fairly"
+    ],
+    "explanation": "The Speaker is politically neutral, does not take part in debates, and is responsible for ensuring debates are conducted fairly and according to the rules."
+  },
+  {
+    "question_id": 68,
+    "question_detail": "True or False: The small claims procedure is designed to settle minor disputes without spending a lot of time and money using a lawyer.",
+    "possible_answers": [
+      "True",
+      "False"
+    ],
+    "correct_answers": [
+      "True"
+    ],
+    "explanation": "Small claims procedures in the civil courts are intended to resolve minor disputes quickly and cheaply, often without lawyers."
+  },
+  {
+    "question_id": 69,
+    "question_detail": "Which poem, written by Geoffrey Chaucer, is about a group of people going on a pilgrimage?",
+    "possible_answers": [
+      "Beowulf",
+      "The Canterbury Tales",
+      "The Divine Comedy",
+      "Sir Gawain and the Green Knight"
+    ],
+    "correct_answers": [
+      "The Canterbury Tales"
+    ],
+    "explanation": "Geoffrey Chaucer’s 'The Canterbury Tales' follows a group of pilgrims travelling to Canterbury and telling stories on the way."
+  },
+  {
+    "question_id": 70,
+    "question_detail": "Which of the following is NOT a constitutional institution in the UK?",
+    "possible_answers": [
+      "Monarchy",
+      "Armed Forces",
+      "Parliament",
+      "Cabinet"
+    ],
+    "correct_answers": [
+      "Armed Forces"
+    ],
+    "explanation": "Key constitutional institutions include the Monarchy, Parliament and the Cabinet; the Armed Forces operate under their authority but are not a separate constitutional institution."
+  },
+  {
+    "question_id": 71,
+    "question_detail": "Which cricket series is played between England and Australia?",
+    "possible_answers": [
+      "The Commonwealth Series",
+      "The Super Series",
+      "The Ashes",
+      "The Border-Gavaskar Trophy"
+    ],
+    "correct_answers": [
+      "The Ashes"
+    ],
+    "explanation": "The Ashes is the famous Test cricket series contested periodically between England and Australia."
+  },
+  {
+    "question_id": 72,
+    "question_detail": "What type of monarchy does the UK have?",
+    "possible_answers": [
+      "Absolute Monarchy",
+      "Ceremonial monarchy",
+      "Parliamentary monarchy",
+      "Constitutional Monarchy"
+    ],
+    "correct_answers": [
+      "Constitutional Monarchy"
+    ],
+    "explanation": "The UK is a constitutional monarchy, where the monarch’s powers are limited by law and exercised within a democratic system."
+  },
+  {
+    "question_id": 73,
+    "question_detail": "Which architect designed the Cenotaph in Whitehall?",
+    "possible_answers": [
+      "Sir Christopher Wren",
+      "Inigo Jones",
+      "Sir Edwin Lutyens",
+      "Robert Adam"
+    ],
+    "correct_answers": [
+      "Sir Edwin Lutyens"
+    ],
+    "explanation": "The Cenotaph in Whitehall, London, was designed by Sir Edwin Lutyens as a memorial to the dead of World War I."
+  },
+  {
+    "question_id": 74,
+    "question_detail": "What is the term used for knocking on people’s doors to ask for their support during election campaigns?",
+    "possible_answers": [
+      "Lobbying",
+      "Petitioning",
+      "Rallying",
+      "Canvassing"
+    ],
+    "correct_answers": [
+      "Canvassing"
+    ],
+    "explanation": "When party workers or candidates go door to door to ask for support in an election, this activity is called canvassing."
+  },
+  {
+    "question_id": 75,
+    "question_detail": "What type of battle was fought between Britain and Germany during the Battle of Britain in the summer of 1940?",
+    "possible_answers": [
+      "A naval battle",
+      "An aerial battle",
+      "A land battle",
+      "A submarine battle"
+    ],
+    "correct_answers": [
+      "An aerial battle"
+    ],
+    "explanation": "The Battle of Britain was an air campaign fought between the Royal Air Force and the German Luftwaffe over British skies in 1940."
+  },
+  {
+    "question_id": 76,
+    "question_detail": "Why was the implementation of Home Rule for Ireland delayed in 1914?",
+    "possible_answers": [
+      "Because of a rebellion in Wales",
+      "Due to a lack of support from Irish nationalists",
+      "Due to the outbreak of World War I",
+      "Due to the signing of a peace treaty"
+    ],
+    "correct_answers": [
+      "Due to the outbreak of World War I"
+    ],
+    "explanation": "Although Home Rule for Ireland was passed in 1914, its implementation was postponed because World War I began the same year."
+  },
+  {
+    "question_id": 77,
+    "question_detail": "What is the opposition group that challenges the government and puts forward alternative policies?",
+    "possible_answers": [
+      "Opposition Leaders",
+      "Shadow Cabinet",
+      "Cabinet Ministers",
+      "Government Representatives"
+    ],
+    "correct_answers": [
+      "Shadow Cabinet"
+    ],
+    "explanation": "The Shadow Cabinet is formed by senior members of the main opposition party who scrutinise government policy and present alternatives."
+  },
+  {
+    "question_id": 78,
+    "question_detail": "What is the name of the 40-day period before Easter?",
+    "possible_answers": [
+      "Advent",
+      "Lent",
+      "Epiphany",
+      "Pentecost"
+    ],
+    "correct_answers": [
+      "Lent"
+    ],
+    "explanation": "Lent is the 40-day period of fasting and reflection observed by many Christians in the lead-up to Easter."
+  },
+  {
+    "question_id": 79,
+    "question_detail": "Which British suffragette leader co-founded the Women's Social and Political Union (WSPU) and played a pivotal role in securing women's right to vote?",
+    "possible_answers": [
+      "Florence Nightingale",
+      "Mary Wollstonecraft",
+      "Emmeline Pankhurst",
+      "Elizabeth Garrett Anderson"
+    ],
+    "correct_answers": [
+      "Emmeline Pankhurst"
+    ],
+    "explanation": "Emmeline Pankhurst co-founded the WSPU and led direct-action campaigns to win women the right to vote in the UK."
+  },
+  {
+    "question_id": 80,
+    "question_detail": "What ideas did Adam Smith develop during the Enlightenment?",
+    "possible_answers": [
+      "Physics",
+      "Economics",
+      "Science",
+      "Engineering"
+    ],
+    "correct_answers": [
+      "Economics"
+    ],
+    "explanation": "Adam Smith is regarded as the father of modern economics and wrote about free markets and the division of labour."
+  },
+  {
+    "question_id": 81,
+    "question_detail": "Who was Sir Edward Elgar?",
+    "possible_answers": [
+      "English poet",
+      "British architect",
+      "English composer and musician",
+      "British historian"
+    ],
+    "correct_answers": [
+      "English composer and musician"
+    ],
+    "explanation": "Sir Edward Elgar was an English composer best known for works such as the Enigma Variations and Pomp and Circumstance marches."
+  },
+  {
+    "question_id": 82,
+    "question_detail": "True or False: There is an established Church in Wales and Northern Ireland.",
+    "possible_answers": [
+      "True",
+      "False"
+    ],
+    "correct_answers": [
+      "False"
+    ],
+    "explanation": "Only the Church of England is an established church; there is no established church in Wales, Scotland, or Northern Ireland."
+  },
+  {
+    "question_id": 83,
+    "question_detail": "Who can participate in the National Citizen Service (NCS)?",
+    "possible_answers": [
+      "Retired citizens over 65",
+      "Young people aged 16 and 17",
+      "Children aged 10–12",
+      "University students aged 18–21"
+    ],
+    "correct_answers": [
+      "Young people aged 16 and 17"
+    ],
+    "explanation": "National Citizen Service is a programme open mainly to young people aged 16 and 17 to develop skills and take part in community projects."
+  },
+  {
+    "question_id": 84,
+    "question_detail": "Who designed the hovercraft, a vehicle capable of traveling over land and water, in the 1950s?",
+    "possible_answers": [
+      "Sir Bernard Lovell",
+      "Sir Frank Whittle",
+      "James Goodfellow",
+      "Sir Christopher Cockerell"
+    ],
+    "correct_answers": [
+      "Sir Christopher Cockerell"
+    ],
+    "explanation": "Sir Christopher Cockerell invented the modern hovercraft in the 1950s, developing the air-cushion principle that allows it to travel over land and water."
+  },
+  {
+    "question_id": 85,
+    "question_detail": "Who wrote The Canterbury Tales, a story about a group of people going on a pilgrimage?",
+    "possible_answers": [
+      "William Shakespeare",
+      "Geoffrey Chaucer",
+      "John Milton",
+      "John Barbour"
+    ],
+    "correct_answers": [
+      "Geoffrey Chaucer"
+    ],
+    "explanation": "The Canterbury Tales is a collection of stories written in Middle English by Geoffrey Chaucer about pilgrims travelling to Canterbury."
+  },
+  {
+    "question_id": 86,
+    "question_detail": "Which TWO were written by William Shakespeare?",
+    "possible_answers": [
+      "The Canterbury Tales",
+      "A Midsummer Night’s Dream",
+      "Macbeth",
+      "Paradise Lost"
+    ],
+    "correct_answers": [
+      "A Midsummer Night’s Dream",
+      "Macbeth"
+    ],
+    "explanation": "William Shakespeare wrote many plays including A Midsummer Night’s Dream and Macbeth; The Canterbury Tales is by Chaucer and Paradise Lost is by John Milton."
+  },
+  {
+    "question_id": 87,
+    "question_detail": "What do you receive that tells you where and when to vote in a UK election?",
+    "possible_answers": [
+      "A ballot paper",
+      "A poll card",
+      "A voter registration form",
+      "A postal ballot"
+    ],
+    "correct_answers": [
+      "A poll card"
+    ],
+    "explanation": "Before an election, registered voters are sent a poll card that shows the date of the election and the location of their polling station."
+  },
+  {
+    "question_id": 88,
+    "question_detail": "Who built the Tower of London?",
+    "possible_answers": [
+      "Queen Victoria",
+      "Queen Elizabeth I",
+      "Oliver Cromwell",
+      "William the Conqueror"
+    ],
+    "correct_answers": [
+      "William the Conqueror"
+    ],
+    "explanation": "The Tower of London was begun by William the Conqueror in the 11th century as a fortress and royal residence."
+  },
+  {
+    "question_id": 89,
+    "question_detail": "How can someone make a complaint about the police in the UK?",
+    "possible_answers": [
+      "By contacting the Prime Minister’s office",
+      "By filing a complaint with the local council only",
+      "By contacting the Home Office directly",
+      "By going to a police station or writing to the Chief Constable"
+    ],
+    "correct_answers": [
+      "By going to a police station or writing to the Chief Constable"
+    ],
+    "explanation": "Complaints about the police are normally made by contacting the police force itself, for example at a station or in writing to the Chief Constable."
+  },
+  {
+    "question_id": 90,
+    "question_detail": "Which British author introduced the character James Bond?",
+    "possible_answers": [
+      "Ian Fleming",
+      "J.R.R. Tolkien",
+      "Roald Dahl",
+      "Charles Dickens"
+    ],
+    "correct_answers": [
+      "Ian Fleming"
+    ],
+    "explanation": "The fictional British secret agent James Bond first appeared in novels written by Ian Fleming in the 1950s."
+  },
+  {
+    "question_id": 91,
+    "question_detail": "Which charity works to preserve important buildings, coastline, and countryside in the UK?",
+    "possible_answers": [
+      "The National Trust",
+      "British Heritage Foundation",
+      "English Tourism Council",
+      "UK Landmarks Agency"
+    ],
+    "correct_answers": [
+      "The National Trust"
+    ],
+    "explanation": "The National Trust is a charity that protects and opens to the public historic buildings, gardens, coastline, and countryside across the UK."
+  },
+  {
+    "question_id": 92,
+    "question_detail": "Which of the following is NOT a valid UK coin?",
+    "possible_answers": [
+      "15p",
+      "10p",
+      "£1",
+      "£2"
+    ],
+    "correct_answers": [
+      "15p"
+    ],
+    "explanation": "There is no 15p coin in UK currency; common coins include 1p, 2p, 5p, 10p, 20p, 50p, £1, and £2."
+  },
+  {
+    "question_id": 93,
+    "question_detail": "Which tribes came to Britain from northern Europe after the Romans left in AD 410?",
+    "possible_answers": [
+      "Celts and Picts",
+      "Normans and Vikings",
+      "Angles, Saxons, and Jutes",
+      "Romans and Greeks"
+    ],
+    "correct_answers": [
+      "Angles, Saxons, and Jutes"
+    ],
+    "explanation": "After the Romans left Britain, tribes such as the Angles, Saxons, and Jutes migrated from northern Europe and settled in parts of the country."
+  },
+  {
+    "question_id": 94,
+    "question_detail": "Who became Lord Protector of England after the execution of King Charles I?",
+    "possible_answers": [
+      "Charles II",
+      "Oliver Cromwell",
+      "James II",
+      "William of Orange"
+    ],
+    "correct_answers": [
+      "Oliver Cromwell"
+    ],
+    "explanation": "Following the execution of Charles I in 1649, Oliver Cromwell eventually became Lord Protector and ruled as head of state during the Commonwealth."
+  },
+  {
+    "question_id": 95,
+    "question_detail": "Who improved the steam engine that was crucial for powering the Industrial Revolution?",
+    "possible_answers": [
+      "Richard Arkwright",
+      "James Watt",
+      "Adam Smith",
+      "David Hume"
+    ],
+    "correct_answers": [
+      "James Watt"
+    ],
+    "explanation": "James Watt greatly improved the efficiency of the steam engine in the 18th century, making it vital for industry and transport."
+  },
+  {
+    "question_id": 96,
+    "question_detail": "Which TWO are offered to UK residents and citizens?",
+    "possible_answers": [
+      "Freedom to avoid taxes",
+      "Mandatory voting",
+      "Freedom from unfair discrimination",
+      "Right to join in the election of a government"
+    ],
+    "correct_answers": [
+      "Freedom from unfair discrimination",
+      "Right to join in the election of a government"
+    ],
+    "explanation": "People in the UK have rights such as freedom from unfair discrimination and the right to vote in elections if eligible, but must pay taxes and voting is not compulsory."
+  },
+  {
+    "question_id": 97,
+    "question_detail": "What are the two main parts of the United Kingdom Parliament?",
+    "possible_answers": [
+      "House of Lords",
+      "House of Commons",
+      "House of Peers",
+      "House of Representatives"
+    ],
+    "correct_answers": [
+      "House of Lords",
+      "House of Commons"
+    ],
+    "explanation": "The UK Parliament is bicameral and its two main chambers are the House of Commons and the House of Lords."
+  },
+  {
+    "question_id": 98,
+    "question_detail": "Which king was defeated and executed in 1649 after the English Civil War?",
+    "possible_answers": [
+      "King James I",
+      "King Charles II",
+      "King James VII",
+      "King Charles I"
+    ],
+    "correct_answers": [
+      "King Charles I"
+    ],
+    "explanation": "After losing the English Civil War, King Charles I was tried and executed in 1649."
+  },
+  {
+    "question_id": 99,
+    "question_detail": "Who united the Anglo-Saxon kingdoms and defeated the Vikings?",
+    "possible_answers": [
+      "King Harold",
+      "King Edward",
+      "King Alfred",
+      "King John"
+    ],
+    "correct_answers": [
+      "King Alfred"
+    ],
+    "explanation": "Alfred the Great is remembered for defending his kingdom against Viking invasions and laying foundations for a united England."
+  },
+  {
+    "question_id": 100,
+    "question_detail": "Which voting system is used to elect members of the Northern Ireland Assembly?",
+    "possible_answers": [
+      "First Past the Post",
+      "Additional Member System",
+      "Proportional representation",
+      "Closed Party List System"
+    ],
+    "correct_answers": [
+      "Proportional representation"
+    ],
+    "explanation": "Members of the Northern Ireland Assembly are elected using a form of proportional representation called the Single Transferable Vote."
+  },
+  {
+    "question_id": 101,
+    "question_detail": "Which TWO charities work to protect the environment in the UK?",
+    "possible_answers": [
+      "Cancer Research UK",
+      "Friends of the Earth",
+      "NSPCC",
+      "National Trust"
+    ],
+    "correct_answers": [
+      "Friends of the Earth",
+      "National Trust"
+    ],
+    "explanation": "Friends of the Earth campaigns on environmental issues and the National Trust conserves countryside, coastline and historic sites."
+  },
+  {
+    "question_id": 102,
+    "question_detail": "Which flower is associated with Wales?",
+    "possible_answers": [
+      "Daffodil",
+      "Rose",
+      "Thistle",
+      "Shamrock"
+    ],
+    "correct_answers": [
+      "Daffodil"
+    ],
+    "explanation": "The daffodil is a national symbol of Wales, worn especially on St David’s Day."
+  },
+  {
+    "question_id": 103,
+    "question_detail": "Who is best known for co-discovering the double helix structure of DNA?",
+    "possible_answers": [
+      "Sir Robert Edwards",
+      "John MacLeod",
+      "Alexander Fleming",
+      "Francis Crick"
+    ],
+    "correct_answers": [
+      "Francis Crick"
+    ],
+    "explanation": "Francis Crick, with James Watson, proposed the double helix model of DNA in 1953."
+  },
+  {
+    "question_id": 104,
+    "question_detail": "Which court handles civil disputes such as personal injury and divorce in England, Wales, and Northern Ireland?",
+    "possible_answers": [
+      "Magistrates’ Court",
+      "County Court",
+      "Crown Court",
+      "Youth Court"
+    ],
+    "correct_answers": [
+      "County Court"
+    ],
+    "explanation": "County Courts deal with many civil cases, including personal injury, family matters and contract disputes."
+  },
+  {
+    "question_id": 105,
+    "question_detail": "What kind of church is the Church of England?",
+    "possible_answers": [
+      "Catholic church",
+      "Presbyterian church",
+      "Orthodox church",
+      "Protestant church"
+    ],
+    "correct_answers": [
+      "Protestant church"
+    ],
+    "explanation": "The Church of England is a Protestant Christian church and is the established church in England."
+  },
+  {
+    "question_id": 106,
+    "question_detail": "Where is the most famous tennis championship in the UK held?",
+    "possible_answers": [
+      "Edinburgh",
+      "Bristol",
+      "Wimbledon",
+      "Manchester"
+    ],
+    "correct_answers": [
+      "Wimbledon"
+    ],
+    "explanation": "The Wimbledon Championships, the best-known tennis tournament in the UK, are held in Wimbledon, London."
+  },
+  {
+    "question_id": 107,
+    "question_detail": "Who were the serfs during the Middle Ages?",
+    "possible_answers": [
+      "Freemen",
+      "Peasants with their own land",
+      "Peasants who worked for lords",
+      "Landowners"
+    ],
+    "correct_answers": [
+      "Peasants who worked for lords"
+    ],
+    "explanation": "Serfs were unfree peasants tied to a lord’s land, working it in return for protection and basic rights."
+  },
+  {
+    "question_id": 108,
+    "question_detail": "Which Paralympian won FOUR gold medals in swimming at the 2008, 2012 and 2016 Paralympic Games?",
+    "possible_answers": [
+      "David Weir",
+      "Baroness Tanni Grey-Thompson",
+      "Ellie Simmonds",
+      "Jessica Ennis"
+    ],
+    "correct_answers": [
+      "Ellie Simmonds"
+    ],
+    "explanation": "British swimmer Ellie Simmonds won multiple Paralympic gold medals across the 2008, 2012 and 2016 Games."
+  },
+  {
+    "question_id": 109,
+    "question_detail": "What do we call the territories that are self-governing but are not part of the United Kingdom?",
+    "possible_answers": [
+      "British Overseas Territories",
+      "Commonwealth Nations",
+      "Crown dependencies",
+      "British colonies"
+    ],
+    "correct_answers": [
+      "Crown dependencies"
+    ],
+    "explanation": "Isle of Man and the Channel Islands are Crown dependencies: self-governing territories not part of the UK."
+  },
+  {
+    "question_id": 110,
+    "question_detail": "What must all dogs wear in public places in the UK?",
+    "possible_answers": [
+      "A Collar showing the owner's address and must be vaccinated",
+      "A Collar showing the owner's name and dog’s name",
+      "A Collar showing the owner's name and must be vaccinated",
+      "A Collar showing the owner's name and address"
+    ],
+    "correct_answers": [
+      "A Collar showing the owner's name and address"
+    ],
+    "explanation": "By law, dogs in public must wear a collar with the owner’s name and address on it."
+  },
+  {
+    "question_id": 111,
+    "question_detail": "During the Great Depression in the 1930s, which industry was badly affected in the UK?",
+    "possible_answers": [
+      "Aviation industry",
+      "Automobile industry",
+      "Shipbuilding industry",
+      "Telecommunications industry"
+    ],
+    "correct_answers": [
+      "Shipbuilding industry"
+    ],
+    "explanation": "Traditional heavy industries such as shipbuilding, coal and steel suffered badly during the 1930s depression."
+  },
+  {
+    "question_id": 112,
+    "question_detail": "Which court handles the serious criminal cases in Scotland?",
+    "possible_answers": [
+      "Justice of the Peace Court",
+      "Court of Session",
+      "Youth Court",
+      "Sheriff Court"
+    ],
+    "correct_answers": [
+      "Sheriff Court"
+    ],
+    "explanation": "In Scotland, Sheriff Courts handle most serious criminal and many civil cases, below the High Court of Justiciary."
+  },
+  {
+    "question_id": 113,
+    "question_detail": "What type of disease was the Black Death that killed one third of the population in England, Wales, and Scotland in 1348?",
+    "possible_answers": [
+      "Influenza",
+      "Plague",
+      "Typhoid",
+      "Measles"
+    ],
+    "correct_answers": [
+      "Plague"
+    ],
+    "explanation": "The Black Death was an outbreak of bubonic plague that devastated much of Europe in the mid-14th century."
+  },
+  {
+    "question_id": 114,
+    "question_detail": "Where is the Giant’s Causeway located?",
+    "possible_answers": [
+      "England",
+      "Northern Ireland",
+      "Scotland",
+      "Wales"
+    ],
+    "correct_answers": [
+      "Northern Ireland"
+    ],
+    "explanation": "The Giant’s Causeway is a UNESCO World Heritage Site on the north coast of Northern Ireland."
+  },
+  {
+    "question_id": 115,
+    "question_detail": "Which act abolished slavery throughout the British Empire in 1833?",
+    "possible_answers": [
+      "The Reform Act",
+      "The Factory Act",
+      "The Emancipation Act",
+      "The Navigation Act"
+    ],
+    "correct_answers": [
+      "The Emancipation Act"
+    ],
+    "explanation": "The Slavery Abolition Act 1833, often referred to as an emancipation act, ended slavery in most of the British Empire."
+  },
+  {
+    "question_id": 116,
+    "question_detail": "Where can visitors see the Crown Jewels in the UK?",
+    "possible_answers": [
+      "Windsor Castle",
+      "Westminster Abbey",
+      "Tower of London",
+      "St Paul's Cathedral"
+    ],
+    "correct_answers": [
+      "Tower of London"
+    ],
+    "explanation": "The Crown Jewels are kept and displayed in the Tower of London."
+  },
+  {
+    "question_id": 117,
+    "question_detail": "Who was the Queen of England during the defeat of the Spanish Armada in 1588?",
+    "possible_answers": [
+      "Queen Mary I",
+      "Queen Victoria",
+      "Queen Elizabeth I",
+      "Queen Anne"
+    ],
+    "correct_answers": [
+      "Queen Elizabeth I"
+    ],
+    "explanation": "The Spanish Armada was defeated in 1588 during the reign of Queen Elizabeth I."
+  },
+  {
+    "question_id": 118,
+    "question_detail": "Which festival is known as The Festival of Lights?",
+    "possible_answers": [
+      "Eid ul Adha",
+      "Hanukkah",
+      "Diwali",
+      "Vaisakhi"
+    ],
+    "correct_answers": [
+      "Diwali"
+    ],
+    "explanation": "Diwali, celebrated by Hindus, Sikhs and some other communities, is often called the Festival of Lights."
+  },
+  {
+    "question_id": 119,
+    "question_detail": "Which country did Germany invade in 1939 that started the Second World War (WW II)?",
+    "possible_answers": [
+      "France",
+      "Austria",
+      "Poland",
+      "Czechoslovakia"
+    ],
+    "correct_answers": [
+      "Poland"
+    ],
+    "explanation": "Germany’s invasion of Poland in September 1939 led Britain and France to declare war, starting World War II in Europe."
+  },
+  {
+    "question_id": 120,
+    "question_detail": "Which British leader is remembered as an inspirational wartime Prime Minister during World War II?",
+    "possible_answers": [
+      "Neville Chamberlain",
+      "Winston Churchill",
+      "Clement Attlee",
+      "Anthony Eden"
+    ],
+    "correct_answers": [
+      "Winston Churchill"
+    ],
+    "explanation": "Winston Churchill is widely remembered for his leadership and speeches as Prime Minister during most of World War II."
+  },
+  {
+    "question_id": 121,
+    "question_detail": "From where did the first farmers in Britain come?",
+    "possible_answers": [
+      "Asia",
+      "North Africa",
+      "Northern Europe",
+      "South-East Europe"
+    ],
+    "correct_answers": [
+      "South-East Europe"
+    ],
+    "explanation": "Life in the UK material explains that the first farmers in Britain probably came from south-east Europe around 6,000 years ago. [web:33]"
+  },
+  {
+    "question_id": 122,
+    "question_detail": "Which Paralympic athlete won 11 gold medals over five Paralympic Games?",
+    "possible_answers": [
+      "Jessica Ennis-Hill",
+      "Sir Mo Farah",
+      "Sir Andy Murray",
+      "Tanni Grey-Thompson"
+    ],
+    "correct_answers": [
+      "Tanni Grey-Thompson"
+    ],
+    "explanation": "Baroness Tanni Grey-Thompson won 11 Paralympic gold medals across five Paralympic Games. [web:34][web:37]"
+  },
+  {
+    "question_id": 123,
+    "question_detail": "What type of Church is the Church of England?",
+    "possible_answers": [
+      "Catholic",
+      "Presbyterian",
+      "Orthodox",
+      "Anglican"
+    ],
+    "correct_answers": [
+      "Anglican"
+    ],
+    "explanation": "The Church of England is an Anglican, Protestant church and is the established church in England. [web:22]"
+  },
+  {
+    "question_id": 124,
+    "question_detail": "Which TWO political parties formed the coalition government in 2010?",
+    "possible_answers": [
+      "The Green Party",
+      "The Labour Party",
+      "The Liberal Democrats Party",
+      "The Conservative Party"
+    ],
+    "correct_answers": [
+      "The Liberal Democrats Party",
+      "The Conservative Party"
+    ],
+    "explanation": "After the 2010 general election, the Conservative Party and the Liberal Democrats formed a coalition government. [web:14]"
+  },
+  {
+    "question_id": 125,
+    "question_detail": "True or False: Sir Steve Redgrave won five gold medals at five consecutive Olympic Games.",
+    "possible_answers": [
+      "True",
+      "False"
+    ],
+    "correct_answers": [
+      "True"
+    ],
+    "explanation": "Sir Steve Redgrave won rowing gold medals at five consecutive Olympic Games from 1984 to 2000. [web:22]"
+  },
+  {
+    "question_id": 126,
+    "question_detail": "How often can general elections occur?",
+    "possible_answers": [
+      "Every year",
+      "Every three years",
+      "Every five years",
+      "Every seven years"
+    ],
+    "correct_answers": [
+      "Every five years"
+    ],
+    "explanation": "Under recent law, a UK Parliament can last up to five years before a general election is held. [web:23]"
+  },
+  {
+    "question_id": 127,
+    "question_detail": "What is the role of the Speaker in the House of Commons?",
+    "possible_answers": [
+      "To vote on legislation",
+      "To preside over debates and ensure order",
+      "To represent the government",
+      "To propose new laws"
+    ],
+    "correct_answers": [
+      "To preside over debates and ensure order"
+    ],
+    "explanation": "The Speaker chairs debates in the House of Commons, calls MPs to speak and maintains order, remaining politically neutral. [web:23]"
+  },
+  {
+    "question_id": 128,
+    "question_detail": "Hogmanay is celebrated on which date in Scotland?",
+    "possible_answers": [
+      "25 December",
+      "1 January",
+      "31 December",
+      "14 April"
+    ],
+    "correct_answers": [
+      "31 December"
+    ],
+    "explanation": "Hogmanay is the Scottish celebration of New Year’s Eve, held on 31 December. [web:14]"
+  },
+  {
+    "question_id": 129,
+    "question_detail": "Who became king after the Battle of Bosworth Field in 1485 and was the first monarch of the House of Tudor?",
+    "possible_answers": [
+      "King Richard III",
+      "King Henry VIII",
+      "King Henry VII",
+      "King Edward IV"
+    ],
+    "correct_answers": [
+      "King Henry VII"
+    ],
+    "explanation": "Henry Tudor defeated Richard III at Bosworth in 1485 and became King Henry VII, founding the Tudor dynasty. [web:33]"
+  },
+  {
+    "question_id": 130,
+    "question_detail": "Which British athlete is known for winning 4 Olympic gold medals in athletics?",
+    "possible_answers": [
+      "Sir Andy Murray",
+      "Jessica Ennis-Hill",
+      "Sir Mo Farah",
+      "Sir Chris Hoy"
+    ],
+    "correct_answers": [
+      "Sir Mo Farah"
+    ],
+    "explanation": "Sir Mo Farah won four Olympic gold medals in distance running at the 2012 and 2016 Games. [web:22]"
+  },
+  {
+    "question_id": 131,
+    "question_detail": "Which act made the slave trade illegal in Britain?",
+    "possible_answers": [
+      "Slavery Abolition Act",
+      "Abolition of the Slave Trade Act",
+      "Representation of the People Act",
+      "Corn Laws Repeal Act"
+    ],
+    "correct_answers": [
+      "Abolition of the Slave Trade Act"
+    ],
+    "explanation": "The Abolition of the Slave Trade Act 1807 made the trading of enslaved people illegal in the British Empire. [web:28]"
+  },
+  {
+    "question_id": 132,
+    "question_detail": "Northern Ireland has its own established church",
+    "possible_answers": [
+      "True",
+      "False"
+    ],
+    "correct_answers": [
+      "False"
+    ],
+    "explanation": "There is no established church in Northern Ireland; only the Church of England is established by law. [web:22]"
+  },
+  {
+    "question_id": 133,
+    "question_detail": "In which English county is the monument of Stonehenge located?",
+    "possible_answers": [
+      "Cornwall",
+      "Wiltshire",
+      "Yorkshire",
+      "Somerset"
+    ],
+    "correct_answers": [
+      "Wiltshire"
+    ],
+    "explanation": "Stonehenge stands on Salisbury Plain in the English county of Wiltshire. [web:33]"
+  },
+  {
+    "question_id": 134,
+    "question_detail": "What is the Giant's Causeway in Northern Ireland known for?",
+    "possible_answers": [
+      "Interlocking basalt columns",
+      "Large waterfalls",
+      "Historical reenactments",
+      "Wildlife reserves"
+    ],
+    "correct_answers": [
+      "Interlocking basalt columns"
+    ],
+    "explanation": "The Giant’s Causeway is famous for its natural formation of interlocking basalt columns on the coast of Northern Ireland. [web:22]"
+  },
+  {
+    "question_id": 135,
+    "question_detail": "What did Sir Frank Whittle develop in the 1930s?",
+    "possible_answers": [
+      "MRI Scanner",
+      "Hovercraft",
+      "Jet Engine",
+      "Radar"
+    ],
+    "correct_answers": [
+      "Jet Engine"
+    ],
+    "explanation": "Sir Frank Whittle is credited with inventing the jet engine in the 1930s, revolutionising air travel. [web:35][web:38]"
+  },
+  {
+    "question_id": 136,
+    "question_detail": "Which two languages led to the English language?",
+    "possible_answers": [
+      "Celtic",
+      "Old English (Anglo-Saxon)",
+      "Latin",
+      "Norman French"
+    ],
+    "correct_answers": [
+      "Old English (Anglo-Saxon)",
+      "Norman French"
+    ],
+    "explanation": "Modern English developed mainly from Old English (Anglo‑Saxon) with major influence from Norman French after 1066. [web:33]"
+  },
+  {
+    "question_id": 137,
+    "question_detail": "Where is the United Kingdom geographically located?",
+    "possible_answers": [
+      "North West of Europe",
+      "Southern Europe",
+      "Central Europe",
+      "Northern Europe"
+    ],
+    "correct_answers": [
+      "North West of Europe"
+    ],
+    "explanation": "The UK lies off the north‑west coast of mainland Europe. [web:22]"
+  },
+  {
+    "question_id": 138,
+    "question_detail": "Who led the establishment of the National Health Service (NHS) in 1948?",
+    "possible_answers": [
+      "Clement Attlee",
+      "Aneurin (Nye) Bevan",
+      "Harold Macmillan",
+      "Winston Churchill"
+    ],
+    "correct_answers": [
+      "Aneurin (Nye) Bevan"
+    ],
+    "explanation": "Health Minister Aneurin Bevan is credited with creating the NHS in 1948 under Attlee’s Labour government. [web:14]"
+  },
+  {
+    "question_id": 139,
+    "question_detail": "Who invaded England in 1688 and was invited to rule during the Glorious Revolution?",
+    "possible_answers": [
+      "James II",
+      "Oliver Cromwell",
+      "William of Orange",
+      "Charles I"
+    ],
+    "correct_answers": [
+      "William of Orange"
+    ],
+    "explanation": "William of Orange was invited to take the throne in 1688, leading to the Glorious Revolution and a constitutional monarchy. [web:28]"
+  },
+  {
+    "question_id": 140,
+    "question_detail": "What proportion of the population died as a result of the Black Death in England, Wales, and Scotland?",
+    "possible_answers": [
+      "One-fourth",
+      "One-third",
+      "One-half",
+      "Two-thirds"
+    ],
+    "correct_answers": [
+      "One-third"
+    ],
+    "explanation": "Life in the UK sources state that about one‑third of the population died in the Black Death of 1348–49. [web:33]"
+  },
+  {
+    "question_id": 141,
+    "question_detail": "Which TWO of the following are fundamental principles of British life?",
+    "possible_answers": [
+      "Intolerance",
+      "Respect and Tolerance of different faiths and beliefs",
+      "Participation in community life",
+      "Compulsory military service"
+    ],
+    "correct_answers": [
+      "Respect and Tolerance of different faiths and beliefs",
+      "Participation in community life"
+    ],
+    "explanation": "Key British values highlighted in the Life in the UK test include respect and tolerance of different beliefs and participation in community life. [web:14]"
+  },
+  {
+    "question_id": 142,
+    "question_detail": "What significant document was established in 1689 to outline the rights and liberties of the people in Britain?",
+    "possible_answers": [
+      "Magna Carta",
+      "Bill of Rights",
+      "Constitution",
+      "Common Law"
+    ],
+    "correct_answers": [
+      "Bill of Rights"
+    ],
+    "explanation": "The 1689 Bill of Rights set out limits on royal power and key rights of Parliament and individuals. [web:25][web:28]"
+  },
+  {
+    "question_id": 143,
+    "question_detail": "When did William the Conqueror defeat King Harold II at the Battle of Hastings?",
+    "possible_answers": [
+      "1066",
+      "1160",
+      "1060",
+      "1166"
+    ],
+    "correct_answers": [
+      "1066"
+    ],
+    "explanation": "William of Normandy defeated King Harold II at the Battle of Hastings in 1066. [web:33]"
+  },
+  {
+    "question_id": 144,
+    "question_detail": "What is the minimum age requirement to ride a moped in the UK?",
+    "possible_answers": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "correct_answers": [
+      "16"
+    ],
+    "explanation": "In the UK a person must normally be at least 16 years old to ride a moped with the correct licence and training. [web:24]"
+  },
+  {
+    "question_id": 145,
+    "question_detail": "What was Oliver Cromwell's title during the Interregnum period in England?",
+    "possible_answers": [
+      "King",
+      "Lord Protector",
+      "Duke of York",
+      "Emperor"
+    ],
+    "correct_answers": [
+      "Lord Protector"
+    ],
+    "explanation": "During the Interregnum, Oliver Cromwell ruled England, Scotland and Ireland as Lord Protector rather than as king. [web:39][web:41][web:46]"
+  },
+  {
+    "question_id": 146,
+    "question_detail": "True or False: The Cenotaph is a war memorial located in London.",
+    "possible_answers": [
+      "True",
+      "False"
+    ],
+    "correct_answers": [
+      "True"
+    ],
+    "explanation": "The Cenotaph in Whitehall, central London, is the UK’s principal national war memorial. [web:22]"
+  },
+  {
+    "question_id": 147,
+    "question_detail": "Why did Henry VIII establish the Church of England?",
+    "possible_answers": [
+      "To control taxes",
+      "To divorce his first wife",
+      "To unite with Protestants",
+      "To ban monasteries"
+    ],
+    "correct_answers": [
+      "To divorce his first wife"
+    ],
+    "explanation": "Henry VIII broke with the Pope and created the Church of England largely so he could annul his marriage to Catherine of Aragon. [web:33]"
+  },
+  {
+    "question_id": 148,
+    "question_detail": "How did Britain get involved in World War II?",
+    "possible_answers": [
+      "After Germany invaded France.",
+      "After Germany invaded Poland.",
+      "After Japan attacked Pearl Harbor.",
+      "After Italy invaded Greece."
+    ],
+    "correct_answers": [
+      "After Germany invaded Poland."
+    ],
+    "explanation": "Britain declared war on Germany on 3 September 1939 after the German invasion of Poland. [web:22]"
+  },
+  {
+    "question_id": 149,
+    "question_detail": "True or False: Boxing Day is celebrated on December 28th.",
+    "possible_answers": [
+      "True",
+      "False"
+    ],
+    "correct_answers": [
+      "False"
+    ],
+    "explanation": "Boxing Day is a public holiday in the UK celebrated on 26 December, the day after Christmas. [web:14]"
+  },
+  {
+    "question_id": 150,
+    "question_detail": "Which king was executed in 1649?",
+    "possible_answers": [
+      "James I",
+      "Charles II",
+      "James VII",
+      "Charles I"
+    ],
+    "correct_answers": [
+      "Charles I"
+    ],
+    "explanation": "King Charles I was tried and executed in 1649 following defeat in the English Civil War. [web:33][web:46]"
+  },
+  {
+    "question_id": 151,
+    "question_detail": "Who is responsible for maintaining order during House of Commons debates?",
+    "possible_answers": [
+      "The Prime Minister",
+      "The Speaker",
+      "The Chancellor",
+      "The Leader of the Opposition"
+    ],
+    "correct_answers": [
+      "The Speaker"
+    ],
+    "explanation": "The Speaker of the House of Commons presides over debates and is responsible for keeping order. [web:23]"
+  },
+  {
+    "question_id": 152,
+    "question_detail": "In 1348, one third of the population in England, Wales, and Scotland died due to a plague known as?",
+    "possible_answers": [
+      "Smallpox",
+      "Tuberculosis",
+      "The Black Death",
+      "Malaria"
+    ],
+    "correct_answers": [
+      "The Black Death"
+    ],
+    "explanation": "The epidemic of 1348–49 in Britain is known as the Black Death and killed about one‑third of the population. [web:33]"
+  },
+  {
+    "question_id": 153,
+    "question_detail": "What was inscribed on the first coins minted in Britain during the Iron Age?",
+    "possible_answers": [
+      "Names of the kings",
+      "Images of animals",
+      "Symbols of the gods",
+      "Images of Roman emperors"
+    ],
+    "correct_answers": [
+      "Names of the kings"
+    ],
+    "explanation": "Late Iron Age tribal coinage in Britain began to carry the names of local kings or rulers as inscriptions. [web:44]"
+  },
+  {
+    "question_id": 154,
+    "question_detail": "Who wrote The Bruce, a poem about the Battle of Bannockburn, in the Scots language?",
+    "possible_answers": [
+      "William Wallace",
+      "John Barbour",
+      "Robert the Bruce",
+      "Geoffrey Chaucer"
+    ],
+    "correct_answers": [
+      "John Barbour"
+    ],
+    "explanation": "The epic poem The Bruce, celebrating Robert the Bruce and Bannockburn, was written by John Barbour in Scots. [web:33]"
+  },
+  {
+    "question_id": 155,
+    "question_detail": "What is the minimum age required for jury service in the UK?",
+    "possible_answers": [
+      "16",
+      "18",
+      "21",
+      "25"
+    ],
+    "correct_answers": [
+      "18"
+    ],
+    "explanation": "In the UK, people aged 18 to 75 who are on the electoral register can normally be called for jury service. [web:22]"
+  },
+  {
+    "question_id": 156,
+    "question_detail": "Which TWO of the following are Crown Dependencies?",
+    "possible_answers": [
+      "Isle of Man",
+      "Channel Islands",
+      "St Helena",
+      "Falkland Islands"
+    ],
+    "correct_answers": [
+      "Isle of Man",
+      "Channel Islands"
+    ],
+    "explanation": "The Isle of Man and the Channel Islands (Jersey and Guernsey) are Crown Dependencies; St Helena and the Falklands are Overseas Territories. [web:22]"
+  },
+  {
+    "question_id": 157,
+    "question_detail": "Which TWO of the following courts deal with minor criminal offenses in the UK?",
+    "possible_answers": [
+      "Magistrates' Court in England, Wales, and Northern Ireland",
+      "Sheriff Court in Scotland",
+      "Magistrates' Court in Scotland",
+      "Sheriff Court in England, Wales, and Northern Ireland"
+    ],
+    "correct_answers": [
+      "Magistrates' Court in England, Wales, and Northern Ireland",
+      "Sheriff Court in Scotland"
+    ],
+    "explanation": "Most minor criminal cases are heard in Magistrates’ Courts in England, Wales and Northern Ireland, and in Sheriff Courts in Scotland. [web:22]"
+  },
+  {
+    "question_id": 158,
+    "question_detail": "Which country did Captain James Cook map during his voyage?",
+    "possible_answers": [
+      "India",
+      "Australia",
+      "United States",
+      "Canada"
+    ],
+    "correct_answers": [
+      "Australia"
+    ],
+    "explanation": "On his first Pacific voyage, Captain James Cook charted the coast of Australia, claiming it for Britain. [web:33]"
+  },
+  {
+    "question_id": 159,
+    "question_detail": "Which TWO political parties formed a coalition government in the UK after the 2010 General Election?",
+    "possible_answers": [
+      "Green Party",
+      "Conservative Party",
+      "Labour Party",
+      "Liberal Democrats Party"
+    ],
+    "correct_answers": [
+      "Conservative Party",
+      "Liberal Democrats Party"
+    ],
+    "explanation": "Following the 2010 general election, the Conservatives and Liberal Democrats formed a coalition government. [web:14]"
+  },
+  {
+    "question_id": 160,
+    "question_detail": "True or False: The Proms is an eight-week summer season of orchestral classical music.",
+    "possible_answers": [
+      "True",
+      "False"
+    ],
+    "correct_answers": [
+      "True"
+    ],
+    "explanation": "The BBC Proms is an eight‑week summer season of daily classical music concerts, mainly at the Royal Albert Hall. [web:14]"
+  },
+  {
+    "question_id": 161,
+    "question_detail": "Who is the patron saint of England?",
+    "possible_answers": [
+      "St. David",
+      "St. Patrick",
+      "St. George",
+      "St. Andrew"
+    ],
+    "correct_answers": [
+      "St. George"
+    ],
+    "explanation": "St George is the patron saint of England, celebrated on St George’s Day, 23 April. [web:33]"
+  },
+  {
+    "question_id": 162,
+    "question_detail": "The Yeoman Warders lead tours at the Tower of London. By what other name are they also known?",
+    "possible_answers": [
+      "Royal Historians",
+      "Tower Keepers",
+      "Beefeaters",
+      "Crown Guards"
+    ],
+    "correct_answers": [
+      "Beefeaters"
+    ],
+    "explanation": "The ceremonial guards and guides at the Tower of London are the Yeoman Warders, commonly called Beefeaters. [web:22]"
+  },
+  {
+    "question_id": 163,
+    "question_detail": "What was the name of the movement that challenged the Pope’s authority and supported direct access to the Bible?",
+    "possible_answers": [
+      "Renaissance",
+      "Revolution",
+      "Reformation",
+      "Restoration"
+    ],
+    "correct_answers": [
+      "Reformation"
+    ],
+    "explanation": "The Reformation was the religious movement that challenged papal authority and promoted direct access to the Bible. [web:33]"
+  },
+  {
+    "question_id": 164,
+    "question_detail": "Which architect rebuilt Saint Paul’s Cathedral after the Great Fire of London?",
+    "possible_answers": [
+      "Robert Adam",
+      "Sir Edwin Lutyens",
+      "Sir Christopher Wren",
+      "Norman Foster"
+    ],
+    "correct_answers": [
+      "Sir Christopher Wren"
+    ],
+    "explanation": "After the Great Fire of London in 1666, Sir Christopher Wren designed and oversaw the rebuilding of St Paul’s Cathedral. [web:22]"
+  },
+  {
+    "question_id": 165,
+    "question_detail": "Which THREE of the following are responsibilities of a resident or citizen of the UK?",
+    "possible_answers": [
+      "Respect and obey the law",
+      "Treating others with fairness",
+      "Practicing a specific religion",
+      "Contributing to the community and environment"
+    ],
+    "correct_answers": [
+      "Respect and obey the law",
+      "Treating others with fairness",
+      "Contributing to the community and environment"
+    ],
+    "explanation": "Life in the UK guidance highlights obeying the law, treating others fairly, and contributing to the community and environment as core responsibilities; following a particular religion is not required. [web:14]"
+  },
+  {
+    "question_id": 166,
+    "question_detail": "Which British suffragette leader co-founded the Women's Social and Political Union (WSPU) and played a pivotal role in securing women's right to vote?",
+    "possible_answers": [
+      "Florence Nightingale",
+      "Mary Wollstonecraft",
+      "Emmeline Pankhurst",
+      "Elizabeth Garrett Anderson"
+    ],
+    "correct_answers": [
+      "Emmeline Pankhurst"
+    ],
+    "explanation": "Emmeline Pankhurst co‑founded the WSPU and led militant campaigns for women’s suffrage in Britain. [web:33]"
+  },
+  {
+    "question_id": 167,
+    "question_detail": "Where are the Scottish Grand National and Royal Ascot held?",
+    "possible_answers": [
+      "Ayr and Royal Windsor",
+      "Ayr and Ascot",
+      "Cheltenham and Ascot",
+      "Cheltenham and Royal Windsor"
+    ],
+    "correct_answers": [
+      "Ayr and Ascot"
+    ],
+    "explanation": "The Scottish Grand National is run at Ayr Racecourse, while Royal Ascot is held at Ascot Racecourse in Berkshire. [web:45][web:48]"
+  },
+  {
+    "question_id": 168,
+    "question_detail": "When was the United Nations established?",
+    "possible_answers": [
+      "After World War I in 1918",
+      "After World War II in 1945",
+      "During the Cold War in 1960",
+      "Before World War I in 1900"
+    ],
+    "correct_answers": [
+      "After World War II in 1945"
+    ],
+    "explanation": "The United Nations was founded in 1945, after World War II, to promote peace and international cooperation. [web:22]"
+  },
+  {
+    "question_id": 169,
+    "question_detail": "The Turner Prize is awarded for outstanding work in which field?",
+    "possible_answers": [
+      "Literature",
+      "Contemporary Art",
+      "Music",
+      "Architecture"
+    ],
+    "correct_answers": [
+      "Contemporary Art"
+    ],
+    "explanation": "The Turner Prize is a major British annual award given to an artist for an outstanding exhibition or work of contemporary art."
+  },
+  {
+    "question_id": 170,
+    "question_detail": "Which TWO of the following are fundamental principles of British life?",
+    "possible_answers": [
+      "The rule of law",
+      "Intolerance of other beliefs",
+      "Individual liberty",
+      "Compulsory military service"
+    ],
+    "correct_answers": [
+      "The rule of law",
+      "Individual liberty"
+    ],
+    "explanation": "Core British values highlighted for the Life in the UK test include the rule of law and individual liberty, not intolerance or compulsory service."
+  },
+  {
+    "question_id": 171,
+    "question_detail": "Which TWO languages were spoken in England during the Middle Ages and later combined to form the English language?",
+    "possible_answers": [
+      "Latin",
+      "Old English (Anglo-Saxon)",
+      "Norman French",
+      "Old Norse"
+    ],
+    "correct_answers": [
+      "Old English (Anglo-Saxon)",
+      "Norman French"
+    ],
+    "explanation": "Modern English developed mainly from Old English and Norman French, spoken in England after the Norman Conquest."
+  },
+  {
+    "question_id": 172,
+    "question_detail": "Which Act granted equal voting rights to both men and women?",
+    "possible_answers": [
+      "Representation of the People Act",
+      "Equal Pay Act",
+      "Equal Franchise Act",
+      "Voting Equality Act"
+    ],
+    "correct_answers": [
+      "Equal Franchise Act"
+    ],
+    "explanation": "The Equal Franchise Act 1928 gave women electoral equality with men by lowering the female voting age to 21."
+  },
+  {
+    "question_id": 173,
+    "question_detail": "Which of the following is a place of worship for Sikhs in the UK?",
+    "possible_answers": [
+      "Mosque",
+      "Synagogue",
+      "Gurdwara",
+      "Temple"
+    ],
+    "correct_answers": [
+      "Gurdwara"
+    ],
+    "explanation": "A Sikh place of worship is called a gurdwara, where the Guru Granth Sahib is kept and services are held."
+  },
+  {
+    "question_id": 174,
+    "question_detail": "True or False: Elizabeth I was a Protestant and she succeeded in finding a balance between the views of the Catholics and the more extreme Protestants.",
+    "possible_answers": [
+      "True",
+      "False"
+    ],
+    "correct_answers": [
+      "True"
+    ],
+    "explanation": "Elizabeth I was a Protestant and her religious settlement aimed to balance Catholic traditions with Protestant reforms."
+  },
+  {
+    "question_id": 175,
+    "question_detail": "Which London area is famous for its theatres?",
+    "possible_answers": [
+      "Theatreland",
+      "Cinemaland",
+      "The O2",
+      "Royal Albert Hall"
+    ],
+    "correct_answers": [
+      "Theatreland"
+    ],
+    "explanation": "London’s West End theatre district is often referred to as Theatreland and is famous for stage productions."
+  },
+  {
+    "question_id": 176,
+    "question_detail": "When is St George’s Day celebrated in England?",
+    "possible_answers": [
+      "1 March",
+      "17 March",
+      "23 April",
+      "30 November"
+    ],
+    "correct_answers": [
+      "23 April"
+    ],
+    "explanation": "St George’s Day, celebrating the patron saint of England, is observed on 23 April."
+  },
+  {
+    "question_id": 177,
+    "question_detail": "Which of the following is the official flag of the United Kingdom?",
+    "possible_answers": [
+      "British Flag",
+      "Royal Flag",
+      "The Crown Flag",
+      "Union Jack"
+    ],
+    "correct_answers": [
+      "Union Jack"
+    ],
+    "explanation": "The national flag of the United Kingdom is called the Union Flag or Union Jack."
+  },
+  {
+    "question_id": 178,
+    "question_detail": "How many times has the UK hosted the Olympic Games?",
+    "possible_answers": [
+      "Two times",
+      "Three times",
+      "Four times",
+      "Five times"
+    ],
+    "correct_answers": [
+      "Three times"
+    ],
+    "explanation": "London has hosted the Summer Olympics three times: in 1908, 1948 and 2012. [web:49][web:52][web:53]"
+  },
+  {
+    "question_id": 179,
+    "question_detail": "Who was Sake Dean Mahomed?",
+    "possible_answers": [
+      "Founder of Britain's first curry house in London",
+      "Royal advisor to Queen Victoria",
+      "First Indian Member of Parliament in the UK",
+      "Introduced 'shampooing' (Indian head massage) to the UK"
+    ],
+    "correct_answers": [
+      "Founder of Britain's first curry house in London",
+      "Introduced 'shampooing' (Indian head massage) to the UK"
+    ],
+    "explanation": "Sake Dean Mahomed opened Britain’s first curry house in London and popularised ‘shampooing’ or Indian therapeutic baths. [web:54][web:57]"
+  },
+  {
+    "question_id": 180,
+    "question_detail": "Who was defeated at the Battle of the Boyne in 1690?",
+    "possible_answers": [
+      "Charles I",
+      "Henry VIII",
+      "James II",
+      "Charles II"
+    ],
+    "correct_answers": [
+      "James II"
+    ],
+    "explanation": "At the Battle of the Boyne in 1690, the deposed king James II was defeated by William III."
+  },
+  {
+    "question_id": 181,
+    "question_detail": "When did the First World War end with a victory for Britain and its allies?",
+    "possible_answers": [
+      "11th November 1918",
+      "11th December 1918",
+      "11th November 1919",
+      "11th December 1919"
+    ],
+    "correct_answers": [
+      "11th November 1918"
+    ],
+    "explanation": "The Armistice ending fighting in the First World War took effect on 11 November 1918."
+  },
+  {
+    "question_id": 182,
+    "question_detail": "Who invented radar in 1935 to detect enemy aircraft using radio waves?",
+    "possible_answers": [
+      "Sir Christopher Cockerell",
+      "John MacLeod",
+      "Sir Robert Watson-Watt",
+      "Sir Frank Whittle"
+    ],
+    "correct_answers": [
+      "Sir Robert Watson-Watt"
+    ],
+    "explanation": "Scottish physicist Sir Robert Watson‑Watt is credited with pioneering radar for detecting aircraft in the 1930s."
+  },
+  {
+    "question_id": 183,
+    "question_detail": "Which TWO of the following are responsibilities of Members of Parliament (MPs) in the House of Commons?",
+    "possible_answers": [
+      "Representing everyone in their constituency",
+      "Setting court sentencing guidelines",
+      "Helping to create new laws",
+      "Managing the police force"
+    ],
+    "correct_answers": [
+      "Representing everyone in their constituency",
+      "Helping to create new laws"
+    ],
+    "explanation": "MPs represent their constituencies and scrutinise and help make laws; sentencing and policing are handled by other bodies."
+  },
+  {
+    "question_id": 184,
+    "question_detail": "Which THREE individuals can sit in court with a juvenile during a Youth Court hearing?",
+    "possible_answers": [
+      "Appropriate Adult (Trained Professional)",
+      "Parents/Guardians",
+      "The media",
+      "The public",
+      "A social worker or member of a Youth Offending Team"
+    ],
+    "correct_answers": [
+      "Appropriate Adult (Trained Professional)",
+      "Parents/Guardians",
+      "A social worker or member of a Youth Offending Team"
+    ],
+    "explanation": "Youth Courts are closed to the public and media; usually parents or guardians, an appropriate adult and relevant professionals may attend."
+  },
+  {
+    "question_id": 185,
+    "question_detail": "Where do Members of the Legislative Assembly (MLAs) meet in Northern Ireland?",
+    "possible_answers": [
+      "Westminster, London",
+      "Cardiff Bay, Cardiff",
+      "Holyrood, Edinburgh",
+      "Stormont, Belfast"
+    ],
+    "correct_answers": [
+      "Stormont, Belfast"
+    ],
+    "explanation": "The Northern Ireland Assembly meets at the Parliament Buildings at Stormont in Belfast."
+  },
+  {
+    "question_id": 186,
+    "question_detail": "Who was known as 'Bloody Mary' due to her religious persecutions during the Tudor period?",
+    "possible_answers": [
+      "Mary I",
+      "Elizabeth I",
+      "Mary, Queen of Scots",
+      "Lady Jane Grey"
+    ],
+    "correct_answers": [
+      "Mary I"
+    ],
+    "explanation": "Mary I of England earned the nickname ‘Bloody Mary’ for persecuting Protestants during her reign."
+  },
+  {
+    "question_id": 187,
+    "question_detail": "When is Boxing Day celebrated in the UK?",
+    "possible_answers": [
+      "24 December",
+      "25 December",
+      "26 December",
+      "1 January"
+    ],
+    "correct_answers": [
+      "26 December"
+    ],
+    "explanation": "Boxing Day, a bank holiday in the UK, falls on 26 December."
+  },
+  {
+    "question_id": 188,
+    "question_detail": "At what minimum age can you ride a moped in the UK?",
+    "possible_answers": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "correct_answers": [
+      "16"
+    ],
+    "explanation": "The usual minimum age to ride a moped in the UK, with appropriate licence and training, is 16."
+  },
+  {
+    "question_id": 189,
+    "question_detail": "What event does the Bayeux Tapestry commemorate?",
+    "possible_answers": [
+      "Battle of Hastings",
+      "Battle of Waterloo",
+      "Battle of Agincourt",
+      "Battle of Trafalgar"
+    ],
+    "correct_answers": [
+      "Battle of Hastings"
+    ],
+    "explanation": "The Bayeux Tapestry depicts the events leading up to and including the Battle of Hastings in 1066."
+  },
+  {
+    "question_id": 190,
+    "question_detail": "What is the minimum age for someone to stand for election as a Member of Parliament (MP) in the UK?",
+    "possible_answers": [
+      "16",
+      "18",
+      "21",
+      "25"
+    ],
+    "correct_answers": [
+      "18"
+    ],
+    "explanation": "The minimum age to stand as an MP is 18, the same as the voting age."
+  },
+  {
+    "question_id": 191,
+    "question_detail": "Which part of the UK is known as the home of golf?",
+    "possible_answers": [
+      "England",
+      "Scotland",
+      "Wales",
+      "Northern Ireland"
+    ],
+    "correct_answers": [
+      "Scotland"
+    ],
+    "explanation": "Scotland, particularly St Andrews, is widely regarded as the home of golf."
+  },
+  {
+    "question_id": 192,
+    "question_detail": "True or False: In Northern Ireland, each eligible voter must complete their own individual registration form to be able to vote.",
+    "possible_answers": [
+      "True",
+      "False"
+    ],
+    "correct_answers": [
+      "True"
+    ],
+    "explanation": "In Northern Ireland, voter registration is on an individual basis and requires each eligible person to complete their own form. [web:55][web:58]"
+  },
+  {
+    "question_id": 193,
+    "question_detail": "Where is Skara Brae, the best-preserved prehistoric village in northern Europe, located?",
+    "possible_answers": [
+      "Cornwall, England",
+      "Orkney, Scotland",
+      "County Antrim, Northern Ireland",
+      "Pembrokeshire, Wales"
+    ],
+    "correct_answers": [
+      "Orkney, Scotland"
+    ],
+    "explanation": "Skara Brae is a Neolithic village on Mainland in the Orkney archipelago of Scotland and is famed as the best-preserved prehistoric village in northern Europe. [web:59][web:60][web:66]"
+  },
+  {
+    "question_id": 194,
+    "question_detail": "Which British woman athlete won two gold medals in the 800m and 1,500m events at the 2004 Summer Olympics?",
+    "possible_answers": [
+      "Dame Kelly Holmes",
+      "Jessica Ennis-Hill",
+      "Sir Mo Farah",
+      "Sir Steve Redgrave"
+    ],
+    "correct_answers": [
+      "Dame Kelly Holmes"
+    ],
+    "explanation": "Dame Kelly Holmes won gold in both the 800m and 1500m at the Athens 2004 Olympic Games. [web:64][web:67]"
+  },
+  {
+    "question_id": 195,
+    "question_detail": "Who became Prime Minister after the 2010 General Election resulted in no overall majority?",
+    "possible_answers": [
+      "David Cameron",
+      "Gordon Brown",
+      "Nick Clegg",
+      "Theresa May"
+    ],
+    "correct_answers": [
+      "David Cameron"
+    ],
+    "explanation": "After the 2010 hung parliament, Conservative leader David Cameron became Prime Minister, heading a coalition with the Liberal Democrats. [web:14]"
+  },
+  {
+    "question_id": 196,
+    "question_detail": "Who built Hadrian’s Wall to defend Roman Britain against the Picts?",
+    "possible_answers": [
+      "Julius Caesar",
+      "Emperor Claudius",
+      "Emperor Hadrian",
+      "Emperor Nero"
+    ],
+    "correct_answers": [
+      "Emperor Hadrian"
+    ],
+    "explanation": "Hadrian’s Wall in northern Britain was built on the orders of the Roman emperor Hadrian in the 2nd century. [web:33]"
+  },
+  {
+    "question_id": 197,
+    "question_detail": "Which battle is commemorated in the Bayeux Tapestry, a large piece of embroidered linen that depicts its events?",
+    "possible_answers": [
+      "Battle of Hastings",
+      "Battle of Waterloo",
+      "Battle of Agincourt",
+      "Battle of Trafalgar"
+    ],
+    "correct_answers": [
+      "Battle of Hastings"
+    ],
+    "explanation": "The Bayeux Tapestry tells the story of William of Normandy’s invasion of England and the Battle of Hastings in 1066. [web:33]"
+  },
+  {
+    "question_id": 198,
+    "question_detail": "Who was the first person in England to print books using a printing press?",
+    "possible_answers": [
+      "William Caxton",
+      "John Gutenberg",
+      "Geoffrey Chaucer",
+      "Richard III"
+    ],
+    "correct_answers": [
+      "William Caxton"
+    ],
+    "explanation": "William Caxton introduced the printing press to England in the 1470s and was the first English printer. [web:33]"
+  },
+  {
+    "question_id": 199,
+    "question_detail": "What is the name of the 40-day period before Easter?",
+    "possible_answers": [
+      "Advent",
+      "Lent",
+      "Pentecost",
+      "Epiphany"
+    ],
+    "correct_answers": [
+      "Lent"
+    ],
+    "explanation": "Lent is the 40‑day period of fasting and reflection before Easter in the Christian calendar. [web:33]"
+  },
+  {
+    "question_id": 200,
+    "question_detail": "Who won the Tour de France in 2012, becoming the first Briton to do so?",
+    "possible_answers": [
+      "Sir Bradley Wiggins",
+      "Chris Froome",
+      "Mark Cavendish",
+      "David Millar"
+    ],
+    "correct_answers": [
+      "Sir Bradley Wiggins"
+    ],
+    "explanation": "Sir Bradley Wiggins became the first British winner of the Tour de France in 2012. [web:67]"
+  },
+  {
+    "question_id": 201,
+    "question_detail": "Which Act granted equal voting rights to both men and women, allowing them to vote at the same age?",
+    "possible_answers": [
+      "Equal Franchise Act 1928 – Age 21",
+      "Representation of the People Act 1918 – Age 30",
+      "Women's Voting Rights Act 1930 – Age 25",
+      "Universal Suffrage Act 1925 – Age 21"
+    ],
+    "correct_answers": [
+      "Equal Franchise Act 1928 – Age 21"
+    ],
+    "explanation": "The Equal Franchise Act 1928 gave women the vote on the same terms as men, at age 21. [web:25][web:28]"
+  },
+  {
+    "question_id": 202,
+    "question_detail": "Select TWO art galleries that are located in London, England.",
+    "possible_answers": [
+      "National Gallery",
+      "British Library",
+      "Tate Modern",
+      "Natural History Museum"
+    ],
+    "correct_answers": [
+      "National Gallery",
+      "Tate Modern"
+    ],
+    "explanation": "Both the National Gallery on Trafalgar Square and Tate Modern on the South Bank are major art galleries in London; the British Library and Natural History Museum are not art galleries. [web:22]"
+  },
+  {
+    "question_id": 203,
+    "question_detail": "Which war took place between the British and settlers from the Netherlands in South Africa between 1899 and 1902?",
+    "possible_answers": [
+      "Hundred Years' War",
+      "Crimean War",
+      "Boer War",
+      "The Blitz"
+    ],
+    "correct_answers": [
+      "Boer War"
+    ],
+    "explanation": "The Second Boer War (1899–1902) was fought between the British and Boer settlers of Dutch descent in South Africa. [web:33]"
+  },
+  {
+    "question_id": 204,
+    "question_detail": "Which voting system is used to elect members of the Northern Ireland Assembly?",
+    "possible_answers": [
+      "First Past the Post",
+      "Additional Member System",
+      "Proportional Representation",
+      "Alternative Vote"
+    ],
+    "correct_answers": [
+      "Proportional Representation"
+    ],
+    "explanation": "Members of the Northern Ireland Assembly are elected using a system of proportional representation, specifically the Single Transferable Vote. [web:23]"
+  },
+  {
+    "question_id": 205,
+    "question_detail": "What invention by Alan Turing laid the foundation for modern computer science?",
+    "possible_answers": [
+      "Jet Engine",
+      "ATM",
+      "IVF",
+      "Turing Machine"
+    ],
+    "correct_answers": [
+      "Turing Machine"
+    ],
+    "explanation": "Alan Turing’s theoretical concept of a ‘Turing machine’ became a fundamental model for modern computing. [web:22]"
+  },
+  {
+    "question_id": 206,
+    "question_detail": "Who was the first man in the world to run a mile in under four minutes?",
+    "possible_answers": [
+      "Sir Mo Farah",
+      "Sir Roger Bannister",
+      "Sir Steve Redgrave",
+      "David Weir"
+    ],
+    "correct_answers": [
+      "Sir Roger Bannister"
+    ],
+    "explanation": "In 1954 Sir Roger Bannister, a British athlete, became the first person to run a mile in under four minutes. [web:22]"
+  },
+  {
+    "question_id": 207,
+    "question_detail": "Who was the US President that Margaret Thatcher worked closely with during her time as Prime Minister?",
+    "possible_answers": [
+      "Ronald Reagan",
+      "George H. W. Bush",
+      "Bill Clinton",
+      "Jimmy Carter"
+    ],
+    "correct_answers": [
+      "Ronald Reagan"
+    ],
+    "explanation": "Margaret Thatcher had a particularly close political relationship with US President Ronald Reagan in the 1980s. [web:22]"
+  },
+  {
+    "question_id": 208,
+    "question_detail": "Who was the first woman Prime Minister of the UK?",
+    "possible_answers": [
+      "Theresa May",
+      "Harold Wilson",
+      "Margaret Thatcher",
+      "John Major"
+    ],
+    "correct_answers": [
+      "Margaret Thatcher"
+    ],
+    "explanation": "Margaret Thatcher became Britain’s first female Prime Minister in 1979. [web:22]"
+  },
+  {
+    "question_id": 209,
+    "question_detail": "Which TWO of the following were the two parts (Houses) of the English Parliament in the Middle Ages?",
+    "possible_answers": [
+      "House of Lords",
+      "House of Clergy",
+      "House of Knights",
+      "House of Commons"
+    ],
+    "correct_answers": [
+      "House of Lords",
+      "House of Commons"
+    ],
+    "explanation": "By the late Middle Ages, the English Parliament had two houses: the House of Lords and the House of Commons. [web:19][web:23]"
+  },
+  {
+    "question_id": 210,
+    "question_detail": "Which famous children's author, born in Wales to Norwegian parents, wrote Charlie and the Chocolate Factory?",
+    "possible_answers": [
+      "Jane Austen",
+      "Charles Dickens",
+      "Roald Dahl",
+      "J.K. Rowling"
+    ],
+    "correct_answers": [
+      "Roald Dahl"
+    ],
+    "explanation": "Roald Dahl, born in Wales to Norwegian parents, wrote children’s classics including Charlie and the Chocolate Factory. [web:22]"
+  },
+  {
+    "question_id": 211,
+    "question_detail": "Which author is best known for creating the famous detective Sherlock Holmes?",
+    "possible_answers": [
+      "William Shakespeare",
+      "Agatha Christie",
+      "Sir Arthur Conan Doyle",
+      "J.R.R. Tolkien"
+    ],
+    "correct_answers": [
+      "Sir Arthur Conan Doyle"
+    ],
+    "explanation": "The fictional detective Sherlock Holmes was created by Scottish author Sir Arthur Conan Doyle. [web:22]"
+  },
+  {
+    "question_id": 212,
+    "question_detail": "Which of the following is the primary responsibility of the Home Secretary in the UK?",
+    "possible_answers": [
+      "Foreign Affairs and Defence",
+      "Education and Employment",
+      "Health and Social Care",
+      "Crime, Policing and Immigration"
+    ],
+    "correct_answers": [
+      "Crime, Policing and Immigration"
+    ],
+    "explanation": "The Home Secretary is responsible for internal affairs in England and Wales, including crime, policing, security, and immigration. [web:22]"
+  },
+  {
+    "question_id": 213,
+    "question_detail": "Which of the following are responsibilities of a Member of Parliament (MP) in the UK?",
+    "possible_answers": [
+      "Helping create new laws",
+      "Managing the police force",
+      "Debating important national issues",
+      "Setting court sentencing guidelines"
+    ],
+    "correct_answers": [
+      "Helping create new laws",
+      "Debating important national issues"
+    ],
+    "explanation": "MPs debate national issues and scrutinise and help make laws, but policing and sentencing guidelines are handled by other authorities. [web:23]"
+  },
+  {
+    "question_id": 214,
+    "question_detail": "Who won gold in ice dancing at the 1984 Winter Olympics?",
+    "possible_answers": [
+      "Jayne Torvill and Christopher Dean",
+      "Jessica Ennis-Hill",
+      "Sir Steve Redgrave",
+      "Tanni Grey-Thompson"
+    ],
+    "correct_answers": [
+      "Jayne Torvill and Christopher Dean"
+    ],
+    "explanation": "British skaters Jayne Torvill and Christopher Dean won gold in ice dance at the Sarajevo 1984 Winter Olympics. [web:22]"
+  },
+  {
+    "question_id": 215,
+    "question_detail": "Which football player captained England’s 1966 World Cup-winning team?",
+    "possible_answers": [
+      "Sir Bobby Charlton",
+      "David Beckham",
+      "Wayne Rooney",
+      "Bobby Moore"
+    ],
+    "correct_answers": [
+      "Bobby Moore"
+    ],
+    "explanation": "Centre-back Bobby Moore captained England to victory in the 1966 FIFA World Cup. [web:22]"
+  },
+  {
+    "question_id": 216,
+    "question_detail": "How many wives did Henry VIII have?",
+    "possible_answers": [
+      "Three",
+      "Four",
+      "Five",
+      "Six"
+    ],
+    "correct_answers": [
+      "Six"
+    ],
+    "explanation": "Henry VIII had six wives: Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard and Catherine Parr. [web:65][web:68]"
+  },
+  {
+    "question_id": 217,
+    "question_detail": "Who won Olympic gold medals in the 800m and 1500m at the 2004 Athens Olympics?",
+    "possible_answers": [
+      "Mo Farah",
+      "Dame Kelly Holmes",
+      "Jessica Ennis",
+      "Sir Roger Bannister"
+    ],
+    "correct_answers": [
+      "Dame Kelly Holmes"
+    ],
+    "explanation": "Dame Kelly Holmes won gold in both the 800m and 1500m at the 2004 Athens Olympics, becoming a double Olympic champion for Britain. [web:64][web:70][web:71]"
+  },
+  {
+    "question_id": 218,
+    "question_detail": "True or False: Northern Ireland and Scotland have their own banknotes, which are valid everywhere in the UK.",
+    "possible_answers": [
+      "True",
+      "False"
+    ],
+    "correct_answers": [
+      "True"
+    ],
+    "explanation": "Scottish and Northern Irish banks issue their own banknotes; these are legal currency and generally accepted throughout the UK, although not legal tender outside their home nations. [web:73][web:76]"
+  },
+  {
+    "question_id": 219,
+    "question_detail": "Why did Henry VIII establish the Church of England?",
+    "possible_answers": [
+      "To control taxes",
+      "To divorce his first wife",
+      "To unite with Protestants",
+      "To ban monasteries"
+    ],
+    "correct_answers": [
+      "To divorce his first wife"
+    ],
+    "explanation": "Henry VIII broke with the Pope and created the Church of England largely so he could annul his marriage to Catherine of Aragon. [web:33]"
+  },
+  {
+    "question_id": 220,
+    "question_detail": "Who won Olympic gold for ice dancing in 1984?",
+    "possible_answers": [
+      "Sir Steve Redgrave",
+      "Baroness Tanni Grey-Thompson",
+      "Jayne Torvill and Christopher Dean",
+      "Dame Kelly Holmes"
+    ],
+    "correct_answers": [
+      "Jayne Torvill and Christopher Dean"
+    ],
+    "explanation": "British duo Jayne Torvill and Christopher Dean won gold in ice dancing at the 1984 Winter Olympics in Sarajevo. [web:22]"
+  },
+  {
+    "question_id": 221,
+    "question_detail": "What does Easter celebrate in the UK?",
+    "possible_answers": [
+      "Birth of Jesus Christ",
+      "Resurrection of Jesus Christ",
+      "Beginning of Lent",
+      "The Last Supper"
+    ],
+    "correct_answers": [
+      "Resurrection of Jesus Christ"
+    ],
+    "explanation": "Easter is the most important Christian festival and marks the resurrection of Jesus Christ from the dead. [web:14]"
+  },
+  {
+    "question_id": 222,
+    "question_detail": "Who was the first person to print books using a printing press in England?",
+    "possible_answers": [
+      "William Caxton",
+      "John Gutenberg",
+      "Geoffrey Chaucer",
+      "Richard III"
+    ],
+    "correct_answers": [
+      "William Caxton"
+    ],
+    "explanation": "William Caxton introduced the printing press to England in the 15th century and was the first English printer. [web:33]"
+  },
+  {
+    "question_id": 223,
+    "question_detail": "Who led the establishment of the National Health Service (NHS) in 1948?",
+    "possible_answers": [
+      "Clement Attlee",
+      "Aneurin (Nye) Bevan",
+      "Harold Macmillan",
+      "Winston Churchill"
+    ],
+    "correct_answers": [
+      "Aneurin (Nye) Bevan"
+    ],
+    "explanation": "Health Minister Aneurin Bevan is credited with founding the NHS in 1948 under Clement Attlee’s Labour government. [web:14]"
+  },
+  {
+    "question_id": 224,
+    "question_detail": "Which country is not part of Great Britain?",
+    "possible_answers": [
+      "Scotland",
+      "Northern Ireland",
+      "England",
+      "Wales"
+    ],
+    "correct_answers": [
+      "Northern Ireland"
+    ],
+    "explanation": "Great Britain comprises England, Scotland and Wales; Northern Ireland is part of the UK but not of Great Britain. [web:22]"
+  },
+  {
+    "question_id": 225,
+    "question_detail": "Who was the US President that Margaret Thatcher worked closely with during her time as Prime Minister?",
+    "possible_answers": [
+      "Ronald Reagan",
+      "George H. W. Bush",
+      "Bill Clinton",
+      "Jimmy Carter"
+    ],
+    "correct_answers": [
+      "Ronald Reagan"
+    ],
+    "explanation": "Prime Minister Margaret Thatcher had a particularly close working relationship with US President Ronald Reagan in the 1980s. [web:14]"
+  },
+  {
+    "question_id": 226,
+    "question_detail": "From which country did the Huguenots flee to Britain during the 18th and 19th centuries?",
+    "possible_answers": [
+      "Germany",
+      "France",
+      "Spain",
+      "Italy"
+    ],
+    "correct_answers": [
+      "France"
+    ],
+    "explanation": "The Huguenots were French Protestants who fled persecution in France and many settled in Britain. [web:33]"
+  },
+  {
+    "question_id": 227,
+    "question_detail": "Who was the first woman Prime Minister of the UK?",
+    "possible_answers": [
+      "Theresa May",
+      "Harold Wilson",
+      "Margaret Thatcher",
+      "John Major"
+    ],
+    "correct_answers": [
+      "Margaret Thatcher"
+    ],
+    "explanation": "Margaret Thatcher became Britain’s first woman Prime Minister in 1979. [web:14]"
+  },
+  {
+    "question_id": 228,
+    "question_detail": "Who became Prime Minister after the 2010 General Election resulted in no overall majority?",
+    "possible_answers": [
+      "David Cameron",
+      "Gordon Brown",
+      "Nick Clegg",
+      "Theresa May"
+    ],
+    "correct_answers": [
+      "David Cameron"
+    ],
+    "explanation": "Following the 2010 hung parliament, David Cameron formed a coalition government and became Prime Minister. [web:14]"
+  },
+  {
+    "question_id": 229,
+    "question_detail": "Who was the fastest person to sail solo around the world in 2004?",
+    "possible_answers": [
+      "Sir Ian Botham",
+      "Sir Steve Redgrave",
+      "Sir Chris Hoy",
+      "Dame Ellen MacArthur"
+    ],
+    "correct_answers": [
+      "Dame Ellen MacArthur"
+    ],
+    "explanation": "In 2004–05, Dame Ellen MacArthur set a world record for the fastest solo circumnavigation of the globe by yacht. [web:22]"
+  },
+  {
+    "question_id": 230,
+    "question_detail": "Who were the settlers from the Netherlands that the British went to war with in South Africa?",
+    "possible_answers": [
+      "Boers",
+      "Afrikaners",
+      "Huguenots",
+      "Zulus"
+    ],
+    "correct_answers": [
+      "Boers"
+    ],
+    "explanation": "The Boer War in South Africa was fought between Britain and Boer settlers of mainly Dutch origin. [web:33]"
+  },
+  {
+    "question_id": 231,
+    "question_detail": "Who appoints life peers to the House of Lords?",
+    "possible_answers": [
+      "The Monarch",
+      "The Prime Minister",
+      "High Court Judges",
+      "The Church of England"
+    ],
+    "correct_answers": [
+      "The Monarch"
+    ],
+    "explanation": "Life peers are formally appointed to the House of Lords by the Monarch, usually on the advice of the Prime Minister or House of Lords Appointments Commission. [web:22]"
+  },
+  {
+    "question_id": 232,
+    "question_detail": "What is the role of the Home Secretary in the UK?",
+    "possible_answers": [
+      "Manages the economy",
+      "Responsible for crime, policing, and immigration",
+      "Oversees education policy",
+      "Handles defence"
+    ],
+    "correct_answers": [
+      "Responsible for crime, policing, and immigration"
+    ],
+    "explanation": "The Home Secretary heads the Home Office and is responsible for internal affairs including crime, policing, security and immigration. [web:22]"
+  },
+  {
+    "question_id": 233,
+    "question_detail": "Which TWO were the two parts (Houses) of the English Parliament in the Middle Ages?",
+    "possible_answers": [
+      "House of Lords",
+      "House of Clergy",
+      "House of Knights",
+      "House of Commons"
+    ],
+    "correct_answers": [
+      "House of Lords",
+      "House of Commons"
+    ],
+    "explanation": "By the late Middle Ages, Parliament consisted of the House of Lords and the House of Commons. [web:23][web:33]"
+  },
+  {
+    "question_id": 234,
+    "question_detail": "Who was the British tribal leader that fought against the Roman Empire?",
+    "possible_answers": [
+      "Boudicca",
+      "Hadrian",
+      "Claudius",
+      "Nero"
+    ],
+    "correct_answers": [
+      "Boudicca"
+    ],
+    "explanation": "Boudicca was queen of the Iceni who led a revolt against Roman rule in Britain around AD 60–61. [web:33]"
+  },
+  {
+    "question_id": 235,
+    "question_detail": "Who wrote the famous poem 'The Daffodils'?",
+    "possible_answers": [
+      "William Blake",
+      "Robert Browning",
+      "Lord Byron",
+      "William Wordsworth"
+    ],
+    "correct_answers": [
+      "William Wordsworth"
+    ],
+    "explanation": "The poem commonly known as 'Daffodils' ('I wandered lonely as a cloud') was written by William Wordsworth. [web:22]"
+  },
+  {
+    "question_id": 236,
+    "question_detail": "What were the peasants called who were tied to the land and worked for landowners in medieval England?",
+    "possible_answers": [
+      "Freemen",
+      "Serfs",
+      "Lords",
+      "Clansmen"
+    ],
+    "correct_answers": [
+      "Serfs"
+    ],
+    "explanation": "Serfs were peasants bound to a lord’s land, working it in return for protection and basic rights, and unable to leave without permission. [web:33]"
+  },
+  {
+    "question_id": 237,
+    "question_detail": "When were women over 30 granted the right to vote?",
+    "possible_answers": [
+      "1928",
+      "1707",
+      "1908",
+      "1918"
+    ],
+    "correct_answers": [
+      "1918"
+    ],
+    "explanation": "The Representation of the People Act 1918 gave the vote to women over 30 who met property qualifications; equal voting age with men came in 1928. [web:74][web:77]"
+  },
+  {
+    "question_id": 238,
+    "question_detail": "Who is the patron saint of Wales?",
+    "possible_answers": [
+      "St Andrew",
+      "St David",
+      "St George",
+      "St Patrick"
+    ],
+    "correct_answers": [
+      "St David"
+    ],
+    "explanation": "St David is the patron saint of Wales, celebrated on St David’s Day, 1 March. [web:33]"
+  },
+  {
+    "question_id": 239,
+    "question_detail": "Who designed the new St Paul’s Cathedral after the Great Fire of London?",
+    "possible_answers": [
+      "Inigo Jones",
+      "Sir Christopher Wren",
+      "Robert Adam",
+      "Sir Norman Foster"
+    ],
+    "correct_answers": [
+      "Sir Christopher Wren"
+    ],
+    "explanation": "After the Great Fire of London in 1666, Sir Christopher Wren designed and oversaw the rebuilding of St Paul’s Cathedral. [web:22]"
+  },
+  {
+    "question_id": 240,
+    "question_detail": "What did John Logie Baird develop in the 1920s?",
+    "possible_answers": [
+      "Radar",
+      "Turing Machine",
+      "Television",
+      "MRI Scanner"
+    ],
+    "correct_answers": [
+      "Television"
+    ],
+    "explanation": "Scottish inventor John Logie Baird developed one of the first working television systems and demonstrated TV in the 1920s. [web:22]"
+  },
+  {
+    "question_id": 241,
+    "question_detail": "Which of the following best describes Elizabeth I's role in English Protestantism?",
+    "possible_answers": [
+      "She supported Catholicism",
+      "She stayed neutral",
+      "She led English Protestantism",
+      "She opposed Protestantism"
+    ],
+    "correct_answers": [
+      "She led English Protestantism"
+    ],
+    "explanation": "Elizabeth I was a Protestant monarch whose religious settlement firmly established and led English Protestantism."
+  },
+  {
+    "question_id": 242,
+    "question_detail": "Which Scottish King defeated the English at the Battle of Bannockburn?",
+    "possible_answers": [
+      "William Wallace",
+      "Edward I",
+      "Robert the Bruce",
+      "Henry V"
+    ],
+    "correct_answers": [
+      "Robert the Bruce"
+    ],
+    "explanation": "In 1314 the Scottish forces led by King Robert the Bruce defeated the English at the Battle of Bannockburn. [web:78][web:81][web:84]"
+  },
+  {
+    "question_id": 243,
+    "question_detail": "When do Muslims celebrate Eid al-Fitr?",
+    "possible_answers": [
+      "At the beginning of Ramadan",
+      "During the middle of Ramadan",
+      "At the end of Ramadan",
+      "After the Hajj pilgrimage"
+    ],
+    "correct_answers": [
+      "At the end of Ramadan"
+    ],
+    "explanation": "Eid al-Fitr is the festival of breaking the fast and is celebrated at the end of the month of Ramadan."
+  },
+  {
+    "question_id": 244,
+    "question_detail": "What significant document was established in 1689 to outline the rights and liberties of the people in Britain?",
+    "possible_answers": [
+      "Magna Carta",
+      "Bill of Rights",
+      "Constitution",
+      "Common Law"
+    ],
+    "correct_answers": [
+      "Bill of Rights"
+    ],
+    "explanation": "The 1689 Bill of Rights set out limits on royal power and key rights and liberties of Parliament and citizens."
+  },
+  {
+    "question_id": 245,
+    "question_detail": "When was the last successful foreign invasion of England?",
+    "possible_answers": [
+      "1066",
+      "1160",
+      "1060",
+      "1166"
+    ],
+    "correct_answers": [
+      "1066"
+    ],
+    "explanation": "The Norman Conquest of 1066, when William of Normandy invaded and won at Hastings, is regarded as the last successful foreign invasion of England."
+  },
+  {
+    "question_id": 246,
+    "question_detail": "What are the TWO main duties of the police in the UK?",
+    "possible_answers": [
+      "Prevent and detect crime",
+      "Assist in passing new legislation",
+      "Protecting life and property",
+      "Collect local council taxes"
+    ],
+    "correct_answers": [
+      "Prevent and detect crime",
+      "Protecting life and property"
+    ],
+    "explanation": "Police forces in the UK are primarily responsible for preventing and detecting crime and for protecting life and property."
+  },
+  {
+    "question_id": 247,
+    "question_detail": "Which London gallery is known for contemporary art?",
+    "possible_answers": [
+      "Tate Britain",
+      "The National Gallery",
+      "Tate Modern",
+      "National Museum Cardiff"
+    ],
+    "correct_answers": [
+      "Tate Modern"
+    ],
+    "explanation": "Tate Modern, on London’s South Bank, is a major gallery dedicated to modern and contemporary art."
+  },
+  {
+    "question_id": 248,
+    "question_detail": "Which TWO British pop music groups gained prominence during the Swinging Sixties (the 1960s)?",
+    "possible_answers": [
+      "The Punk",
+      "The Rolling Stones",
+      "The Beatles",
+      "Pink Floyd"
+    ],
+    "correct_answers": [
+      "The Rolling Stones",
+      "The Beatles"
+    ],
+    "explanation": "The Beatles and The Rolling Stones were two of the most famous British bands to emerge in the 1960s Swinging Sixties era."
+  },
+  {
+    "question_id": 249,
+    "question_detail": "What was a key change brought by the Church of England under Henry VIII?",
+    "possible_answers": [
+      "Latin was banned",
+      "Monasteries were expanded",
+      "The King became head of the Church",
+      "Prayers were removed"
+    ],
+    "correct_answers": [
+      "The King became head of the Church"
+    ],
+    "explanation": "When Henry VIII created the Church of England, he replaced the Pope with the king as Supreme Head of the Church in England."
+  },
+  {
+    "question_id": 250,
+    "question_detail": "Who gives tours and shares the history of the Tower of London with visitors?",
+    "possible_answers": [
+      "Knights",
+      "Beefeaters",
+      "Sentinels",
+      "City of London Guides"
+    ],
+    "correct_answers": [
+      "Beefeaters"
+    ],
+    "explanation": "The Yeoman Warders, popularly known as Beefeaters, guide visitors and tell the history of the Tower of London."
+  },
+  {
+    "question_id": 251,
+    "question_detail": "Who invented the World Wide Web?",
+    "possible_answers": [
+      "James Goodfellow",
+      "Sir Tim Berners-Lee",
+      "Alan Turing",
+      "Sir Robert Watson-Watt"
+    ],
+    "correct_answers": [
+      "Sir Tim Berners-Lee"
+    ],
+    "explanation": "British computer scientist Sir Tim Berners‑Lee invented the World Wide Web in 1989–1990."
+  },
+  {
+    "question_id": 252,
+    "question_detail": "Which British wheelchair athlete won 16 Paralympic medals and six London Marathons?",
+    "possible_answers": [
+      "David Weir",
+      "Baroness Tanni Grey-Thompson",
+      "Ellie Simmonds",
+      "Dame Jessica Ennis"
+    ],
+    "correct_answers": [
+      "Baroness Tanni Grey-Thompson"
+    ],
+    "explanation": "Baroness Tanni Grey-Thompson won 16 Paralympic medals and six London Marathon titles during her wheelchair racing career. [web:85]"
+  },
+  {
+    "question_id": 253,
+    "question_detail": "How many jurors serve on a jury in Scotland?",
+    "possible_answers": [
+      "10",
+      "12",
+      "15",
+      "20"
+    ],
+    "correct_answers": [
+      "15"
+    ],
+    "explanation": "Scottish criminal juries are unusual in having 15 jurors rather than the 12 used in many other jurisdictions. [web:83][web:86]"
+  },
+  {
+    "question_id": 254,
+    "question_detail": "Who became king after Elizabeth I's death?",
+    "possible_answers": [
+      "Charles I",
+      "James I",
+      "Henry VII",
+      "Edward VI"
+    ],
+    "correct_answers": [
+      "James I"
+    ],
+    "explanation": "After Elizabeth I died in 1603, James VI of Scotland also became James I of England, uniting the crowns."
+  },
+  {
+    "question_id": 255,
+    "question_detail": "Which politician campaigned to abolish the slave trade?",
+    "possible_answers": [
+      "Tony Blair",
+      "Winston Churchill",
+      "William Wilberforce",
+      "Margaret Thatcher"
+    ],
+    "correct_answers": [
+      "William Wilberforce"
+    ],
+    "explanation": "William Wilberforce was a leading British MP and campaigner for the abolition of the transatlantic slave trade."
+  },
+  {
+    "question_id": 256,
+    "question_detail": "What is the capital of Wales?",
+    "possible_answers": [
+      "Belfast",
+      "Edinburgh",
+      "Cardiff",
+      "London"
+    ],
+    "correct_answers": [
+      "Cardiff"
+    ],
+    "explanation": "Cardiff is the capital city of Wales."
+  },
+  {
+    "question_id": 257,
+    "question_detail": "Which famous children's author, born in Wales to Norwegian parents, wrote Charlie and the Chocolate Factory?",
+    "possible_answers": [
+      "Jane Austen",
+      "Charles Dickens",
+      "Roald Dahl",
+      "J.K. Rowling"
+    ],
+    "correct_answers": [
+      "Roald Dahl"
+    ],
+    "explanation": "Roald Dahl, born in Wales to Norwegian parents, wrote 'Charlie and the Chocolate Factory' and many other children’s books."
+  },
+  {
+    "question_id": 258,
+    "question_detail": "What happens when a Member of Parliament (MP) dies or resigns?",
+    "possible_answers": [
+      "General Election",
+      "Re-election",
+      "Referendum",
+      "By-election"
+    ],
+    "correct_answers": [
+      "By-election"
+    ],
+    "explanation": "If a Commons seat becomes vacant between general elections, a by‑election is held in that constituency."
+  },
+  {
+    "question_id": 259,
+    "question_detail": "What happened to Mary Queen of Scots after Elizabeth I imprisoned her for 20 years?",
+    "possible_answers": [
+      "She was made Queen of England",
+      "She was executed",
+      "She was sent back to Scotland",
+      "She was sent back to France"
+    ],
+    "correct_answers": [
+      "She was executed"
+    ],
+    "explanation": "Mary Queen of Scots was executed in 1587 after many years in English captivity under Elizabeth I."
+  },
+  {
+    "question_id": 260,
+    "question_detail": "Who captained England’s football team to the 1966 World Cup victory?",
+    "possible_answers": [
+      "Sir Ian Botham",
+      "Sir Steve Redgrave",
+      "David Beckham",
+      "Bobby Moore"
+    ],
+    "correct_answers": [
+      "Bobby Moore"
+    ],
+    "explanation": "Bobby Moore captained the England football team that won the FIFA World Cup in 1966."
+  },
+  {
+    "question_id": 261,
+    "question_detail": "What is the national dish of Scotland?",
+    "possible_answers": [
+      "Haggis",
+      "Roast beef",
+      "Welsh cakes",
+      "Ulster fry"
+    ],
+    "correct_answers": [
+      "Haggis"
+    ],
+    "explanation": "Haggis, a savoury dish made from sheep offal, oats and spices, is widely regarded as Scotland’s national dish."
+  },
+  {
+    "question_id": 262,
+    "question_detail": "Which colonies fought the British over the principle of no taxation without representation?",
+    "possible_answers": [
+      "American Colonies",
+      "Canadian Colonies",
+      "Australian Colonies",
+      "Caribbean Colonies"
+    ],
+    "correct_answers": [
+      "American Colonies"
+    ],
+    "explanation": "The American colonies rebelled against British taxes imposed without representation in Parliament, leading to the American War of Independence."
+  },
+  {
+    "question_id": 263,
+    "question_detail": "Who is the spiritual leader of the Church of England?",
+    "possible_answers": [
+      "The Monarch",
+      "The Archbishop of Canterbury",
+      "The Prime Minister",
+      "The Pope"
+    ],
+    "correct_answers": [
+      "The Archbishop of Canterbury"
+    ],
+    "explanation": "The Archbishop of Canterbury is the senior bishop and principal leader of the Church of England, its spiritual head under the monarch."
+  },
+  {
+    "question_id": 264,
+    "question_detail": "In Scotland, Wales, and Northern Ireland, which TWO matters are reserved for the UK Parliament?",
+    "possible_answers": [
+      "Education",
+      "Immigration",
+      "Health",
+      "Defence"
+    ],
+    "correct_answers": [
+      "Immigration",
+      "Defence"
+    ],
+    "explanation": "While many domestic matters are devolved, key areas such as immigration and defence remain reserved to the UK Parliament."
+  }
+]

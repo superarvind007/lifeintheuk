@@ -1,0 +1,257 @@
+import React, { useState, useEffect } from 'react';
+import { Clock, Flag, ChevronLeft, ChevronRight, CheckSquare, Menu, X } from 'lucide-react';
+import { saveFlaggedIds } from '../utils';
+
+const ExamScreen = ({ questions, initialFlags, onSubmit, mode, initialAnswers }) => {
+  const [currentIdx, setCurrentIdx] = useState(0);
+  const [answers, setAnswers] = useState(initialAnswers || {});
+  const [flagged, setFlagged] = useState(new Set(initialFlags));
+  const [timeLeft, setTimeLeft] = useState(90 * 60); // 90 minutes
+  const [showNav, setShowNav] = useState(false);
+
+  // Timer logic
+  useEffect(() => {
+    if (mode !== 'timed') return;
+    const timer = setInterval(() => {
+      setTimeLeft((prev) => {
+        if (prev <= 0) {
+          clearInterval(timer);
+          handleSubmit();
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+    return () => clearInterval(timer);
+  }, [mode]);
+
+  // Persist flags
+  useEffect(() => {
+    saveFlaggedIds(Array.from(flagged));
+  }, [flagged]);
+
+  const currentQ = questions[currentIdx];
+  const requiredCount = currentQ.correct_answers.length;
+  const currentAnswers = answers[currentQ.question_id] || [];
+
+  const handleToggleOption = (idx) => {
+    const newAnswers = { ...answers };
+    const currentList = newAnswers[currentQ.question_id] || [];
+    
+    if (currentList.includes(idx)) {
+      newAnswers[currentQ.question_id] = currentList.filter(i => i !== idx);
+    } else {
+      if (currentList.length >= requiredCount) {
+        return; 
+      }
+      newAnswers[currentQ.question_id] = [...currentList, idx];
+    }
+    setAnswers(newAnswers);
+  };
+
+  const toggleFlag = () => {
+    const newFlags = new Set(flagged);
+    if (newFlags.has(currentQ.question_id)) {
+      newFlags.delete(currentQ.question_id);
+    } else {
+      newFlags.add(currentQ.question_id);
+    }
+    setFlagged(newFlags);
+  };
+
+  const handleSubmit = () => {
+    onSubmit({ answers, flags: Array.from(flagged) });
+  };
+
+  const formatTime = (seconds) => {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  };
+
+  const getStatusColor = (idx) => {
+    if (idx === currentIdx) return 'var(--accent)';
+    const q = questions[idx];
+    const ans = answers[q.question_id] || [];
+    if (flagged.has(q.question_id)) return 'var(--warning)';
+    if (ans.length > 0) return 'var(--success)';
+    return 'var(--bg-tertiary)';
+  };
+
+  return (
+    <div className="container" style={{ padding: 0, maxWidth: '100%', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      
+      {/* Header */}
+      <header className="header" style={{ padding: '1rem 2rem', background: 'var(--bg-secondary)', marginBottom: 0 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <button className="btn btn-secondary" onClick={() => setShowNav(!showNav)}>
+            {showNav ? <X size={20} /> : <Menu size={20} />}
+            <span style={{ display: 'none', '@media (min-width: 768px)': { display: 'inline' } }}>Questions</span>
+          </button>
+          <div className="title" style={{ fontSize: '1.2rem' }}>
+            Question {currentIdx + 1} <span style={{ color: 'var(--text-muted)', fontSize: '1rem' }}>/ {questions.length}</span>
+          </div>
+        </div>
+
+        {mode === 'timed' && (
+          <div style={{ 
+            display: 'flex', 
+            alignItems: 'center', 
+            gap: '0.5rem', 
+            color: timeLeft < 300 ? 'var(--danger)' : 'var(--text-primary)',
+            fontWeight: 'bold',
+            fontSize: '1.2rem'
+          }}>
+            <Clock size={20} />
+            {formatTime(timeLeft)}
+          </div>
+        )}
+
+        <button 
+          className="btn" 
+          onClick={toggleFlag}
+          style={{ color: flagged.has(currentQ.question_id) ? 'var(--warning)' : 'var(--text-muted)' }}
+        >
+          <Flag size={20} fill={flagged.has(currentQ.question_id) ? 'currentColor' : 'none'} />
+          {flagged.has(currentQ.question_id) ? 'Flagged' : 'Flag'}
+        </button>
+      </header>
+
+      {/* Main Content */}
+      <div style={{ display: 'flex', flex: 1, overflow: 'hidden' }}>
+        </div>
+
+        {avigation Sidebar (Collapsible) */}
+        <div style={{ 
+          width: showNav ? '250px' : '0', 
+          background: 'var(--bg-secondary)', 
+          borderRight: '1px solid var(--border)',
+          transition: 'width 0.3s ease',
+          overflowY: 'auto',
+          display: 'flex',
+          flexDirection: 'column'
+        }}>
+          <div style={{ padding: '1rem', display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem' }}>
+            {questions.map((q, idx) => (
+              <button
+                key={q.question_id}
+                onClick={() => setCurrentIdx(idx)}
+                style={{
+                  aspectRatio: '1',
+                  background: getStatusColor(idx),
+                  color: 'white',
+                  borderRadius: '0.5rem',
+                  border: idx === currentIdx ? '2px solid white' : 'none',
+                  fontWeight: 'bold',
+                  position: 'relative'
+                }}
+              >
+                {idx + 1}
+                {flagged.has(q.question_id) && idx !== currentIdx && (
+                  <div style={{ 
+                    position: 'absolute', 
+                    top: -2, 
+                    right: -2, 
+                    width: 8, 
+                    height: 8, 
+                    bg: 'var(--warning)', 
+                    borderRadius: '50%' 
+                  }} />
+                )}
+              </button>
+            ))}
+          </div>
+          <div style={{ marginTop: 'auto', padding: '1rem' }}>
+            <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', fontSize: '0.8rem', marginBottom: '0.5rem' }}>
+              <div style={{ width: 12, height: 12, background: 'var(--success)', borderRadius: 2 }}></div> Answered
+            </div>
+            <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', fontSize: '0.8rem', marginBottom: '0.5rem' }}>
+              <div style={{ width: 12, height: 12, background: 'var(--warning)', borderRadius: 2 }}></div> Flagged
+            </div>
+            <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', fontSize: '0.8rem' }}>
+              <div style={{ width: 12, height: 12, background: 'var(--bg-tertiary)', borderRadius: 2 }}></div> Unanswered
+            </div>
+          </div>
+        </div>
+
+        {/* Question Area */}
+        <div style={{ flex: 1, padding: '2rem', overflowY: 'auto', display: 'flex', flexDirection: 'column' }}>
+          <div className="card" style={{ maxWidth: '800px', width: '100%', margin: '0 auto' }}>
+            <p style={{ fontSize: '1.2rem', marginBottom: '1.5rem', lineHeight: '1.6' }}>
+              {currentQ.question_detail}
+            </p>
+            
+            <p style={{ color: 'var(--accent)', fontSize: '0.9rem', marginBottom: '1rem', fontWeight: 600 }}>
+              {requiredCount > 1 ? `Select ${requiredCount} answers` : 'Select 1 answer'}
+            </p>
+
+            <div style={{ display: 'grid', gap: '0.8rem' }}>
+              {currentQ.possible_answers.map((opt, idx) => {
+                const isSelected = currentAnswers.includes(idx);
+                return (
+                  <button
+                    key={idx}
+                    onClick={() => handleToggleOption(idx)}
+                    className="option-btn"
+                    style={{
+                      textAlign: 'left',
+                      padding: '1rem',
+                      borderRadius: '0.5rem',
+                      background: isSelected ? 'rgba(59, 130, 246, 0.1)' : 'rgba(255,255,255,0.03)',
+                      border: isSelected ? '1px solid var(--accent)' : '1px solid var(--border)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '1rem',
+                      transition: 'all 0.2s',
+                      color: isSelected ? 'white' : 'var(--text-secondary)'
+                    }}
+                  >
+                    <div style={{
+                      width: '24px',
+                      height: '24px',
+                      borderRadius: requiredCount > 1 ? '4px' : '50%',
+                      border: isSelected ? '6px solid var(--accent)' : '2px solid var(--text-muted)',
+                      flexShrink: 0
+                    }} />
+                    <span>{opt}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          <div style={{ 
+            maxWidth: '800px', 
+            margin: '2rem auto 0', 
+            display: 'flex', 
+            justifyContent: 'space-between', 
+            width: '100%' 
+          }}>
+            <button 
+              className="btn btn-secondary" 
+              onClick={() => setCurrentIdx(Math.max(0, currentIdx - 1))}
+              disabled={currentIdx === 0}
+            >
+              <ChevronLeft size={20} /> Previous
+            </button>
+
+            {currentIdx === questions.length - 1 ? (
+              <button className="btn btn-primary" onClick={handleSubmit}>
+                Submit Exam <CheckSquare size={20} />
+              </button>
+            ) : (
+              <button 
+                className="btn btn-primary" 
+                onClick={() => setCurrentIdx(Math.min(questions.length - 1, currentIdx + 1))}
+              >
+                Next <ChevronRight size={20} />
+              </button>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ExamScreen;
