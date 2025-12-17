@@ -147,6 +147,8 @@ function App() {
           onSubmit={handleSubmit}
           onExit={handleExit}
           isFromFlaggedSet={examState.isFromFlaggedSet}
+          theme={theme}
+          onToggleTheme={toggleTheme}
         />
       )}
       {view === 'result' && examState && (

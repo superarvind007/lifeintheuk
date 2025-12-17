@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Clock, ChevronLeft, ChevronRight, CheckSquare, Flag, Home } from 'lucide-react';
+import { Menu, X, Clock, ChevronLeft, ChevronRight, CheckSquare, Flag, Home, Sun, Moon } from 'lucide-react';
 import { saveFlaggedIds, getFlaggedIds, getAnsweredIds, saveAnsweredIds } from '../utils';
 
-const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, isFromFlaggedSet, onExit }) => {
+const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, isFromFlaggedSet, onExit, theme, onToggleTheme }) => {
   const [currentIdx, setCurrentIdx] = useState(0);
   const [answers, setAnswers] = useState(initialAnswers);
   const [flagged, setFlagged] = useState(new Set(initialFlags));
@@ -317,21 +317,39 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
             gap: '0.5rem',
             color: timeLeft < 300 ? 'var(--danger)' : 'var(--text-primary)',
             fontWeight: 'bold',
-            fontSize: '1.2rem'
+            fontSize: '1.2rem',
+            marginRight: '1rem' // Add spacing
           }}>
             <Clock size={20} />
             {formatTime(timeLeft)}
           </div>
         )}
 
-        <button
-          className="btn"
-          onClick={toggleFlag}
-          style={{ color: flagged.has(currentQ.question_id) ? 'var(--warning)' : 'var(--text-muted)' }}
-        >
-          <Flag size={20} fill={flagged.has(currentQ.question_id) ? 'currentColor' : 'none'} />
-          {flagged.has(currentQ.question_id) ? 'Flagged' : 'Flag'}
-        </button>
+        <div style={{ display: 'flex', gap: '0.5rem' }}>
+          <button
+            onClick={onToggleTheme}
+            className="btn"
+            style={{
+              padding: '0.5rem',
+              borderRadius: '50%',
+              background: 'transparent',
+              color: 'var(--text-secondary)'
+            }}
+            title={`Switch to ${theme === 'dark' ? 'Light' : 'Dark'} Mode`}
+            aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+          >
+            {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+          </button>
+
+          <button
+            className="btn"
+            onClick={toggleFlag}
+            style={{ color: flagged.has(currentQ.question_id) ? 'var(--warning)' : 'var(--text-muted)' }}
+          >
+            <Flag size={20} fill={flagged.has(currentQ.question_id) ? 'currentColor' : 'none'} />
+            {flagged.has(currentQ.question_id) ? 'Flagged' : 'Flag'}
+          </button>
+        </div>
       </header>
 
       {/* Main Content */}
