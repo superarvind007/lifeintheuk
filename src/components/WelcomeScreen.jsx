@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Play, Flag, Clock, BookOpen, AlertCircle, Trash2, HelpCircle } from 'lucide-react';
+import { Play, Flag, Clock, BookOpen, AlertCircle, Trash2, HelpCircle, Sun, Moon } from 'lucide-react';
 import { getFlaggedIds, saveFlaggedIds, getAnsweredIds, saveAnsweredIds } from '../utils';
 
-const WelcomeScreen = ({ onStart, totalQuestions }) => {
+const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
   const [mode, setMode] = useState('practice');
   const [setType, setSetType] = useState('random');
   const [flaggedCount, setFlaggedCount] = useState(0);
@@ -41,7 +41,17 @@ const WelcomeScreen = ({ onStart, totalQuestions }) => {
 
   return (
     <div className="card" style={{ maxWidth: '600px', margin: '2rem auto', textAlign: 'center' }}>
-      <h1 className="title" style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Life in the UK Test</h1>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+        <h1 className="title" style={{ fontSize: '2.5rem', margin: 0, textAlign: 'left' }}>Life in the UK Test</h1>
+        <button
+          onClick={onToggleTheme}
+          className="btn btn-secondary"
+          style={{ padding: '0.6rem', borderRadius: '50%' }}
+          title={`Switch to ${theme === 'dark' ? 'Light' : 'Dark'} Mode`}
+        >
+          {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+        </button>
+      </div>
       <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem' }}>
         Master the official test material with our premium practice tool.
       </p>

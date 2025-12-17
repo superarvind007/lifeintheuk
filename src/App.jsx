@@ -4,11 +4,25 @@ import ExamScreen from './components/ExamScreen';
 import ResultScreen from './components/ResultScreen';
 import questionsData from './data/questions.json';
 import { shuffleArray, getFlaggedIds, saveFlaggedIds, getAnsweredIds, saveAnsweredIds } from './utils';
+import { useEffect } from 'react';
 
 function App() {
   const [view, setView] = useState('welcome');
   const [examState, setExamState] = useState(null);
   const [welcomeKey, setWelcomeKey] = useState(0); // Force re-render of welcome screen
+
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem('life_uk_theme') || 'dark';
+  });
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('life_uk_theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(prev => prev === 'dark' ? 'light' : 'dark');
+  };
 
   const startExam = (mode, setType) => {
     let selectedQuestions = [];
@@ -120,6 +134,8 @@ function App() {
           key={welcomeKey}
           onStart={startExam}
           totalQuestions={questionsData.length}
+          theme={theme}
+          onToggleTheme={toggleTheme}
         />
       )}
       {view === 'exam' && examState && (
