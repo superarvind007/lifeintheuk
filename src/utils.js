@@ -13,38 +13,38 @@ export const shuffleArray = (array) => {
 
 export const getFlaggedIds = () => {
   // Check version
-  const storedVersion = sessionStorage.getItem(VERSION_KEY);
+  const storedVersion = localStorage.getItem(VERSION_KEY);
   if (storedVersion !== STORAGE_VERSION) {
     // Version mismatch - clear old data
-    sessionStorage.setItem(VERSION_KEY, STORAGE_VERSION);
-    sessionStorage.removeItem(FLAGGED_KEY);
+    localStorage.setItem(VERSION_KEY, STORAGE_VERSION);
+    localStorage.removeItem(FLAGGED_KEY);
     return [];
   }
 
-  const stored = sessionStorage.getItem(FLAGGED_KEY);
+  const stored = localStorage.getItem(FLAGGED_KEY);
   return stored ? JSON.parse(stored) : [];
 };
 
 export const saveFlaggedIds = (ids) => {
-  sessionStorage.setItem(VERSION_KEY, STORAGE_VERSION);
-  sessionStorage.setItem(FLAGGED_KEY, JSON.stringify(ids));
+  localStorage.setItem(VERSION_KEY, STORAGE_VERSION);
+  localStorage.setItem(FLAGGED_KEY, JSON.stringify(ids));
 };
 
 const ANSWERED_KEY = 'life_uk_answered';
 
 export const getAnsweredIds = () => {
   // Check version (using same version logic as flags)
-  const storedVersion = sessionStorage.getItem(VERSION_KEY);
+  const storedVersion = localStorage.getItem(VERSION_KEY);
   if (storedVersion !== STORAGE_VERSION) {
-    sessionStorage.removeItem(ANSWERED_KEY);
+    localStorage.removeItem(ANSWERED_KEY);
     return [];
   }
 
-  const stored = sessionStorage.getItem(ANSWERED_KEY);
+  const stored = localStorage.getItem(ANSWERED_KEY);
   return stored ? JSON.parse(stored) : [];
 };
 
 export const saveAnsweredIds = (ids) => {
-  sessionStorage.setItem(VERSION_KEY, STORAGE_VERSION); // Ensure version is set
-  sessionStorage.setItem(ANSWERED_KEY, JSON.stringify(ids));
+  localStorage.setItem(VERSION_KEY, STORAGE_VERSION); // Ensure version is set
+  localStorage.setItem(ANSWERED_KEY, JSON.stringify(ids));
 };

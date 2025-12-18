@@ -456,7 +456,7 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
         </div>
 
         {/* Question Area */}
-        <div style={{ flex: 1, padding: '2rem', overflowY: 'auto', display: 'flex', flexDirection: 'column' }}>
+        <div className="exam-content">
           <div className={`card ${shake ? 'shake' : ''}`} style={{ maxWidth: '800px', width: '100%', margin: '0 auto', transition: 'border-color 0.3s' }}>
             <p style={{ fontSize: '1.2rem', marginBottom: '1.5rem', lineHeight: '1.6' }}>
               {currentQ.question_detail}

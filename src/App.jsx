@@ -1,15 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import WelcomeScreen from './components/WelcomeScreen';
 import ExamScreen from './components/ExamScreen';
 import ResultScreen from './components/ResultScreen';
 import questionsData from './data/questions.json';
 import { shuffleArray, getFlaggedIds, saveFlaggedIds, getAnsweredIds, saveAnsweredIds } from './utils';
-import { useEffect } from 'react';
+import { Search } from 'lucide-react';
+import SearchSidebar from './components/SearchSidebar';
 
 function App() {
   const [view, setView] = useState('welcome');
   const [examState, setExamState] = useState(null);
   const [welcomeKey, setWelcomeKey] = useState(0); // Force re-render of welcome screen
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('life_uk_theme') || 'dark';
@@ -24,53 +26,69 @@ function App() {
     setTheme(prev => prev === 'dark' ? 'light' : 'dark');
   };
 
-  const startExam = (mode, setType) => {
+  const startExam = (mode, setType, categories = ['All']) => {
     let selectedQuestions = [];
     const allQuestions = [...questionsData];
     const isFromFlaggedSet = setType === 'flagged';
 
+    // 1. Global Filter by Category
+    let pool = allQuestions;
+    const catsToCheck = Array.isArray(categories) ? categories : [categories];
+    // Filter if specific categories selected AND 'All' is not present
+    if (catsToCheck.length > 0 && !catsToCheck.includes('All')) {
+      pool = allQuestions.filter(q => catsToCheck.includes(q.category));
+      // Fallback if pool becomes empty (unlikely with broad categories but safe to have)
+      if (pool.length === 0) pool = allQuestions;
+    }
+
+    // 2. Select based on setType from the filtered pool
     if (setType === 'random') {
-      selectedQuestions = shuffleArray(allQuestions).slice(0, 24);
+      selectedQuestions = shuffleArray(pool).slice(0, 24);
+
     } else if (setType === 'flagged') {
       const flaggedIds = getFlaggedIds();
-      // Find the question objects for flagged IDs
-      const flaggedQuestions = allQuestions.filter(q => flaggedIds.includes(q.question_id));
+      // Only consider flagged questions that are in our filtered pool (e.g. Flagged + History)
+      const flaggedInPool = pool.filter(q => flaggedIds.includes(q.question_id));
 
-      if (flaggedQuestions.length >= 24) {
-        selectedQuestions = shuffleArray(flaggedQuestions).slice(0, 24);
+      if (flaggedInPool.length >= 24) {
+        selectedQuestions = shuffleArray(flaggedInPool).slice(0, 24);
       } else {
-        // Need to fill
-        const needed = 24 - flaggedQuestions.length;
-        const otherQuestions = allQuestions.filter(q => !flaggedIds.includes(q.question_id));
-        const filled = shuffleArray(otherQuestions).slice(0, needed);
-        selectedQuestions = [...flaggedQuestions, ...filled];
+        // Fill with other questions FROM THE POOL (same category)
+        const needed = 24 - flaggedInPool.length;
+        const othersInPool = pool.filter(q => !flaggedIds.includes(q.question_id));
+
+        // If pool is too small (e.g. <24 questions in History total), take what we have
+        const filled = shuffleArray(othersInPool).slice(0, needed);
+        selectedQuestions = [...flaggedInPool, ...filled];
       }
+
     } else if (setType === 'answered') {
       const answeredIds = getAnsweredIds();
-      const answeredQuestions = allQuestions.filter(q => answeredIds.includes(q.question_id));
+      const answeredInPool = pool.filter(q => answeredIds.includes(q.question_id));
 
-      if (answeredQuestions.length >= 24) {
-        selectedQuestions = shuffleArray(answeredQuestions).slice(0, 24);
+      if (answeredInPool.length >= 24) {
+        selectedQuestions = shuffleArray(answeredInPool).slice(0, 24);
       } else {
-        const needed = 24 - answeredQuestions.length;
-        const otherQuestions = allQuestions.filter(q => !answeredIds.includes(q.question_id));
-        const filled = shuffleArray(otherQuestions).slice(0, needed);
-        selectedQuestions = [...answeredQuestions, ...filled];
+        const needed = 24 - answeredInPool.length;
+        const othersInPool = pool.filter(q => !answeredIds.includes(q.question_id));
+        const filled = shuffleArray(othersInPool).slice(0, needed);
+        selectedQuestions = [...answeredInPool, ...filled];
       }
+
     } else if (setType === 'unanswered') {
       const answeredIds = getAnsweredIds();
       const flaggedIds = getFlaggedIds();
-      const unansweredQuestions = allQuestions.filter(q => !answeredIds.includes(q.question_id) && !flaggedIds.includes(q.question_id));
+      // Unanswered in pool
+      const unansweredInPool = pool.filter(q => !answeredIds.includes(q.question_id) && !flaggedIds.includes(q.question_id));
 
-      if (unansweredQuestions.length >= 24) {
-        selectedQuestions = shuffleArray(unansweredQuestions).slice(0, 24);
+      if (unansweredInPool.length >= 24) {
+        selectedQuestions = shuffleArray(unansweredInPool).slice(0, 24);
       } else {
-        // If fewer than 24 unanswered, take all of them and fill with others
-        const needed = 24 - unansweredQuestions.length;
-        // Get already answered questions to fill the gap
-        const answeredQuestionsList = allQuestions.filter(q => answeredIds.includes(q.question_id));
-        const filled = shuffleArray(answeredQuestionsList).slice(0, needed);
-        selectedQuestions = [...unansweredQuestions, ...filled];
+        const needed = 24 - unansweredInPool.length;
+        // Fill with Answered from Pool
+        const answeredInPool = pool.filter(q => answeredIds.includes(q.question_id));
+        const filled = shuffleArray(answeredInPool).slice(0, needed);
+        selectedQuestions = [...unansweredInPool, ...filled];
       }
     }
 
@@ -129,6 +147,30 @@ function App() {
 
   return (
     <div className="App">
+      <SearchSidebar isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
+
+      {/* Search Floating Button */}
+      {view !== 'exam' && (
+        <button
+          onClick={() => setIsSearchOpen(true)}
+          className="btn btn-primary"
+          style={{
+            position: 'fixed',
+            bottom: '1.5rem',
+            right: '1.5rem',
+            width: '56px',
+            height: '56px',
+            borderRadius: '50%',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.3)',
+            zIndex: 50,
+            padding: 0
+          }}
+          aria-label="Search Questions"
+        >
+          <Search size={24} />
+        </button>
+      )}
+
       {view === 'welcome' && (
         <WelcomeScreen
           key={welcomeKey}
