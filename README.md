@@ -1,5 +1,7 @@
 # Life in the UK Test Prep
 
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://superarvind007.github.io/lifeintheuk/)
+
 A comprehensive, interactive web application designed to help you prepare effectively for the **Life in the UK** test. This app provides a realistic exam simulation with advanced study tools to track your progress and focus your learning.
 
 ## Key Features
@@ -26,7 +28,9 @@ Customize your study sessions based on your needs:
 - **No Sign-up Required**: Start studying immediately without creating an account. Your data stays on your device.
 
 ### 🎨 User Experience
-- **Dark & Light Mode**: Switch between themes for comfortable reading in any lighting condition.
+- **Multiple Themes**: Switch instantly between **Light**, **Dark**, and **Gradient** (inspired by modern corporate aesthetics) modes to suit your preference.
+- **In-Exam Theme Switching**: Change themes on the fly, even while taking a test, without losing progress.
+- **Question Flagging**: Mark difficult questions for later review. A dedicated "Flagged" mode lets you revisit only these tricky items.
 - **Responsive Design**: Fully optimized for use on Desktops, Tablets, and Mobile phones.
 
 ## Getting Started

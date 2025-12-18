@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Play, Flag, Clock, BookOpen, AlertCircle, Trash2, HelpCircle, Sun, Moon, Map, Check } from 'lucide-react';
+import { Play, Flag, Clock, BookOpen, AlertCircle, Trash2, HelpCircle, Palette, Map, Check } from 'lucide-react';
 import { getFlaggedIds, saveFlaggedIds, getAnsweredIds, saveAnsweredIds } from '../utils';
 import questionsData from '../data/questions.json';
 
@@ -90,10 +90,10 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
           onClick={onToggleTheme}
           className="btn btn-secondary"
           style={{ padding: '0.6rem', borderRadius: '50%' }}
-          title={`Switch to ${theme === 'dark' ? 'Light' : 'Dark'} Mode`}
-          aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+          title={`Switch Theme (Current: ${theme.charAt(0).toUpperCase() + theme.slice(1)})`}
+          aria-label="Switch Theme"
         >
-          {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+          <Palette size={20} />
         </button>
       </div>
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Clock, ChevronLeft, ChevronRight, CheckSquare, Flag, Home, Sun, Moon } from 'lucide-react';
+import { Menu, X, Clock, ChevronLeft, ChevronRight, CheckSquare, Flag, Home, Palette } from 'lucide-react';
 import { saveFlaggedIds, getFlaggedIds, getAnsweredIds, saveAnsweredIds } from '../utils';
 
 const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, isFromFlaggedSet, onExit, theme, onToggleTheme }) => {
@@ -335,16 +335,22 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
               background: 'transparent',
               color: 'var(--text-secondary)'
             }}
-            title={`Switch to ${theme === 'dark' ? 'Light' : 'Dark'} Mode`}
-            aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+            title={`Switch Theme (Current: ${theme.charAt(0).toUpperCase() + theme.slice(1)})`}
+            aria-label="Switch Theme"
           >
-            {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+            <Palette size={20} />
           </button>
 
           <button
             className="btn"
             onClick={toggleFlag}
-            style={{ color: flagged.has(currentQ.question_id) ? 'var(--warning)' : 'var(--text-muted)' }}
+            style={{
+              backgroundColor: flagged.has(currentQ.question_id) ? 'var(--warning)' : 'transparent',
+              color: flagged.has(currentQ.question_id) ? '#1e293b' : 'var(--text-muted)', /* Dark text on warning bg */
+              fontWeight: flagged.has(currentQ.question_id) ? '600' : 'normal',
+              padding: '0.5rem 1rem',
+              transition: 'all 0.2s ease'
+            }}
           >
             <Flag size={20} fill={flagged.has(currentQ.question_id) ? 'currentColor' : 'none'} />
             {flagged.has(currentQ.question_id) ? 'Flagged' : 'Flag'}

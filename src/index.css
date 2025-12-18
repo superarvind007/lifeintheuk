@@ -1,25 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --bg-primary: #0f172a;
-  --bg-secondary: #1e293b;
-  --bg-tertiary: #334155;
-  --text-primary: #f8fafc;
-  --text-secondary: #cbd5e1;
-  --text-muted: #94a3b8;
-  --accent: #3b82f6;
-  --accent-hover: #2563eb;
-  --success: #10b981;
-  --danger: #ef4444;
-  --warning: #f59e0b;
-  --card-bg: #1e293b;
-  --border: #475569;
-  --border-focus: #60a5fa;
-  --radius: 0.75rem;
-  --sidebar-width: 280px;
-}
-
-[data-theme='light'] {
+  /* Default: Light Theme */
   --bg-primary: #f8fafc;
   --bg-secondary: #ffffff;
   --bg-tertiary: #e2e8f0;
@@ -28,8 +10,43 @@
   --text-muted: #64748b;
   --accent: #2563eb;
   --accent-hover: #1d4ed8;
+  --success: #10b981;
+  --danger: #ef4444;
+  --warning: #f59e0b;
   --card-bg: #ffffff;
   --border: #e2e8f0;
+  --border-focus: #60a5fa;
+  --radius: 0.75rem;
+  --sidebar-width: 280px;
+}
+
+[data-theme='dark'] {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --card-bg: #1e293b;
+  --border: #475569;
+}
+
+[data-theme='gradient'] {
+  --bg-primary: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  --bg-secondary: rgba(255, 255, 255, 0.1);
+  --bg-tertiary: rgba(255, 255, 255, 0.05);
+  --text-primary: #ffffff;
+  --text-secondary: #e2e8f0;
+  --text-muted: #cbd5e1;
+  --accent: #39C2D7;
+  /* Cyan */
+  --accent-hover: #22a7be;
+  --card-bg: rgba(30, 41, 59, 0.7);
+  /* Semi-transparent dark */
+  --border: rgba(255, 255, 255, 0.1);
+  --radius: 0.75rem;
 }
 
 * {
@@ -45,7 +62,9 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: var(--bg-primary);
+  background: var(--bg-primary);
+  background-attachment: fixed;
+  /* Ensures gradient fills screen */
   color: var(--text-primary);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -98,14 +117,25 @@ button {
   border-color: var(--text-muted);
 }
 
+/* Improved Danger Button */
 .btn-danger {
-  background-color: rgba(239, 68, 68, 0.1);
+  background-color: rgba(239, 68, 68, 0.15);
   color: var(--danger);
-  border: 1px solid rgba(239, 68, 68, 0.2);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  backdrop-filter: blur(5px);
 }
 
 .btn-danger:hover {
-  background-color: rgba(239, 68, 68, 0.2);
+  background-color: rgba(239, 68, 68, 0.25);
+  border-color: var(--danger);
+}
+
+/* Gradient Theme Specific Overrides */
+[data-theme='gradient'] .btn-danger {
+  background-color: rgba(220, 38, 38, 0.3);
+  color: #fecaca;
+  /* Lighter text */
+  border: 1px solid rgba(220, 38, 38, 0.5);
 }
 
 .btn-success {
@@ -115,6 +145,9 @@ button {
 
 .card {
   background-color: var(--card-bg);
+  backdrop-filter: blur(10px);
+  /* For glassmorphism */
+  -webkit-backdrop-filter: blur(10px);
   border-radius: 1rem;
   border: 1px solid var(--border);
   padding: 1.5rem;

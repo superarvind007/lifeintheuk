@@ -14,7 +14,9 @@ function App() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   const [theme, setTheme] = useState(() => {
-    return localStorage.getItem('life_uk_theme') || 'dark';
+    const saved = localStorage.getItem('life_uk_theme');
+    const allowed = ['light', 'dark', 'gradient'];
+    return allowed.includes(saved) ? saved : 'light';
   });
 
   useEffect(() => {
@@ -23,7 +25,11 @@ function App() {
   }, [theme]);
 
   const toggleTheme = () => {
-    setTheme(prev => prev === 'dark' ? 'light' : 'dark');
+    const themes = ['light', 'dark', 'gradient'];
+    setTheme(prev => {
+      const nextIdx = (themes.indexOf(prev) + 1) % themes.length;
+      return themes[nextIdx];
+    });
   };
 
   const startExam = (mode, setType, categories = ['All']) => {
