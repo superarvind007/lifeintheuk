@@ -12,7 +12,8 @@ const SearchSidebar = ({ isOpen, onClose }) => {
         const lowerTerm = searchTerm.toLowerCase();
         return questionsData.filter(q =>
             q.question_detail.toLowerCase().includes(lowerTerm) ||
-            q.explanation.toLowerCase().includes(lowerTerm)
+            q.explanation.toLowerCase().includes(lowerTerm) ||
+            (q.possible_answers && q.possible_answers.some(ans => ans.toLowerCase().includes(lowerTerm)))
         );
     }, [searchTerm]);
 

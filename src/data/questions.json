@@ -560,7 +560,7 @@
   },
   {
     "question_id": 38,
-    "question_detail": "In 1847, what was the law that limited the number of working hours for women and children?",
+    "question_detail": "According to the 1847 law, what was the maximum number of working hours per day for women and children?",
     "possible_answers": [
       "8 hours per day",
       "10 hours per day",
@@ -993,7 +993,7 @@
       "Appointing the Prime Minister",
       "Opening the parliamentary session"
     ],
-    "explanation": "The Monarch formally appoints the Prime Minister and opens each new parliamentary session, while day‑to‑day policy and scrutiny are carried out by elected bodies.",
+    "explanation": "The Monarch officially appoints the Prime Minister and opens every new session of Parliament, while everyday policymaking and oversight are handled by elected representatives. Although the monarch does not govern the country, they formally appoint the government chosen by the people through democratic elections. The monarch also meets regularly with the Prime Minister and may offer advice, warnings, or encouragement, but all decisions on government policy are made by the Prime Minister and the Cabinet.",
     "category": "Government & Law"
   },
   {
@@ -3971,6 +3971,122 @@
       "Defence"
     ],
     "explanation": "While many domestic matters are devolved, key areas such as immigration and defence remain reserved to the UK Parliament.",
+    "category": "Government & Law"
+  },
+  {
+    "question_id": 265,
+    "question_detail": "What area did David Hume contribute to during the Enlightenment?",
+    "possible_answers": [
+      "Architecture",
+      "Poetry",
+      "Cinema",
+      "Philosophy"
+    ],
+    "correct_answers": [
+      "Philosophy"
+    ],
+    "explanation": "David Hume was a famous philosopher who developed ideas about human nature during the 18th century and that have continued to influence philosophers over the years.",
+    "category": "History"
+  },
+  {
+    "question_id": 266,
+    "question_detail": "What happened to Charles I after he was in prison?",
+    "possible_answers": [
+      "He moved to Spain",
+      "He became a priest",
+      "He escaped to France",
+      "He was executed"
+    ],
+    "correct_answers": [
+      "He was executed"
+    ],
+    "explanation": "Charles I’s army was defeated at the Battles of Marston Moor and Naseby. Charles was held prisoner by the parliamentary army. As he was unwilling to reach any agreement with the Parliament, in 1649 he was executed.",
+    "category": "History"
+  },
+  {
+    "question_id": 267,
+    "question_detail": "What country was in conflict with the UK for trading reasons during the 18th century?",
+    "possible_answers": [
+      "Andorra",
+      "Germany",
+      "France",
+      "Luxembourg"
+    ],
+    "correct_answers": [
+      "France"
+    ],
+    "explanation": "During the 18th century, trading and settlements overseas sometimes brought Britain into conflict with other countries, particularly France, which was expanding and trading in a similar way in many of the same areas of the world.",
+    "category": "History"
+  },
+  {
+    "question_id": 268,
+    "question_detail": "The Speaker is an MP, he or she represents a constituency and deals with the constituents.",
+    "possible_answers": [
+      "True",
+      "False"
+    ],
+    "correct_answers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "Government & Law"
+  },
+  {
+    "question_id": 269,
+    "question_detail": "Where was William the Conqueror from?",
+    "possible_answers": [
+      "Italy",
+      "Portugal",
+      "France",
+      "Ireland"
+    ],
+    "correct_answers": [
+      "France"
+    ],
+    "explanation": "William the Conqueror was the Duke of Normandy (now northern France). He defeated Harold, the Saxon king of England, at the Battle of Hastings in 1066.",
+    "category": "History"
+  },
+  {
+    "question_id": 270,
+    "question_detail": "In Northern Ireland, up to three specially trained magistrates or a District Judge are required for Youth Court cases.",
+    "possible_answers": [
+      "True",
+      "False"
+    ],
+    "correct_answers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "Government & Law"
+  },
+  {
+    "question_id": 271,
+    "question_detail": "What made Roger Bannister famous?",
+    "possible_answers": [
+      "He was the first man in the world to run a mile in under four minutes.",
+      "He won gold medals for ice dancing at the Olympic Games in 1984.",
+      "He won gold medals in rowing in five consecutive Olympic Games.",
+      "He was the first British to climb Mount Everest."
+    ],
+    "correct_answers": [
+      "He was the first man in the world to run a mile in under four minutes."
+    ],
+    "explanation": "Sir Roger Bannister was the first man in the world to run a mile in under four minutes, in 1954.",
+    "category": "History"
+  },
+  {
+    "question_id": 272,
+    "question_detail": "In which of the following matters can the Scottish Parliament legislate?",
+    "possible_answers": [
+      "Education",
+      "Immigration",
+      "Security",
+      "Defence"
+    ],
+    "correct_answers": [
+      "Education"
+    ],
+    "explanation": "The Scottish Parliament can legislate on: civil and criminal law, health, education, planning and additional tax-raising powers.",
     "category": "Government & Law"
   }
 ]
