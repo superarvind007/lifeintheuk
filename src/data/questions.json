@@ -4088,5 +4088,1528 @@
     ],
     "explanation": "The Scottish Parliament can legislate on: civil and criminal law, health, education, planning and additional tax-raising powers.",
     "category": "Government & Law"
+  },
+  {
+    "question_detail": "Who was the designer of the Cenotaph in Whitehall?",
+    "possible_answers": [
+      "Sir Christopher Wren",
+      "Inigo Jones",
+      "Sir Edwin Lutyens",
+      "Robert Adam"
+    ],
+    "correct_answers": [
+      "Sir Christopher Wren"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 273
+  },
+  {
+    "question_detail": "During the Industrial Revolution, for what purpose were canals built?",
+    "possible_answers": [
+      "To provide drinking water to industrial towns and cities",
+      "To link factories to towns, cities and ports for transporting raw materials and manufactured goods",
+      "To generate electricity for towns, cities and ports",
+      "To improve farming and irrigation systems"
+    ],
+    "correct_answers": [
+      "To provide drinking water to industrial towns and cities"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 274
+  },
+  {
+    "question_detail": "What was David Hume known for during the Enlightenment period?",
+    "possible_answers": [
+      "Literature",
+      "Philosophy",
+      "ngineering",
+      "onomics"
+    ],
+    "correct_answers": [
+      "Literature"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 275
+  },
+  {
+    "question_detail": "Which British scientist led experiments that resulted in the first splitting of the atom?",
+    "possible_answers": [
+      "rnest Rutherford",
+      "Isaac Newton",
+      "lan Turing",
+      "James Chadwick"
+    ],
+    "correct_answers": [
+      "rnest Rutherford"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 276
+  },
+  {
+    "question_detail": "What do you receive before an election that tells you when and where to vote?",
+    "possible_answers": [
+      "llot paper",
+      "poll card",
+      "voter registration form",
+      "postal ballot"
+    ],
+    "correct_answers": [
+      "llot paper"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 277
+  },
+  {
+    "question_detail": "What was the 18th-century movement called that influenced politics, philosophy, and science?",
+    "possible_answers": [
+      "wakening",
+      "Reformation",
+      "nlightenment",
+      "Revolution"
+    ],
+    "correct_answers": [
+      "wakening"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 278
+  },
+  {
+    "question_detail": "What was the name of the famous speech given by Prime Minister Harold Macmillan about decolonisation and independence for the countries of the Empire?",
+    "possible_answers": [
+      "nd of Empire speech",
+      "Nothing to offer but blood speech",
+      "House of Commons speech",
+      "Wind of Change Speech"
+    ],
+    "correct_answers": [
+      "nd of Empire speech"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 279
+  },
+  {
+    "question_detail": "What materials were mainly used to build the Crystal Palace for the Great Exhibition of 1851?",
+    "possible_answers": [
+      "rick and wood",
+      "Stone and concrete",
+      "Steel and glass",
+      "Steel and brick"
+    ],
+    "correct_answers": [
+      "rick and wood"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 280
+  },
+  {
+    "question_detail": "Who discovered the structure of DNA molecule and won the Nobel Prize?",
+    "possible_answers": [
+      "Sir Robert Edwards",
+      "John MacLeod",
+      "lexander Fleming",
+      "rancis Crick"
+    ],
+    "correct_answers": [
+      "Sir Robert Edwards"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 281
+  },
+  {
+    "question_detail": "Which British Paralympian won medals in three different Paralympic years?",
+    "possible_answers": [
+      "vid Weir",
+      "roness Tanni Grey-Thompson",
+      "llie Simmonds",
+      "Jessica Ennis"
+    ],
+    "correct_answers": [
+      "vid Weir"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 282
+  },
+  {
+    "question_detail": "What must all dogs in public places have on their collar?",
+    "possible_answers": [
+      "Name of the dog and address of the owner",
+      "Phone number and address of the owner",
+      "Name, phone number and address of the owner",
+      "Name and address of the owner"
+    ],
+    "correct_answers": [
+      "Name of the dog and address of the owner"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 283
+  },
+  {
+    "question_detail": "Which court handles minor criminal offences in Scotland?",
+    "possible_answers": [
+      "Magistrates’ Court",
+      "Justice of the Peace Court",
+      "High Court",
+      "Youth Courts"
+    ],
+    "correct_answers": [
+      "Magistrates’ Court"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 284
+  },
+  {
+    "question_detail": "What country did Germany attack in 1939 that caused Second World War?",
+    "possible_answers": [
+      "rance",
+      "ustria",
+      "Poland",
+      "zechoslovakia"
+    ],
+    "correct_answers": [
+      "rance"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 285
+  },
+  {
+    "question_detail": "Where is Snowdonia National Park located?",
+    "possible_answers": [
+      "ngland",
+      "Northern Ireland",
+      "Scotland",
+      "Wales"
+    ],
+    "correct_answers": [
+      "ngland"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 286
+  },
+  {
+    "question_detail": "Where does the Fringe Festival take place?",
+    "possible_answers": [
+      "Glasgow",
+      "inburgh",
+      "London",
+      "ornwall"
+    ],
+    "correct_answers": [
+      "Glasgow"
+    ],
+    "explanation": "No explanation available",
+    "category": "Society & Culture",
+    "question_id": 287
+  },
+  {
+    "question_detail": "Where is Lake District located in the UK?",
+    "possible_answers": [
+      "Scotland",
+      "Wales",
+      "Northern Ireland",
+      "ngland"
+    ],
+    "correct_answers": [
+      "Scotland"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 288
+  },
+  {
+    "question_detail": "Which court handles both serious and the most serious criminal offences in England, Wales, and Northern Ireland?",
+    "possible_answers": [
+      "Magistrates’ Court",
+      "High Court",
+      "rown Court",
+      "Sheriff Court"
+    ],
+    "correct_answers": [
+      "Magistrates’ Court"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 289
+  },
+  {
+    "question_detail": "Nick Park has won four Oscars for his animated films. Three of these were for films featuring which characters?",
+    "possible_answers": [
+      "Wallace and Gromit",
+      "Tom and Jerry",
+      "Shaun and Bitzer",
+      "ndy and Lou"
+    ],
+    "correct_answers": [
+      "Wallace and Gromit"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 290
+  },
+  {
+    "question_detail": "Which novel was written by J.R.R. Tolkien?",
+    "possible_answers": [
+      "The Lord of the Rings",
+      "Harry Potter",
+      "nimal Farm",
+      "righton Rock"
+    ],
+    "correct_answers": [
+      "The Lord of the Rings"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 291
+  },
+  {
+    "question_detail": "What are TWO key roles of school governors or school boards?",
+    "possible_answers": [
+      "Hiring teachers directly",
+      "Monitoring and evaluating school performance",
+      "nsuring accountability",
+      "Managing classroom behaviour"
+    ],
+    "correct_answers": [
+      "Hiring teachers directly"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 292
+  },
+  {
+    "question_detail": "What are TWO devolved powers of the Welsh Parliament(Senedd)?",
+    "possible_answers": [
+      "Immigration",
+      "ucation and training",
+      "Health and social services",
+      "Taxation"
+    ],
+    "correct_answers": [
+      "Immigration"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 293
+  },
+  {
+    "question_detail": "In 2002, who was voted the greatest Briton of all time in a public poll?",
+    "possible_answers": [
+      "William Shakespeare",
+      "Isaac Newton",
+      "Winston Churchill",
+      "harles Darwin"
+    ],
+    "correct_answers": [
+      "William Shakespeare"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 294
+  },
+  {
+    "question_detail": "Which two houses were in the War of the Roses?",
+    "possible_answers": [
+      "House of Lancaster",
+      "House of Tudor",
+      "House of York",
+      "House of Stuart"
+    ],
+    "correct_answers": [
+      "House of Lancaster"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 295
+  },
+  {
+    "question_detail": "Where is Loch Lomond and the Trossachs National Park located?",
+    "possible_answers": [
+      "Scotland",
+      "ngland",
+      "Wales",
+      "Northern Ireland"
+    ],
+    "correct_answers": [
+      "Scotland"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 296
+  },
+  {
+    "question_detail": "During the reign of King James I, a new translation of the Bible was made. What is this version called?",
+    "possible_answers": [
+      "Magna Carta",
+      "uthorised Version",
+      "nglish Bill of Rights",
+      "omesday Book"
+    ],
+    "correct_answers": [
+      "Magna Carta"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 297
+  },
+  {
+    "question_detail": "Hogmanay in Scotland is the equivalent of which celebration?",
+    "possible_answers": [
+      "hristmas",
+      "New Year’s Eve",
+      "urns Night",
+      "Halloween"
+    ],
+    "correct_answers": [
+      "hristmas"
+    ],
+    "explanation": "No explanation available",
+    "category": "Geography",
+    "question_id": 298
+  },
+  {
+    "question_detail": "Who was the monarch when the first English colonies were established in North America?",
+    "possible_answers": [
+      "Queen Victoria",
+      "Henry VIII",
+      "lizabeth I",
+      "harles II"
+    ],
+    "correct_answers": [
+      "Queen Victoria"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 299
+  },
+  {
+    "question_detail": "What was the primary base of the UK economy before the 18th century?",
+    "possible_answers": [
+      "oal mining",
+      "griculture",
+      "Textile manufacturing",
+      "Steel production"
+    ],
+    "correct_answers": [
+      "oal mining"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 300
+  },
+  {
+    "question_detail": "Who is often regarded as the first Prime Minister of Britain?",
+    "possible_answers": [
+      "William Pitt the Younger",
+      "njamin Disraeli",
+      "Robert Walpole",
+      "William Gladstone"
+    ],
+    "correct_answers": [
+      "William Pitt the Younger"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 301
+  },
+  {
+    "question_detail": "Which two scientists cloned the first mammal in Britain known as Dolly the sheep?",
+    "possible_answers": [
+      "Keith Campbell",
+      "Patrick Steptoe",
+      "rancis Crick",
+      "Ian Wilmut"
+    ],
+    "correct_answers": [
+      "Keith Campbell"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 302
+  },
+  {
+    "question_detail": "Which territories are British Overseas Territories?",
+    "possible_answers": [
+      "Isle of Man",
+      "hannel Islands",
+      "St Helena",
+      "lkland Islands"
+    ],
+    "correct_answers": [
+      "Isle of Man"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 303
+  },
+  {
+    "question_detail": "Which TWO are popular British soap operas?",
+    "possible_answers": [
+      "Only Fools and Horses",
+      "’s Army",
+      "oronation Street",
+      "stEnders"
+    ],
+    "correct_answers": [
+      "Only Fools and Horses"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 304
+  },
+  {
+    "question_detail": "What was the name of the first mammal successfully cloned from an adult in 1996?",
+    "possible_answers": [
+      "Molly",
+      "lla",
+      "Rosie",
+      "olly"
+    ],
+    "correct_answers": [
+      "Molly"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 305
+  },
+  {
+    "question_detail": "What is the name and location of the best-preserved prehistoric village in northern Europe?",
+    "possible_answers": [
+      "vebury, Wiltshire",
+      "Skara Brae, Orkney, Scotland",
+      "Stonehenge, Wiltshire",
+      "stlerigg, Cumbria"
+    ],
+    "correct_answers": [
+      "vebury, Wiltshire"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 306
+  },
+  {
+    "question_detail": "Which TWO of Henry VIII’s wives were accused of taking lovers and executed?",
+    "possible_answers": [
+      "Jane Seymour",
+      "nne of Cleves",
+      "nne Boleyn",
+      "therine Howard"
+    ],
+    "correct_answers": [
+      "Jane Seymour"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 307
+  },
+  {
+    "question_detail": "Who was the first person to run a mile in under 4 minutes?",
+    "possible_answers": [
+      "Mo Farah",
+      "me Kelly Holmes",
+      "Jessica Ennis",
+      "Sir Roger Bannister"
+    ],
+    "correct_answers": [
+      "Mo Farah"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 308
+  },
+  {
+    "question_detail": "Which country’s coast did Captain James Cook map leading to British colonies established there?",
+    "possible_answers": [
+      "India",
+      "ustralia",
+      "United States",
+      "nada"
+    ],
+    "correct_answers": [
+      "India"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 309
+  },
+  {
+    "question_detail": "Which TWO countries are members of the Commonwealth?",
+    "possible_answers": [
+      "Germany",
+      "ngladesh",
+      "South Africa",
+      "Ireland"
+    ],
+    "correct_answers": [
+      "Germany"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 310
+  },
+  {
+    "question_detail": "What kind of church is in Scotland?",
+    "possible_answers": [
+      "nglican church",
+      "Presbyterian church",
+      "piscopal church",
+      "Protestant church"
+    ],
+    "correct_answers": [
+      "nglican church"
+    ],
+    "explanation": "No explanation available",
+    "category": "Geography",
+    "question_id": 311
+  },
+  {
+    "question_detail": "Who minted the first coins in the Britain and what was inscribed on them?",
+    "possible_answers": [
+      "Stone Age people, names of gods",
+      "nglo-Saxons, names of landowners",
+      "Iron Age people, names of local kings",
+      "Romans, names of emperors"
+    ],
+    "correct_answers": [
+      "Stone Age people, names of gods"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 312
+  },
+  {
+    "question_detail": "How often is a General Election held in the UK?",
+    "possible_answers": [
+      "very three years",
+      "very six years",
+      "very five years",
+      "very four years"
+    ],
+    "correct_answers": [
+      "very three years"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 313
+  },
+  {
+    "question_detail": "Which TWO countries jointly developed the Concorde, the supersonic passenger aircraft, which first flew in 1969?",
+    "possible_answers": [
+      "United States",
+      "rance",
+      "Germany",
+      "United Kingdom"
+    ],
+    "correct_answers": [
+      "United States"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 314
+  },
+  {
+    "question_detail": "Which TWO Roman forts were part of Hadrian’s Wall?",
+    "possible_answers": [
+      "Vindolanda",
+      "Stonehenge",
+      "Housesteads",
+      "Maiden Castle"
+    ],
+    "correct_answers": [
+      "Vindolanda"
+    ],
+    "explanation": "No explanation available",
+    "category": "Society & Culture",
+    "question_id": 315
+  },
+  {
+    "question_detail": "Who signed the Magna Carta in 1215, and what did it mean?",
+    "possible_answers": [
+      "King Henry VIII; it gave the king absolute power over the Church",
+      "King Edward I; it created the first English Parliament",
+      "King John; it limited the king’s power and established the rule of law",
+      "William the Conqueror; it declared him ruler of England after the Battle of Hastings"
+    ],
+    "correct_answers": [
+      "King Henry VIII; it gave the king absolute power over the Church"
+    ],
+    "explanation": "No explanation available",
+    "category": "Society & Culture",
+    "question_id": 316
+  },
+  {
+    "question_detail": "What is a key requirement for a marriage to be acceptable in the UK?",
+    "possible_answers": [
+      "ull and free consent of both parties",
+      "pproval from a religious leader",
+      "Written permission from parents",
+      "Registration with the local council"
+    ],
+    "correct_answers": [
+      "ull and free consent of both parties"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 317
+  },
+  {
+    "question_detail": "Which TWO of the media are legally obligated to provide fair and equal representation of all political parties before an election?",
+    "possible_answers": [
+      "Television",
+      "Newspapers",
+      "Internet",
+      "Radio"
+    ],
+    "correct_answers": [
+      "Television"
+    ],
+    "explanation": "No explanation available",
+    "category": "Society & Culture",
+    "question_id": 318
+  },
+  {
+    "question_detail": "Who led the Roman missionaries to convert the Anglo-Saxons to Christianity in England and became the first Archbishop of Canterbury?",
+    "possible_answers": [
+      "St Patrick",
+      "Pope Gregory",
+      "St Augustine",
+      "St Columba"
+    ],
+    "correct_answers": [
+      "St Patrick"
+    ],
+    "explanation": "No explanation available",
+    "category": "Geography",
+    "question_id": 319
+  },
+  {
+    "question_detail": "Who was supported by clansmen from the Scottish Highlands and led the attempt to restore a Stuart king to the British throne in 1745?",
+    "possible_answers": [
+      "onnie Prince Charlie",
+      "William Wallace",
+      "Robert the Bruce",
+      "Mary, Queen of Scots"
+    ],
+    "correct_answers": [
+      "onnie Prince Charlie"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 320
+  },
+  {
+    "question_detail": "What does Good Friday mark in the Christian tradition?",
+    "possible_answers": [
+      "Resurrection of Jesus Christ",
+      "irth of Jesus Christ",
+      "th of Jesus Christ",
+      "Last supper of Jesus Christ"
+    ],
+    "correct_answers": [
+      "Resurrection of Jesus Christ"
+    ],
+    "explanation": "No explanation available",
+    "category": "Society & Culture",
+    "question_id": 321
+  },
+  {
+    "question_detail": "Where is the National Horseracing Museum located?",
+    "possible_answers": [
+      "scot",
+      "intree",
+      "Newmarket",
+      "ornwall"
+    ],
+    "correct_answers": [
+      "scot"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 322
+  },
+  {
+    "question_detail": "Who was Isambard Kingdom Brunel?",
+    "possible_answers": [
+      "king who was involved in the Hundred Years' War",
+      "n admiral who died in Waterloo",
+      "n engineer who designed buildings and bridges",
+      "n English poet from the Romantic era"
+    ],
+    "correct_answers": [
+      "king who was involved in the Hundred Years' War"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 323
+  },
+  {
+    "question_detail": "Damon Hill, Lewis Hamilton and Jenson Button are known for which sport?",
+    "possible_answers": [
+      "ricket",
+      "ormula 1(Motor Racing)",
+      "thletics",
+      "ycling"
+    ],
+    "correct_answers": [
+      "ricket"
+    ],
+    "explanation": "No explanation available",
+    "category": "Society & Culture",
+    "question_id": 324
+  },
+  {
+    "question_detail": "What was the symbol represented the House of Tudor?",
+    "possible_answers": [
+      "Red Rose",
+      "White Rose",
+      "Red Rose with a White Rose inside",
+      "White Rose with a Red Rose inside"
+    ],
+    "correct_answers": [
+      "Red Rose"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 325
+  },
+  {
+    "question_detail": "What is the Proms in British culture?",
+    "possible_answers": [
+      "summer festival of pop music held in Manchester",
+      "n eight-week summer season of orchestral classical music",
+      "weekly television show featuring live music performances",
+      "ompetition for new musicians in the UK"
+    ],
+    "correct_answers": [
+      "summer festival of pop music held in Manchester"
+    ],
+    "explanation": "No explanation available",
+    "category": "Society & Culture",
+    "question_id": 326
+  },
+  {
+    "question_detail": "Who hears cases in the Youth Court in England, Wales, and Northern Ireland?",
+    "possible_answers": [
+      "Trained magistrates",
+      "jury",
+      "Social workers",
+      "istrict Judge"
+    ],
+    "correct_answers": [
+      "Trained magistrates"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 327
+  },
+  {
+    "question_detail": "Which is not a constitutional body?",
+    "possible_answers": [
+      "Monarchy",
+      "rmed Forces",
+      "Parliament",
+      "inet"
+    ],
+    "correct_answers": [
+      "Monarchy"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 328
+  },
+  {
+    "question_detail": "Turner award is for?",
+    "possible_answers": [
+      "Literature",
+      "ontemporary Art",
+      "Music",
+      "rchitecture"
+    ],
+    "correct_answers": [
+      "Literature"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 329
+  },
+  {
+    "question_detail": "Which event during World War II best represents the Dunkirk spirit?",
+    "possible_answers": [
+      "ombing raids on Britain during the Blitz in WWII",
+      "llied invasion of France on D-Day with the help of civilian boats in WWII",
+      "vacuation of soldiers from France with the help of civilian boats in WWII",
+      "The surrender of Germany at the end of WWII"
+    ],
+    "correct_answers": [
+      "ombing raids on Britain during the Blitz in WWII"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 330
+  },
+  {
+    "question_detail": "What name was given to when the German air force bombed British cities at night during the Second World War?",
+    "possible_answers": [
+      "The Great Fire",
+      "The Blitz",
+      "The Battle of Britain",
+      "The Blackout"
+    ],
+    "correct_answers": [
+      "The Great Fire"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 331
+  },
+  {
+    "question_detail": "What is the Union Flag?",
+    "possible_answers": [
+      "The national flag of England",
+      "The national flag of Scotland",
+      "The flag of the British Royal Family",
+      "The flag of the United Kingdom"
+    ],
+    "correct_answers": [
+      "The national flag of England"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 332
+  },
+  {
+    "question_detail": "What war did the assassination of Archduke Franz Ferdinand start?",
+    "possible_answers": [
+      "rimean War",
+      "World War II",
+      "old War",
+      "World War I"
+    ],
+    "correct_answers": [
+      "rimean War"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 333
+  },
+  {
+    "question_detail": "Sir Robert Watson-Watt was the inventor of what?",
+    "possible_answers": [
+      "Radar",
+      "Jet engine",
+      "Turing Machine",
+      "NA molecule"
+    ],
+    "correct_answers": [
+      "Radar"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 334
+  },
+  {
+    "question_detail": "Where is the Northern Ireland Assembly (Legislative Assembly) located?",
+    "possible_answers": [
+      "Westminster, London",
+      "rdiff Bay, Cardiff",
+      "Holyrood, Edinburgh",
+      "Stormont, Belfast"
+    ],
+    "correct_answers": [
+      "Westminster, London"
+    ],
+    "explanation": "No explanation available",
+    "category": "Geography",
+    "question_id": 335
+  },
+  {
+    "question_detail": "Which religious community celebrates Hanukkah?",
+    "possible_answers": [
+      "hristians",
+      "Jews",
+      "Muslims",
+      "uddhists"
+    ],
+    "correct_answers": [
+      "hristians"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 336
+  },
+  {
+    "question_detail": "Who built a wall in the north of England to keep the Picts out?",
+    "possible_answers": [
+      "Julius Caesar",
+      "mperor Claudius",
+      "mperor Hadrian",
+      "mperor Nero"
+    ],
+    "correct_answers": [
+      "Julius Caesar"
+    ],
+    "explanation": "No explanation available",
+    "category": "Geography",
+    "question_id": 337
+  },
+  {
+    "question_detail": "Which territories are the Crown Dependencies?",
+    "possible_answers": [
+      "Isle of Man",
+      "hannel Islands",
+      "Isle of Wight",
+      "lkland Islands"
+    ],
+    "correct_answers": [
+      "Isle of Man"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 338
+  },
+  {
+    "question_detail": "Who created the fictional detective Sherlock Holmes?",
+    "possible_answers": [
+      "gatha Christie",
+      "Sir Kingsley Amis",
+      "Sir Arthur Conan Doyle",
+      "Thomas Hardy"
+    ],
+    "correct_answers": [
+      "gatha Christie"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 339
+  },
+  {
+    "question_detail": "When is St Patrick’s Day celebrated in Northern Ireland?",
+    "possible_answers": [
+      "March",
+      "March",
+      "pril",
+      "November"
+    ],
+    "correct_answers": [
+      "March"
+    ],
+    "explanation": "No explanation available",
+    "category": "Geography",
+    "question_id": 340
+  },
+  {
+    "question_detail": "In which battle was Admiral Nelson killed?",
+    "possible_answers": [
+      "ttle of Waterloo",
+      "ttle of Bosworth",
+      "ttle of Trafalgar",
+      "ttle of the Boer"
+    ],
+    "correct_answers": [
+      "ttle of Waterloo"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 341
+  },
+  {
+    "question_detail": "Which British designer is best known for Art Deco ceramics?",
+    "possible_answers": [
+      "larice Cliff",
+      "Thomas Chippendale",
+      "Mary Quant",
+      "lexander McQueen"
+    ],
+    "correct_answers": [
+      "larice Cliff"
+    ],
+    "explanation": "No explanation available",
+    "category": "Society & Culture",
+    "question_id": 342
+  },
+  {
+    "question_detail": "Which TWO are powers of the Scottish Parliament?",
+    "possible_answers": [
+      "Health",
+      "Immigration",
+      "ucation",
+      "Security"
+    ],
+    "correct_answers": [
+      "Health"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 343
+  },
+  {
+    "question_detail": "When is St Andrew’s Day celebrated in Scotland?",
+    "possible_answers": [
+      "March",
+      "March",
+      "pril",
+      "November"
+    ],
+    "correct_answers": [
+      "March"
+    ],
+    "explanation": "No explanation available",
+    "category": "Geography",
+    "question_id": 344
+  },
+  {
+    "question_detail": "Who won an Olympic gold medal in the pentathlon in 1972?",
+    "possible_answers": [
+      "me Kelly Holmes",
+      "Mary Peters",
+      "Jessica Ennis",
+      "llie Simmonds"
+    ],
+    "correct_answers": [
+      "me Kelly Holmes"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 345
+  },
+  {
+    "question_detail": "After which war was the Victoria Cross first awarded?",
+    "possible_answers": [
+      "oer War",
+      "rimean War",
+      "Napoleonic Wars",
+      "irst World War"
+    ],
+    "correct_answers": [
+      "oer War"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 346
+  },
+  {
+    "question_detail": "Which country sent ships to England in 1588 to overthrow the government and restore Catholicism?",
+    "possible_answers": [
+      "Spain",
+      "Germany",
+      "rance",
+      "Italy"
+    ],
+    "correct_answers": [
+      "Spain"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 347
+  },
+  {
+    "question_detail": "Who was brought back from the Netherlands to reinstate the monarchy in England, Scotland, and Ireland?",
+    "possible_answers": [
+      "harles I",
+      "James II",
+      "harles II",
+      "William of Orange"
+    ],
+    "correct_answers": [
+      "harles I"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 348
+  },
+  {
+    "question_detail": "Which king was defeated by Oliver Cromwell in the English Civil War and hid in an oak tree before escaping to Europe?",
+    "possible_answers": [
+      "James I",
+      "harles I",
+      "harles II",
+      "Henry VIII"
+    ],
+    "correct_answers": [
+      "James I"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 349
+  },
+  {
+    "question_detail": "Which important agreement related to the peace process in Northern Ireland was signed in 1998 during Tony Blair’s government?",
+    "possible_answers": [
+      "St Andrews Agreement",
+      "nglo-Irish Agreement",
+      "Good Friday Agreement",
+      "Treaty of Union"
+    ],
+    "correct_answers": [
+      "St Andrews Agreement"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 350
+  },
+  {
+    "question_detail": "Where is Big Ben located?",
+    "possible_answers": [
+      "uckingham Palace in London",
+      "Tower of London",
+      "Houses of Parliament in London",
+      "Near London Bridge"
+    ],
+    "correct_answers": [
+      "uckingham Palace in London"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 351
+  },
+  {
+    "question_detail": "What was the name of the long war fought between England and France?",
+    "possible_answers": [
+      "War of the Roses",
+      "ttle of Britain",
+      "The Crusades",
+      "Hundred Years War"
+    ],
+    "correct_answers": [
+      "War of the Roses"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 352
+  },
+  {
+    "question_detail": "True or False: England, Wales, and Scotland together form Great Britain.",
+    "possible_answers": [
+      "True",
+      "lse"
+    ],
+    "correct_answers": [
+      "True"
+    ],
+    "explanation": "No explanation available",
+    "category": "Geography",
+    "question_id": 353
+  },
+  {
+    "question_detail": "Where is the Scottish Parliament located?",
+    "possible_answers": [
+      "Holyrood, Edinburgh",
+      "George Square, Glasgow",
+      "Stormont, Belfast",
+      "ity Square, Dundee"
+    ],
+    "correct_answers": [
+      "Holyrood, Edinburgh"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 354
+  },
+  {
+    "question_detail": "From which country did refugees called Huguenots come between 1680 and 1720 to live in Britain?",
+    "possible_answers": [
+      "Spain",
+      "rance",
+      "Germany",
+      "Italy"
+    ],
+    "correct_answers": [
+      "Spain"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 355
+  },
+  {
+    "question_detail": "Which tribal leader fought against the Romans?",
+    "possible_answers": [
+      "oudicca",
+      "Hadrian",
+      "laudius",
+      "Nero"
+    ],
+    "correct_answers": [
+      "oudicca"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 356
+  },
+  {
+    "question_detail": "Which TWO documents do you need to provide to obtain a National Insurance number?",
+    "possible_answers": [
+      "ress",
+      "Identity",
+      "Work permit"
+    ],
+    "correct_answers": [
+      "ress"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 357
+  },
+  {
+    "question_detail": "The Butler Act of 1944 made which type of education free?",
+    "possible_answers": [
+      "Primary education",
+      "Secondary education",
+      "University education",
+      "Vocational education"
+    ],
+    "correct_answers": [
+      "Primary education"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 358
+  },
+  {
+    "question_detail": "Which two films made in Britain are among the highest-grossing?",
+    "possible_answers": [
+      "Harry Potter",
+      "Star Wars",
+      "James Bond",
+      "Lord of the Rings"
+    ],
+    "correct_answers": [
+      "Harry Potter"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 359
+  },
+  {
+    "question_detail": "Which famous children’s author wrote Charlie and the Chocolate Factory?",
+    "possible_answers": [
+      "Jane Austen",
+      "harles Dickens",
+      "Roald Dahl",
+      "J.K. Rowling"
+    ],
+    "correct_answers": [
+      "Jane Austen"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 360
+  },
+  {
+    "question_detail": "Where did the thirteen British colonial families settle before seeking independence in the 1760s?",
+    "possible_answers": [
+      "North America",
+      "nada",
+      "ustralia",
+      "The Caribbean"
+    ],
+    "correct_answers": [
+      "North America"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 361
+  },
+  {
+    "question_detail": "Which TWO matters are reserved for the UK Parliament in Scotland, Wales, and Northern Ireland?",
+    "possible_answers": [
+      "ucation",
+      "Immigration",
+      "Health",
+      "nce"
+    ],
+    "correct_answers": [
+      "ucation"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 362
+  },
+  {
+    "question_detail": "What modern country was William the Conqueror from?",
+    "possible_answers": [
+      "Germany",
+      "rance",
+      "Italy",
+      "Spain"
+    ],
+    "correct_answers": [
+      "Germany"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 363
+  },
+  {
+    "question_detail": "What was the process in Scotland where Scottish landlords destroyed small farms to make space for large flocks of sheep and cattle?",
+    "possible_answers": [
+      "t of Union",
+      "Rebellion of the Clans",
+      "Highland Clearances",
+      "gricultural Revolution"
+    ],
+    "correct_answers": [
+      "t of Union"
+    ],
+    "explanation": "No explanation available",
+    "category": "Geography",
+    "question_id": 364
+  },
+  {
+    "question_detail": "What did the Factories Act of 1847 introduce?",
+    "possible_answers": [
+      "Limiting working hours for women and children to 10 hours per day",
+      "Providing free education for all children",
+      "Introducing minimum wage for factory workers",
+      "nning child labor entirely"
+    ],
+    "correct_answers": [
+      "Limiting working hours for women and children to 10 hours per day"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 365
+  },
+  {
+    "question_detail": "How are solicitors’ charges usually calculated?",
+    "possible_answers": [
+      "sed on the client’s income",
+      "sed on the type of court involved",
+      "sed on the time spent on a case",
+      "sed on the seriousness of the case"
+    ],
+    "correct_answers": [
+      "sed on the client’s income"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 366
+  },
+  {
+    "question_detail": "Who played a key role in improving hospital conditions during the Crimean War?",
+    "possible_answers": [
+      "lara Barton",
+      "Mary Seacole",
+      "lorence Nightingale",
+      "Nightingale Pledge"
+    ],
+    "correct_answers": [
+      "lara Barton"
+    ],
+    "explanation": "No explanation available",
+    "category": "Government & Law",
+    "question_id": 367
+  },
+  {
+    "question_detail": "Which traditional song sung in Scotland on New Year's Eve was written by Robert Burns?",
+    "possible_answers": [
+      "God Save the King",
+      "Rule, Britannia!",
+      "uld Lang Syne",
+      "Jerusalem"
+    ],
+    "correct_answers": [
+      "God Save the King"
+    ],
+    "explanation": "No explanation available",
+    "category": "Geography",
+    "question_id": 368
+  },
+  {
+    "question_detail": "James I of England was also king of which country?",
+    "possible_answers": [
+      "Ireland",
+      "Wales",
+      "rance",
+      "Scotland"
+    ],
+    "correct_answers": [
+      "Ireland"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 369
+  },
+  {
+    "question_detail": "True or False: Ireland is part of the United Kingdom?",
+    "possible_answers": [
+      "True",
+      "lse"
+    ],
+    "correct_answers": [
+      "True"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 370
+  },
+  {
+    "question_detail": "What day do newspapers and television make jokes?",
+    "possible_answers": [
+      "Halloween",
+      "oxing Day",
+      "pril Fool’s Day",
+      "Valentine’s Day"
+    ],
+    "correct_answers": [
+      "Halloween"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 371
+  },
+  {
+    "question_detail": "What was it called when the Church of England first broke away from the authority of the Pope?",
+    "possible_answers": [
+      "The Renaissance",
+      "The Revolution",
+      "The Reformation",
+      "The Restoration"
+    ],
+    "correct_answers": [
+      "The Renaissance"
+    ],
+    "explanation": "No explanation available",
+    "category": "Geography",
+    "question_id": 372
+  },
+  {
+    "question_detail": "What are the roles of the Monarch?",
+    "possible_answers": [
+      "ppointing the Prime Minister",
+      "Making government policies",
+      "ppoints the government chosen in a democratic election",
+      "Scrutinising law passed by Parliament"
+    ],
+    "correct_answers": [
+      "ppointing the Prime Minister"
+    ],
+    "explanation": "No explanation available",
+    "category": "History",
+    "question_id": 373
+  },
+  {
+    "question_detail": "True or False: Civil servants govern the towns, cities, and rural areas in the UK?",
+    "possible_answers": [
+      "True",
+      "lse"
+    ],
+    "correct_answers": [
+      "True"
+    ],
+    "explanation": "No explanation available",
+    "category": "General Knowledge",
+    "question_id": 374
   }
 ]
