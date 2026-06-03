@@ -4113,9 +4113,9 @@
       "To improve farming and irrigation systems"
     ],
     "correct_answers": [
-      "To provide drinking water to industrial towns and cities"
+      "To link factories to towns, cities and ports for transporting raw materials and manufactured goods"
     ],
-    "explanation": "No explanation available",
+    "explanation": "During the Industrial Revolution, canals were built to link factories with towns, cities, and ports for transporting raw materials and manufactured goods efficiently.",
     "category": "Architecture",
     "question_id": 274
   },
@@ -4128,9 +4128,9 @@
       "Economics"
     ],
     "correct_answers": [
-      "Literature"
+      "Philosophy"
     ],
-    "explanation": "No explanation available",
+    "explanation": "David Hume was a Scottish philosopher known for his work during the Enlightenment period. He made significant contributions to epistemology and empiricism.",
     "category": "General Knowledge",
     "question_id": 275
   },
@@ -4153,14 +4153,14 @@
     "question_detail": "What do you receive before an election that tells you when and where to vote?",
     "possible_answers": [
       "Ballot paper",
-      "poll card",
-      "voter registration form",
-      "postal ballot"
+      "Poll card",
+      "Voter registration form",
+      "Postal ballot"
     ],
     "correct_answers": [
       "Ballot paper"
     ],
-    "explanation": "No explanation available",
+    "explanation": "Before an election, you receive a poll card which tells you when and where to vote.",
     "category": "General Knowledge",
     "question_id": 277
   },
@@ -4173,9 +4173,9 @@
       "Revolution"
     ],
     "correct_answers": [
-      "Awakening"
+      "Enlightenment"
     ],
-    "explanation": "No explanation available",
+    "explanation": "The Enlightenment was the 18th-century intellectual movement that emphasized reason, science, and philosophy, influencing politics, philosophy, and scientific thought.",
     "category": "Science & Innovation",
     "question_id": 278
   },
@@ -4188,9 +4188,9 @@
       "Wind of Change Speech"
     ],
     "correct_answers": [
-      "End of Empire speech"
+      "Wind of Change Speech"
     ],
-    "explanation": "No explanation available",
+    "explanation": "Harold Macmillan gave the famous \"Wind of Change\" speech in 1960, signalling Britain's acceptance of decolonisation and independence for African and other nations.",
     "category": "Government & Law",
     "question_id": 279
   },
@@ -4203,9 +4203,9 @@
       "Steel and brick"
     ],
     "correct_answers": [
-      "Brick and wood"
+      "Steel and glass"
     ],
-    "explanation": "No explanation available",
+    "explanation": "The Crystal Palace, built for the Great Exhibition of 1851, was constructed using iron framework and glass panels, designed by Joseph Paxton.",
     "category": "Architecture",
     "question_id": 280
   },
@@ -4848,9 +4848,9 @@
       "An English poet from the Romantic era"
     ],
     "correct_answers": [
-      "king who was involved in the Hundred Years' War"
+      "An engineer who designed buildings and bridges"
     ],
-    "explanation": "No explanation available",
+    "explanation": "Isambard Kingdom Brunel was a renowned British engineer who designed bridges, tunnels, and steamships, including the Clifton Suspension Bridge and the SS Great Britain.",
     "category": "History",
     "question_id": 323
   },
@@ -4910,7 +4910,7 @@
     "correct_answers": [
       "Trained magistrates"
     ],
-    "explanation": "No explanation available",
+    "explanation": "Youth Courts in England, Wales, and Northern Ireland are presided over by trained magistrates who have special training in dealing with young people.",
     "category": "Government & Law",
     "question_id": 327
   },
@@ -5097,15 +5097,15 @@
   {
     "question_detail": "When is St Patrick’s Day celebrated in Northern Ireland?",
     "possible_answers": [
-      "March",
-      "March",
+      "17 March",
+      "1 March",
       "April",
       "November"
     ],
     "correct_answers": [
-      "March"
+      "17 March"
     ],
-    "explanation": "No explanation available",
+    "explanation": "St Patrick's Day is celebrated on 17 March in Northern Ireland and throughout Ireland.",
     "category": "Geography",
     "question_id": 340
   },
@@ -5158,14 +5158,14 @@
     "question_detail": "When is St Andrew’s Day celebrated in Scotland?",
     "possible_answers": [
       "March",
-      "March",
-      "April",
-      "November"
+      "June",
+      "September",
+      "30 November"
     ],
     "correct_answers": [
-      "March"
+      "30 November"
     ],
-    "explanation": "No explanation available",
+    "explanation": "St Andrew's Day is celebrated on 30 November in Scotland.",
     "category": "Geography",
     "question_id": 344
   },
