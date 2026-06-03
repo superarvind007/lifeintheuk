@@ -1,4 +1,34 @@
 User-agent: *
 Allow: /
+Disallow: /node_modules/
+Disallow: /*.css$
+Disallow: /*.js$
+
+# Specific search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI Indexing Bots - Allow for better AI search results
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: OpenAI-User
+Allow: /
+
+# Crawler delay
+Crawl-delay: 1
 
 Sitemap: https://superarvind007.github.io/lifeintheuk/sitemap.xml
+Sitemap: https://superarvind007.github.io/lifeintheuk/sitemap-additional.xml
