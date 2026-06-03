@@ -169,7 +169,11 @@ function App() {
             borderRadius: '50%',
             boxShadow: '0 4px 12px rgba(0,0,0,0.3)',
             zIndex: 50,
-            padding: 0
+            padding: 0,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            border: '2px dashed rgba(255, 255, 255, 0.3)'
           }}
           aria-label="Search questions here"
           title="Search questions here"

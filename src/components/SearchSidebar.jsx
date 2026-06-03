@@ -21,12 +21,21 @@ const SearchSidebar = ({ isOpen, onClose }) => {
         setExpandedId(expandedId === id ? null : id);
     };
 
+    const handleKeyDown = (e, id) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            toggleExpand(id);
+        }
+    };
+
     if (!isOpen) return null;
 
     return (
         <>
             {/* Overlay */}
             <div
+                role="presentation"
+                aria-hidden="false"
                 style={{
                     position: 'fixed',
                     inset: 0,
@@ -69,6 +78,7 @@ const SearchSidebar = ({ isOpen, onClose }) => {
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                         autoFocus
+                        aria-label="Search questions by keyword or answer"
                         style={{
                             flex: 1,
                             background: 'transparent',
@@ -81,6 +91,7 @@ const SearchSidebar = ({ isOpen, onClose }) => {
                     <button
                         onClick={onClose}
                         className="btn"
+                        aria-label="Close search panel"
                         style={{ padding: '0.5rem', background: 'transparent', color: 'var(--text-secondary)' }}
                     >
                         <X size={20} />
@@ -116,6 +127,9 @@ const SearchSidebar = ({ isOpen, onClose }) => {
                                     }}>
                                         <button
                                             onClick={() => toggleExpand(q.question_id)}
+                                            onKeyDown={(e) => handleKeyDown(e, q.question_id)}
+                                            aria-expanded={isExpanded}
+                                            aria-label={`Question: ${q.question_detail.substring(0, 50)}... ${isExpanded ? 'Press Enter to collapse' : 'Press Enter to expand'}`}
                                             style={{
                                                 width: '100%',
                                                 padding: '1rem',
@@ -132,8 +146,8 @@ const SearchSidebar = ({ isOpen, onClose }) => {
                                                 {q.question_detail}
                                             </span>
                                             {isExpanded ?
-                                                <ChevronUp size={16} color="var(--text-muted)" style={{ flexShrink: 0, marginTop: '4px' }} /> :
-                                                <ChevronDown size={16} color="var(--text-muted)" style={{ flexShrink: 0, marginTop: '4px' }} />
+                                                <ChevronUp size={16} color="var(--text-muted)" style={{ flexShrink: 0, marginTop: '4px' }} aria-hidden="false" /> :
+                                                <ChevronDown size={16} color="var(--text-muted)" style={{ flexShrink: 0, marginTop: '4px' }} aria-hidden="false" />
                                             }
                                         </button>
 

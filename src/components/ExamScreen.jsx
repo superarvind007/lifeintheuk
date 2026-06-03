@@ -341,15 +341,20 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
       {/* Header */}
       <header className="header" style={{ padding: '1rem 2rem', background: 'var(--bg-secondary)', marginBottom: 0 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-          <button className="btn btn-secondary" onClick={() => setShowNav(!showNav)}>
-            {showNav ? <X size={20} /> : <Menu size={20} />}
+          <button
+            className="btn btn-secondary"
+            onClick={() => setShowNav(!showNav)}
+            aria-label={showNav ? 'Close question navigator' : 'Open question navigator'}
+            aria-expanded={showNav}
+          >
+            {showNav ? <X size={20} aria-hidden="false" /> : <Menu size={20} aria-hidden="false" />}
             <span style={{ display: 'none', '@media (min-width: 768px)': { display: 'inline' } }}>Review</span>
           </button>
-          <div className="title" style={{ fontSize: '1.2rem' }}>
+          <div className="title" style={{ fontSize: '1.2rem' }} role="status" aria-live="polite">
             Question {currentIdx + 1} <span style={{ color: 'var(--text-muted)', fontSize: '1rem' }}>/ {questions.length}</span>
           </div>
           {flagStatusText && (
-            <span style={{ fontSize: '0.85rem', color: flagStatusText.color, fontWeight: 500 }}>
+            <span style={{ fontSize: '0.85rem', color: flagStatusText.color, fontWeight: 500 }} role="status">
               • {flagStatusText.text}
             </span>
           )}
@@ -363,9 +368,9 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
             color: timeLeft < 300 ? 'var(--danger)' : 'var(--text-primary)',
             fontWeight: 'bold',
             fontSize: '1.2rem',
-            marginRight: '1rem' // Add spacing
-          }}>
-            <Clock size={20} />
+            marginRight: '1rem'
+          }} role="status" aria-live="polite" aria-label={`Time remaining: ${formatTime(timeLeft)}`}>
+            <Clock size={20} aria-hidden="false" />
             {formatTime(timeLeft)}
           </div>
         )}
@@ -383,21 +388,22 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
             title={`Switch Theme (Current: ${theme.charAt(0).toUpperCase() + theme.slice(1)})`}
             aria-label="Switch Theme"
           >
-            <Palette size={20} />
+            <Palette size={20} aria-hidden="false" />
           </button>
 
           <button
             className="btn"
             onClick={toggleFlag}
+            aria-label={flagged.has(currentQ.question_id) ? 'Unflag this question' : 'Flag this question for review'}
             style={{
               backgroundColor: flagged.has(currentQ.question_id) ? 'var(--warning)' : 'transparent',
-              color: flagged.has(currentQ.question_id) ? '#1e293b' : 'var(--text-muted)', /* Dark text on warning bg */
+              color: flagged.has(currentQ.question_id) ? '#1e293b' : 'var(--text-muted)',
               fontWeight: flagged.has(currentQ.question_id) ? '600' : 'normal',
               padding: '0.5rem 1rem',
               transition: 'all 0.2s ease'
             }}
           >
-            <Flag size={20} fill={flagged.has(currentQ.question_id) ? 'currentColor' : 'none'} />
+            <Flag size={20} fill={flagged.has(currentQ.question_id) ? 'currentColor' : 'none'} aria-hidden="false" />
             {flagged.has(currentQ.question_id) ? 'Flagged' : 'Flag'}
           </button>
         </div>
@@ -410,19 +416,21 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
         <div
           className={`sidebar-overlay ${showNav ? 'visible' : ''}`}
           onClick={() => setShowNav(false)}
+          role="presentation"
+          aria-hidden="false"
         />
 
         {/* Question Navigation Sidebar (Collapsible) */}
-        <div className={`sidebar ${showNav ? 'open' : ''}`} style={{ minWidth: isMobile ? '0' : 'auto' }}>
+        <div className={`sidebar ${showNav ? 'open' : ''}`} style={{ minWidth: isMobile ? '0' : 'auto' }} role="navigation" aria-label="Question navigator">
           {/* Exit Button at Top */}
           <div style={{ padding: '1rem', borderBottom: '1px solid var(--border)' }}>
             <button
               className="btn btn-danger"
               onClick={handleExit}
               style={{ width: '100%', justifyContent: 'center' }}
-              aria-label="Exit exam"
+              aria-label="Exit exam and return to home"
             >
-              <Home size={18} /> Exit Exam
+              <Home size={18} aria-hidden="false" /> Exit Exam
             </button>
           </div>
 
@@ -432,7 +440,7 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
             display: !isMobile ? 'grid' : 'none',
             gridTemplateColumns: 'repeat(4, 1fr)',
             gap: '0.5rem'
-          }}>
+          }} role="group" aria-label="Question selector grid">
             {questions.map((q, idx) => {
               const isFlagged = flagged.has(q.question_id);
               const hasAnswered = (answers[q.question_id] || []).length > 0;
@@ -448,6 +456,13 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
                   onClick={() => {
                     setCurrentIdx(idx);
                     if (isMobile) setShowNav(false);
+                  }}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      setCurrentIdx(idx);
+                      if (isMobile) setShowNav(false);
+                    }
                   }}
                   aria-label={`Question ${idx + 1}: ${statusText}`}
                   aria-current={idx === currentIdx ? 'true' : undefined}
@@ -474,7 +489,7 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
                       height: 8,
                       background: 'var(--warning)',
                       borderRadius: '50%'
-                    }} />
+                    }} aria-hidden="false" />
                   )}
                 </button>
               );
@@ -489,7 +504,7 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
             gap: '0.5rem',
             maxHeight: '70vh',
             overflowY: 'auto'
-          }}>
+          }} role="group" aria-label="Question list">
             {questions.map((q, idx) => {
               const isFlagged = flagged.has(q.question_id);
               const hasAnswered = (answers[q.question_id] || []).length > 0;
@@ -514,6 +529,13 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
                     setCurrentIdx(idx);
                     setShowNav(false);
                   }}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      setCurrentIdx(idx);
+                      setShowNav(false);
+                    }
+                  }}
                   aria-label={`Question ${idx + 1}: ${statusText}`}
                   aria-current={idx === currentIdx ? 'true' : undefined}
                   style={{
@@ -531,7 +553,7 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
                   }}
                 >
                   <span>Q{idx + 1}</span>
-                  <span>{statusIcon}</span>
+                  <span aria-hidden="false">{statusIcon}</span>
                 </button>
               );
             })}
@@ -609,7 +631,15 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
                   <button
                     key={idx}
                     onClick={() => handleToggleOption(idx)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        handleToggleOption(idx);
+                      }
+                    }}
                     className="option-btn"
+                    aria-label={`${isSelected ? 'Selected: ' : ''}${opt}`}
+                    aria-pressed={isSelected}
                     style={{
                       textAlign: 'left',
                       padding: '1rem',
@@ -627,7 +657,7 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
                       borderRadius: requiredCount > 1 ? '4px' : '50%',
                       border: isSelected ? '6px solid var(--accent)' : '2px solid var(--text-muted)',
                       flexShrink: 0
-                    }} />
+                    }} aria-hidden="true" />
                     <span>{opt}</span>
                   </button>
                 );
@@ -670,20 +700,22 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
               className="btn btn-secondary"
               onClick={() => setCurrentIdx(Math.max(0, currentIdx - 1))}
               disabled={currentIdx === 0}
+              aria-label={`Previous question (Question ${Math.max(1, currentIdx)} of ${questions.length})`}
             >
-              <ChevronLeft size={20} /> Previous
+              <ChevronLeft size={20} aria-hidden="false" /> Previous
             </button>
 
             {currentIdx === questions.length - 1 ? (
-              <button className="btn btn-primary" onClick={handleSubmit}>
-                Submit Exam <CheckSquare size={20} />
+              <button className="btn btn-primary" onClick={handleSubmit} aria-label="Submit exam">
+                Submit Exam <CheckSquare size={20} aria-hidden="false" />
               </button>
             ) : (
               <button
                 className="btn btn-primary"
                 onClick={handleNext}
+                aria-label={`Next question (Question ${currentIdx + 2} of ${questions.length})`}
               >
-                Next <ChevronRight size={20} />
+                Next <ChevronRight size={20} aria-hidden="false" />
               </button>
             )}
           </div>

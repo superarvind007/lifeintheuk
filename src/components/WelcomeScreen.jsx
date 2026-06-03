@@ -77,6 +77,13 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
     setSelectedCategories(newCategories);
   };
 
+  const handleCategoryKeyDown = (e, cat) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      toggleCategory(cat);
+    }
+  };
+
   const unansweredCount = Math.max(0, totalQuestions - excludedCount);
   const [showCategoryFilter, setShowCategoryFilter] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -107,11 +114,13 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
 
       {/* Categories Bar - Desktop */}
       {!isMobile && (
-        <div style={{ marginBottom: '1.5rem', overflowX: 'auto', paddingBottom: '0.5rem' }}>
+        <div style={{ marginBottom: '1.5rem', overflowX: 'auto', paddingBottom: '0.5rem' }} role="group" aria-label="Question categories filter">
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', justifyContent: 'center' }}>
             <button
               onClick={() => toggleCategory('All')}
+              onKeyDown={(e) => handleCategoryKeyDown(e, 'All')}
               className={`btn ${selectedCategories.includes('All') ? 'btn-primary' : 'btn-secondary'}`}
+              aria-pressed={selectedCategories.includes('All')}
               style={{ padding: '0.5rem 1rem', fontSize: '0.9rem', borderRadius: '2rem' }}
             >
               All
@@ -120,11 +129,13 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
               <button
                 key={cat}
                 onClick={() => toggleCategory(cat)}
+                onKeyDown={(e) => handleCategoryKeyDown(e, cat)}
                 className={`btn ${selectedCategories.includes(cat) ? 'btn-primary' : 'btn-secondary'}`}
+                aria-pressed={selectedCategories.includes(cat)}
                 style={{ padding: '0.5rem 1rem', fontSize: '0.9rem', borderRadius: '2rem', display: 'flex', alignItems: 'center', gap: '0.3rem' }}
                 aria-label={`Filter by ${cat} (${categoryCounts[cat] || 0} questions)`}
               >
-                {selectedCategories.includes(cat) && <Check size={14} strokeWidth={3} />}
+                {selectedCategories.includes(cat) && <Check size={14} strokeWidth={3} aria-hidden="false" />}
                 {cat}
                 <span style={{
                   marginLeft: '0.4rem',
@@ -151,21 +162,29 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
         <div style={{ marginBottom: '1.5rem', position: 'relative' }}>
           <button
             onClick={() => setShowCategoryFilter(!showCategoryFilter)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                setShowCategoryFilter(!showCategoryFilter);
+              }
+            }}
             className="btn btn-secondary"
+            aria-expanded={showCategoryFilter}
+            aria-label="Filter questions by category"
             style={{
               width: '100%',
               justifyContent: 'space-between',
               padding: '0.75rem 1rem'
             }}
-            aria-label={`Filter categories (${selectedCategories.includes('All') ? 'All selected' : selectedCategories.length + ' selected'})`}
-            aria-expanded={showCategoryFilter}
           >
             <span>Categories: {selectedCategories.includes('All') ? 'All' : selectedCategories.length + ' selected'}</span>
-            <span>{showCategoryFilter ? '▼' : '▶'}</span>
+            <span aria-hidden="false">{showCategoryFilter ? '▼' : '▶'}</span>
           </button>
 
           {showCategoryFilter && (
             <div
+              role="group"
+              aria-label="Category options"
               style={{
                 position: 'absolute',
                 top: '100%',
@@ -186,6 +205,14 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
                   toggleCategory('All');
                   setShowCategoryFilter(false);
                 }}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    toggleCategory('All');
+                    setShowCategoryFilter(false);
+                  }
+                }}
+                aria-pressed={selectedCategories.includes('All')}
                 style={{
                   width: '100%',
                   padding: '0.75rem 1rem',
@@ -197,7 +224,7 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
                   borderBottom: '1px solid var(--border)'
                 }}
               >
-                <Check size={14} style={{ marginRight: '0.5rem', opacity: selectedCategories.includes('All') ? 1 : 0 }} />
+                <Check size={14} style={{ marginRight: '0.5rem', opacity: selectedCategories.includes('All') ? 1 : 0 }} aria-hidden="false" />
                 All ({categoryCounts['All'] || 0})
               </button>
               {CATEGORIES.map(cat => (
@@ -207,6 +234,14 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
                     toggleCategory(cat);
                     setShowCategoryFilter(false);
                   }}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      toggleCategory(cat);
+                      setShowCategoryFilter(false);
+                    }
+                  }}
+                  aria-pressed={selectedCategories.includes(cat)}
                   style={{
                     width: '100%',
                     padding: '0.75rem 1rem',
@@ -222,7 +257,7 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
                   }}
                 >
                   <span>
-                    <Check size={14} style={{ marginRight: '0.5rem', opacity: selectedCategories.includes(cat) ? 1 : 0 }} />
+                    <Check size={14} style={{ marginRight: '0.5rem', opacity: selectedCategories.includes(cat) ? 1 : 0 }} aria-hidden="false" />
                     {cat}
                   </span>
                   <span style={{ fontSize: '0.8rem', opacity: 0.7 }}>({categoryCounts[cat] || 0})</span>
@@ -269,6 +304,7 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
               <button
                 className="btn btn-danger"
                 onClick={resetProgress}
+                aria-label="Reset all progress (clear all flagged and answered questions)"
                 style={{ padding: '0.4rem 0.8rem', fontSize: '0.8rem' }}
               >
                 <Trash2 size={14} /> Reset Progress
