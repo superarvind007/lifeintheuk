@@ -59,12 +59,12 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
 
   // Show explanation automatically in practice mode after answering
   useEffect(() => {
-    if (mode === 'practice' && currentAnswers.length > 0) {
+    if (mode === 'practice' && currentAnswers.length === requiredCount) {
       setShowExplanation(true);
     } else {
       setShowExplanation(false);
     }
-  }, [currentIdx, mode, currentAnswers.length]);
+  }, [currentIdx, mode, currentAnswers.length, requiredCount]);
 
   const handleToggleOption = (idx) => {
     const currentAnswers = answers[currentQ.question_id] || [];

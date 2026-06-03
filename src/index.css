@@ -115,6 +115,7 @@ button {
 .btn-secondary:hover {
   background-color: var(--bg-tertiary);
   border-color: var(--text-muted);
+  color: var(--text-secondary);
 }
 
 /* Improved Danger Button */

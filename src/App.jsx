@@ -172,6 +172,7 @@ function App() {
             padding: 0
           }}
           aria-label="Search Questions"
+          title="Search Questions"
         >
           <Search size={24} />
         </button>

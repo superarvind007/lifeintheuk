@@ -3,13 +3,10 @@ import { Play, Flag, Clock, BookOpen, AlertCircle, Trash2, HelpCircle, Palette, 
 import { getFlaggedIds, saveFlaggedIds, getAnsweredIds, saveAnsweredIds } from '../utils';
 import questionsData from '../data/questions.json';
 
-const CATEGORIES = [
-  'UK Values & Principles',
-  'History',
-  'Geography',
-  'Society & Culture',
-  'Government & Law'
-];
+// Dynamically extract all unique categories from questions data
+const CATEGORIES = [...new Set(questionsData.map(q => q.category))]
+  .sort()
+  .filter(cat => cat); // Remove any falsy values
 
 const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
   const [mode, setMode] = useState('practice');
