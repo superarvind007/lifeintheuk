@@ -4890,7 +4890,7 @@
       "summer festival of pop music held in Manchester",
       "An eight-week summer season of orchestral classical music",
       "weekly television show featuring live music performances",
-      "ompetition for new musicians in the UK"
+      "Competition for new musicians in the UK"
     ],
     "correct_answers": [
       "summer festival of pop music held in Manchester"
@@ -5187,7 +5187,7 @@
   {
     "question_detail": "After which war was the Victoria Cross first awarded?",
     "possible_answers": [
-      "oer War",
+      "Boer War",
       "Crimean War",
       "Napoleonic Wars",
       "First World War"
@@ -5293,7 +5293,7 @@
     "question_detail": "True or False: England, Wales, and Scotland together form Great Britain.",
     "possible_answers": [
       "True",
-      "lse"
+      "False"
     ],
     "correct_answers": [
       "True"
@@ -5516,7 +5516,7 @@
     "possible_answers": [
       "God Save the King",
       "Rule, Britannia!",
-      "uld Lang Syne",
+      "Auld Lang Syne",
       "Jerusalem"
     ],
     "correct_answers": [
@@ -5545,7 +5545,7 @@
     "question_detail": "True or False: Ireland is part of the United Kingdom?",
     "possible_answers": [
       "True",
-      "lse"
+      "False"
     ],
     "correct_answers": [
       "True"
@@ -5603,7 +5603,7 @@
     "question_detail": "True or False: Civil servants govern the towns, cities, and rural areas in the UK?",
     "possible_answers": [
       "True",
-      "lse"
+      "False"
     ],
     "correct_answers": [
       "True"
