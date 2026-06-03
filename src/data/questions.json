@@ -46,7 +46,7 @@
   },
   {
     "question_id": 4,
-    "question_detail": "Who was the British Prime Minister known for delivering the ‘wind of change’ speech about decolonisation and independence for countries of the Empire?",
+    "question_detail": "Who was the British Prime Minister known for delivering the \u2018wind of change\u2019 speech about decolonisation and independence for countries of the Empire?",
     "possible_answers": [
       "Clement Attlee",
       "Winston Churchill",
@@ -56,7 +56,7 @@
     "correct_answers": [
       "Harold Macmillan"
     ],
-    "explanation": "Harold Macmillan gave the 1960 'wind of change' speech signalling the UK’s acceptance of decolonisation in Africa and elsewhere.",
+    "explanation": "Harold Macmillan gave the 1960 'wind of change' speech signalling the UK\u2019s acceptance of decolonisation in Africa and elsewhere.",
     "category": "Government & Law"
   },
   {
@@ -72,7 +72,7 @@
       "Tolerance of different beliefs",
       "Looking after yourself and your family"
     ],
-    "explanation": "Citizens are expected to be tolerant of others’ beliefs and to take responsibility for themselves and their families; voting and union membership are voluntary.",
+    "explanation": "Citizens are expected to be tolerant of others\u2019 beliefs and to take responsibility for themselves and their families; voting and union membership are voluntary.",
     "category": "UK Values & Principles"
   },
   {
@@ -278,12 +278,12 @@
       "Crown Court",
       "Justice of the Peace Court",
       "High Court",
-      "Magistrates’ Court"
+      "Magistrates\u2019 Court"
     ],
     "correct_answers": [
-      "Magistrates’ Court"
+      "Magistrates\u2019 Court"
     ],
-    "explanation": "Most minor criminal cases are heard first in Magistrates’ Courts in England, Wales, and Northern Ireland.",
+    "explanation": "Most minor criminal cases are heard first in Magistrates\u2019 Courts in England, Wales, and Northern Ireland.",
     "category": "Government & Law"
   },
   {
@@ -313,7 +313,7 @@
     "correct_answers": [
       "Domesday Book"
     ],
-    "explanation": "William the Conqueror ordered the Domesday Book in 1085–1086 to record landholdings and resources in England.",
+    "explanation": "William the Conqueror ordered the Domesday Book in 1085\u20131086 to record landholdings and resources in England.",
     "category": "History"
   },
   {
@@ -348,7 +348,7 @@
   },
   {
     "question_id": 24,
-    "question_detail": "Which part of the UK celebrates St Andrew’s Day?",
+    "question_detail": "Which part of the UK celebrates St Andrew\u2019s Day?",
     "possible_answers": [
       "England",
       "Scotland",
@@ -358,7 +358,7 @@
     "correct_answers": [
       "Scotland"
     ],
-    "explanation": "St Andrew’s Day on 30 November is the national day of Scotland and is especially celebrated there.",
+    "explanation": "St Andrew\u2019s Day on 30 November is the national day of Scotland and is especially celebrated there.",
     "category": "Arts & Culture"
   },
   {
@@ -373,7 +373,7 @@
     "correct_answers": [
       "St Andrew"
     ],
-    "explanation": "St Andrew is the patron saint of Scotland and is celebrated on St Andrew’s Day, 30 November.",
+    "explanation": "St Andrew is the patron saint of Scotland and is celebrated on St Andrew\u2019s Day, 30 November.",
     "category": "Geography"
   },
   {
@@ -389,7 +389,7 @@
       "Patrol the streets",
       "Support police at crime scenes"
     ],
-    "explanation": "PCSOs support regular police officers through high‑visibility patrols and assistance at incidents, rather than leading major investigations or handling complaints. [web:87][web:88]",
+    "explanation": "PCSOs support regular police officers through high\u2011visibility patrols and assistance at incidents, rather than leading major investigations or handling complaints. [web:87][web:88]",
     "category": "Government & Law"
   },
   {
@@ -405,7 +405,7 @@
       "Pool",
       "Darts"
     ],
-    "explanation": "Pool and darts are long‑standing traditional pub games widely played in pubs across the UK.",
+    "explanation": "Pool and darts are long\u2011standing traditional pub games widely played in pubs across the UK.",
     "category": "Arts & Culture"
   },
   {
@@ -413,9 +413,9 @@
     "question_detail": "How is the Speaker of the House of Commons elected?",
     "possible_answers": [
       "By a public vote in a general election",
-      "By the Prime Minister’s appointment",
+      "By the Prime Minister\u2019s appointment",
       "By other MPs in a secret ballot",
-      "By the Monarch’s decision"
+      "By the Monarch\u2019s decision"
     ],
     "correct_answers": [
       "By other MPs in a secret ballot"
@@ -530,7 +530,7 @@
   },
   {
     "question_id": 36,
-    "question_detail": "How often are Prime Minister’s Questions held while Parliament is sitting?",
+    "question_detail": "How often are Prime Minister\u2019s Questions held while Parliament is sitting?",
     "possible_answers": [
       "Every day",
       "Every week",
@@ -540,7 +540,7 @@
     "correct_answers": [
       "Every week"
     ],
-    "explanation": "Prime Minister’s Questions (PMQs) take place weekly, usually for about half an hour, when Parliament is in session.",
+    "explanation": "Prime Minister\u2019s Questions (PMQs) take place weekly, usually for about half an hour, when Parliament is in session.",
     "category": "Government & Law"
   },
   {
@@ -570,7 +570,7 @@
     "correct_answers": [
       "10 hours per day"
     ],
-    "explanation": "The Factories Act 1847, known as the Ten Hours Act, restricted women and young people to a 10‑hour working day in textile mills. [web:89][web:91][web:93]",
+    "explanation": "The Factories Act 1847, known as the Ten Hours Act, restricted women and young people to a 10\u2011hour working day in textile mills. [web:89][web:91][web:93]",
     "category": "Government & Law"
   },
   {
@@ -832,7 +832,7 @@
   },
   {
     "question_id": 56,
-    "question_detail": "Who became Britain’s Prime Minister during the Second World War in 1940?",
+    "question_detail": "Who became Britain\u2019s Prime Minister during the Second World War in 1940?",
     "possible_answers": [
       "Clement Attlee",
       "John Major",
@@ -911,13 +911,13 @@
     "possible_answers": [
       "Halloween",
       "Boxing Day",
-      "April Fool’s Day",
-      "Valentine’s Day"
+      "April Fool\u2019s Day",
+      "Valentine\u2019s Day"
     ],
     "correct_answers": [
-      "April Fool’s Day"
+      "April Fool\u2019s Day"
     ],
-    "explanation": "On 1 April, April Fool’s Day, media outlets sometimes run humorous or fictitious stories as jokes.",
+    "explanation": "On 1 April, April Fool\u2019s Day, media outlets sometimes run humorous or fictitious stories as jokes.",
     "category": "History"
   },
   {
@@ -977,7 +977,7 @@
     "correct_answers": [
       "Cornwall"
     ],
-    "explanation": "The Eden Project, a series of large biomes housing plants from around the world, is located in Cornwall in south‑west England.",
+    "explanation": "The Eden Project, a series of large biomes housing plants from around the world, is located in Cornwall in south\u2011west England.",
     "category": "Geography"
   },
   {
@@ -1037,7 +1037,7 @@
     "correct_answers": [
       "The Canterbury Tales"
     ],
-    "explanation": "Geoffrey Chaucer’s 'The Canterbury Tales' follows a group of pilgrims travelling to Canterbury and telling stories on the way.",
+    "explanation": "Geoffrey Chaucer\u2019s 'The Canterbury Tales' follows a group of pilgrims travelling to Canterbury and telling stories on the way.",
     "category": "Arts & Culture"
   },
   {
@@ -1082,7 +1082,7 @@
     "correct_answers": [
       "Constitutional Monarchy"
     ],
-    "explanation": "The UK is a constitutional monarchy, where the monarch’s powers are limited by law and exercised within a democratic system.",
+    "explanation": "The UK is a constitutional monarchy, where the monarch\u2019s powers are limited by law and exercised within a democratic system.",
     "category": "Government & Law"
   },
   {
@@ -1102,7 +1102,7 @@
   },
   {
     "question_id": 74,
-    "question_detail": "What is the term used for knocking on people’s doors to ask for their support during election campaigns?",
+    "question_detail": "What is the term used for knocking on people\u2019s doors to ask for their support during election campaigns?",
     "possible_answers": [
       "Lobbying",
       "Petitioning",
@@ -1239,8 +1239,8 @@
     "possible_answers": [
       "Retired citizens over 65",
       "Young people aged 16 and 17",
-      "Children aged 10–12",
-      "University students aged 18–21"
+      "Children aged 10\u201312",
+      "University students aged 18\u201321"
     ],
     "correct_answers": [
       "Young people aged 16 and 17"
@@ -1283,15 +1283,15 @@
     "question_detail": "Which TWO were written by William Shakespeare?",
     "possible_answers": [
       "The Canterbury Tales",
-      "A Midsummer Night’s Dream",
+      "A Midsummer Night\u2019s Dream",
       "Macbeth",
       "Paradise Lost"
     ],
     "correct_answers": [
-      "A Midsummer Night’s Dream",
+      "A Midsummer Night\u2019s Dream",
       "Macbeth"
     ],
-    "explanation": "William Shakespeare wrote many plays including A Midsummer Night’s Dream and Macbeth; The Canterbury Tales is by Chaucer and Paradise Lost is by John Milton.",
+    "explanation": "William Shakespeare wrote many plays including A Midsummer Night\u2019s Dream and Macbeth; The Canterbury Tales is by Chaucer and Paradise Lost is by John Milton.",
     "category": "Arts & Culture"
   },
   {
@@ -1328,7 +1328,7 @@
     "question_id": 89,
     "question_detail": "How can someone make a complaint about the police in the UK?",
     "possible_answers": [
-      "By contacting the Prime Minister’s office",
+      "By contacting the Prime Minister\u2019s office",
       "By filing a complaint with the local council only",
       "By contacting the Home Office directly",
       "By going to a police station or writing to the Chief Constable"
@@ -1375,13 +1375,13 @@
     "possible_answers": [
       "15p",
       "10p",
-      "£1",
-      "£2"
+      "\u00a31",
+      "\u00a32"
     ],
     "correct_answers": [
       "15p"
     ],
-    "explanation": "There is no 15p coin in UK currency; common coins include 1p, 2p, 5p, 10p, 20p, 50p, £1, and £2.",
+    "explanation": "There is no 15p coin in UK currency; common coins include 1p, 2p, 5p, 10p, 20p, 50p, \u00a31, and \u00a32.",
     "category": "History"
   },
   {
@@ -1534,7 +1534,7 @@
     "correct_answers": [
       "Daffodil"
     ],
-    "explanation": "The daffodil is a national symbol of Wales, worn especially on St David’s Day.",
+    "explanation": "The daffodil is a national symbol of Wales, worn especially on St David\u2019s Day.",
     "category": "Geography"
   },
   {
@@ -1556,7 +1556,7 @@
     "question_id": 104,
     "question_detail": "Which court handles civil disputes such as personal injury and divorce in England, Wales, and Northern Ireland?",
     "possible_answers": [
-      "Magistrates’ Court",
+      "Magistrates\u2019 Court",
       "County Court",
       "Crown Court",
       "Youth Court"
@@ -1602,14 +1602,14 @@
     "question_detail": "Who were the serfs during the Middle Ages?",
     "possible_answers": [
       "Freemen",
-      "Peasants with their own land",
+      "Peasants with their Crown land",
       "Peasants who worked for lords",
       "Landowners"
     ],
     "correct_answers": [
       "Peasants who worked for lords"
     ],
-    "explanation": "Serfs were unfree peasants tied to a lord’s land, working it in return for protection and basic rights.",
+    "explanation": "Serfs were unfree peasants tied to a lord\u2019s land, working it in return for protection and basic rights.",
     "category": "History"
   },
   {
@@ -1647,14 +1647,14 @@
     "question_detail": "What must all dogs wear in public places in the UK?",
     "possible_answers": [
       "A Collar showing the owner's address and must be vaccinated",
-      "A Collar showing the owner's name and dog’s name",
+      "A Collar showing the owner's name and dog\u2019s name",
       "A Collar showing the owner's name and must be vaccinated",
       "A Collar showing the owner's name and address"
     ],
     "correct_answers": [
       "A Collar showing the owner's name and address"
     ],
-    "explanation": "By law, dogs in public must wear a collar with the owner’s name and address on it.",
+    "explanation": "By law, dogs in public must wear a collar with the owner\u2019s name and address on it.",
     "category": "Government & Law"
   },
   {
@@ -1704,7 +1704,7 @@
   },
   {
     "question_id": 114,
-    "question_detail": "Where is the Giant’s Causeway located?",
+    "question_detail": "Where is the Giant\u2019s Causeway located?",
     "possible_answers": [
       "England",
       "Northern Ireland",
@@ -1714,7 +1714,7 @@
     "correct_answers": [
       "Northern Ireland"
     ],
-    "explanation": "The Giant’s Causeway is a UNESCO World Heritage Site on the north coast of Northern Ireland.",
+    "explanation": "The Giant\u2019s Causeway is a UNESCO World Heritage Site on the north coast of Northern Ireland.",
     "category": "Geography"
   },
   {
@@ -1789,7 +1789,7 @@
     "correct_answers": [
       "Poland"
     ],
-    "explanation": "Germany’s invasion of Poland in September 1939 led Britain and France to declare war, starting World War II in Europe.",
+    "explanation": "Germany\u2019s invasion of Poland in September 1939 led Britain and France to declare war, starting World War II in Europe.",
     "category": "Arts & Culture"
   },
   {
@@ -1923,14 +1923,14 @@
     "correct_answers": [
       "31 December"
     ],
-    "explanation": "Hogmanay is the Scottish celebration of New Year’s Eve, held on 31 December. [web:14]",
+    "explanation": "Hogmanay is the Scottish celebration of New Year\u2019s Eve, held on 31 December. [web:14]",
     "category": "History"
   },
   {
     "question_id": 129,
     "question_detail": "Who became king after the Battle of Bosworth Field in 1485 and was the first monarch of the House of Tudor?",
     "possible_answers": [
-      "King Richard III",
+      "King Richard II",
       "King Henry VIII",
       "King Henry VII",
       "King Edward IV"
@@ -1938,7 +1938,7 @@
     "correct_answers": [
       "King Henry VII"
     ],
-    "explanation": "Henry Tudor defeated Richard III at Bosworth in 1485 and became King Henry VII, founding the Tudor dynasty. [web:33]",
+    "explanation": "Henry Tudor defeated Richard II at Bosworth in 1485 and became King Henry VII, founding the Tudor dynasty. [web:33]",
     "category": "History"
   },
   {
@@ -1973,7 +1973,7 @@
   },
   {
     "question_id": 132,
-    "question_detail": "Northern Ireland has its own established church",
+    "question_detail": "Northern Ireland has its Crown established church",
     "possible_answers": [
       "True",
       "False"
@@ -2011,7 +2011,7 @@
     "correct_answers": [
       "Interlocking basalt columns"
     ],
-    "explanation": "The Giant’s Causeway is famous for its natural formation of interlocking basalt columns on the coast of Northern Ireland. [web:22]",
+    "explanation": "The Giant\u2019s Causeway is famous for its natural formation of interlocking basalt columns on the coast of Northern Ireland. [web:22]",
     "category": "Geography"
   },
   {
@@ -2042,7 +2042,7 @@
       "Old English (Anglo-Saxon)",
       "Norman French"
     ],
-    "explanation": "Modern English developed mainly from Old English (Anglo‑Saxon) with major influence from Norman French after 1066. [web:33]",
+    "explanation": "Modern English developed mainly from Old English (Anglo\u2011Saxon) with major influence from Norman French after 1066. [web:33]",
     "category": "History"
   },
   {
@@ -2057,7 +2057,7 @@
     "correct_answers": [
       "North West of Europe"
     ],
-    "explanation": "The UK lies off the north‑west coast of mainland Europe. [web:22]",
+    "explanation": "The UK lies off the north\u2011west coast of mainland Europe. [web:22]",
     "category": "Geography"
   },
   {
@@ -2072,7 +2072,7 @@
     "correct_answers": [
       "Aneurin (Nye) Bevan"
     ],
-    "explanation": "Health Minister Aneurin Bevan is credited with creating the NHS in 1948 under Attlee’s Labour government. [web:14]",
+    "explanation": "Health Minister Aneurin Bevan is credited with creating the NHS in 1948 under Attlee\u2019s Labour government. [web:14]",
     "category": "Government & Law"
   },
   {
@@ -2102,7 +2102,7 @@
     "correct_answers": [
       "One-third"
     ],
-    "explanation": "Life in the UK sources state that about one‑third of the population died in the Black Death of 1348–49. [web:33]",
+    "explanation": "Life in the UK sources state that about one\u2011third of the population died in the Black Death of 1348\u201349. [web:33]",
     "category": "Geography"
   },
   {
@@ -2191,7 +2191,7 @@
     "correct_answers": [
       "True"
     ],
-    "explanation": "The Cenotaph in Whitehall, central London, is the UK’s principal national war memorial. [web:22]",
+    "explanation": "The Cenotaph in Whitehall, central London, is the UK\u2019s principal national war memorial. [web:22]",
     "category": "Architecture"
   },
   {
@@ -2279,7 +2279,7 @@
     "correct_answers": [
       "The Black Death"
     ],
-    "explanation": "The epidemic of 1348–49 in Britain is known as the Black Death and killed about one‑third of the population. [web:33]",
+    "explanation": "The epidemic of 1348\u201349 in Britain is known as the Black Death and killed about one\u2011third of the population. [web:33]",
     "category": "Geography"
   },
   {
@@ -2356,7 +2356,7 @@
       "Magistrates' Court in England, Wales, and Northern Ireland",
       "Sheriff Court in Scotland"
     ],
-    "explanation": "Most minor criminal cases are heard in Magistrates’ Courts in England, Wales and Northern Ireland, and in Sheriff Courts in Scotland. [web:22]",
+    "explanation": "Most minor criminal cases are heard in Magistrates\u2019 Courts in England, Wales and Northern Ireland, and in Sheriff Courts in Scotland. [web:22]",
     "category": "Government & Law"
   },
   {
@@ -2400,7 +2400,7 @@
     "correct_answers": [
       "True"
     ],
-    "explanation": "The BBC Proms is an eight‑week summer season of daily classical music concerts, mainly at the Royal Albert Hall. [web:14]",
+    "explanation": "The BC Proms is an eight\u2011week summer season of daily classical music concerts, mainly at the Royal Albert Hall. [web:14]",
     "category": "Arts & Culture"
   },
   {
@@ -2415,7 +2415,7 @@
     "correct_answers": [
       "St. George"
     ],
-    "explanation": "St George is the patron saint of England, celebrated on St George’s Day, 23 April. [web:33]",
+    "explanation": "St George is the patron saint of England, celebrated on St George\u2019s Day, 23 April. [web:33]",
     "category": "Society & Culture"
   },
   {
@@ -2435,7 +2435,7 @@
   },
   {
     "question_id": 163,
-    "question_detail": "What was the name of the movement that challenged the Pope’s authority and supported direct access to the Bible?",
+    "question_detail": "What was the name of the movement that challenged the Pope\u2019s authority and supported direct access to the Bible?",
     "possible_answers": [
       "Renaissance",
       "Revolution",
@@ -2450,7 +2450,7 @@
   },
   {
     "question_id": 164,
-    "question_detail": "Which architect rebuilt Saint Paul’s Cathedral after the Great Fire of London?",
+    "question_detail": "Which architect rebuilt Saint Paul\u2019s Cathedral after the Great Fire of London?",
     "possible_answers": [
       "Robert Adam",
       "Sir Edwin Lutyens",
@@ -2460,7 +2460,7 @@
     "correct_answers": [
       "Sir Christopher Wren"
     ],
-    "explanation": "After the Great Fire of London in 1666, Sir Christopher Wren designed and oversaw the rebuilding of St Paul’s Cathedral. [web:22]",
+    "explanation": "After the Great Fire of London in 1666, Sir Christopher Wren designed and oversaw the rebuilding of St Paul\u2019s Cathedral. [web:22]",
     "category": "Architecture"
   },
   {
@@ -2492,7 +2492,7 @@
     "correct_answers": [
       "Emmeline Pankhurst"
     ],
-    "explanation": "Emmeline Pankhurst co‑founded the WSPU and led militant campaigns for women’s suffrage in Britain. [web:33]",
+    "explanation": "Emmeline Pankhurst co\u2011founded the WSPU and led militant campaigns for women\u2019s suffrage in Britain. [web:33]",
     "category": "Arts & Culture"
   },
   {
@@ -2627,12 +2627,12 @@
     "correct_answers": [
       "Theatreland"
     ],
-    "explanation": "London’s West End theatre district is often referred to as Theatreland and is famous for stage productions.",
+    "explanation": "London\u2019s West End theatre district is often referred to as Theatreland and is famous for stage productions.",
     "category": "Arts & Culture"
   },
   {
     "question_id": 176,
-    "question_detail": "When is St George’s Day celebrated in England?",
+    "question_detail": "When is St George\u2019s Day celebrated in England?",
     "possible_answers": [
       "1 March",
       "17 March",
@@ -2642,7 +2642,7 @@
     "correct_answers": [
       "23 April"
     ],
-    "explanation": "St George’s Day, celebrating the patron saint of England, is observed on 23 April.",
+    "explanation": "St George\u2019s Day, celebrating the patron saint of England, is observed on 23 April.",
     "category": "Society & Culture"
   },
   {
@@ -2688,7 +2688,7 @@
       "Founder of Britain's first curry house in London",
       "Introduced 'shampooing' (Indian head massage) to the UK"
     ],
-    "explanation": "Sake Dean Mahomed opened Britain’s first curry house in London and popularised ‘shampooing’ or Indian therapeutic baths. [web:54][web:57]",
+    "explanation": "Sake Dean Mahomed opened Britain\u2019s first curry house in London and popularised \u2018shampooing\u2019 or Indian therapeutic baths. [web:54][web:57]",
     "category": "Government & Law"
   },
   {
@@ -2703,7 +2703,7 @@
     "correct_answers": [
       "James II"
     ],
-    "explanation": "At the Battle of the Boyne in 1690, the deposed king James II was defeated by William III.",
+    "explanation": "At the Battle of the Boyne in 1690, the deposed king James II was defeated by William II.",
     "category": "History"
   },
   {
@@ -2733,7 +2733,7 @@
     "correct_answers": [
       "Sir Robert Watson-Watt"
     ],
-    "explanation": "Scottish physicist Sir Robert Watson‑Watt is credited with pioneering radar for detecting aircraft in the 1930s.",
+    "explanation": "Scottish physicist Sir Robert Watson\u2011Watt is credited with pioneering radar for detecting aircraft in the 1930s.",
     "category": "History"
   },
   {
@@ -2797,7 +2797,7 @@
     "correct_answers": [
       "Mary I"
     ],
-    "explanation": "Mary I of England earned the nickname ‘Bloody Mary’ for persecuting Protestants during her reign.",
+    "explanation": "Mary I of England earned the nickname \u2018Bloody Mary\u2019 for persecuting Protestants during her reign.",
     "category": "History"
   },
   {
@@ -2877,7 +2877,7 @@
   },
   {
     "question_id": 192,
-    "question_detail": "True or False: In Northern Ireland, each eligible voter must complete their own individual registration form to be able to vote.",
+    "question_detail": "True or False: In Northern Ireland, each eligible voter must complete their Crown individual registration form to be able to vote.",
     "possible_answers": [
       "True",
       "False"
@@ -2885,7 +2885,7 @@
     "correct_answers": [
       "True"
     ],
-    "explanation": "In Northern Ireland, voter registration is on an individual basis and requires each eligible person to complete their own form. [web:55][web:58]",
+    "explanation": "In Northern Ireland, voter registration is on an individual basis and requires each eligible person to complete their Crown form. [web:55][web:58]",
     "category": "Government & Law"
   },
   {
@@ -2935,7 +2935,7 @@
   },
   {
     "question_id": 196,
-    "question_detail": "Who built Hadrian’s Wall to defend Roman Britain against the Picts?",
+    "question_detail": "Who built Hadrian\u2019s Wall to defend Roman Britain against the Picts?",
     "possible_answers": [
       "Julius Caesar",
       "Emperor Claudius",
@@ -2945,7 +2945,7 @@
     "correct_answers": [
       "Emperor Hadrian"
     ],
-    "explanation": "Hadrian’s Wall in northern Britain was built on the orders of the Roman emperor Hadrian in the 2nd century. [web:33]",
+    "explanation": "Hadrian\u2019s Wall in northern Britain was built on the orders of the Roman emperor Hadrian in the 2nd century. [web:33]",
     "category": "Architecture"
   },
   {
@@ -2960,7 +2960,7 @@
     "correct_answers": [
       "Battle of Hastings"
     ],
-    "explanation": "The Bayeux Tapestry tells the story of William of Normandy’s invasion of England and the Battle of Hastings in 1066. [web:33]",
+    "explanation": "The Bayeux Tapestry tells the story of William of Normandy\u2019s invasion of England and the Battle of Hastings in 1066. [web:33]",
     "category": "History"
   },
   {
@@ -2970,7 +2970,7 @@
       "William Caxton",
       "John Gutenberg",
       "Geoffrey Chaucer",
-      "Richard III"
+      "Richard II"
     ],
     "correct_answers": [
       "William Caxton"
@@ -2990,7 +2990,7 @@
     "correct_answers": [
       "Lent"
     ],
-    "explanation": "Lent is the 40‑day period of fasting and reflection before Easter in the Christian calendar. [web:33]",
+    "explanation": "Lent is the 40\u2011day period of fasting and reflection before Easter in the Christian calendar. [web:33]",
     "category": "Society & Culture"
   },
   {
@@ -3012,13 +3012,13 @@
     "question_id": 201,
     "question_detail": "Which Act granted equal voting rights to both men and women, allowing them to vote at the same age?",
     "possible_answers": [
-      "Equal Franchise Act 1928 – Age 21",
-      "Representation of the People Act 1918 – Age 30",
-      "Women's Voting Rights Act 1930 – Age 25",
-      "Universal Suffrage Act 1925 – Age 21"
+      "Equal Franchise Act 1928 \u2013 Age 21",
+      "Representation of the People Act 1918 \u2013 Age 30",
+      "Women's Voting Rights Act 1930 \u2013 Age 25",
+      "Universal Suffrage Act 1925 \u2013 Age 21"
     ],
     "correct_answers": [
-      "Equal Franchise Act 1928 – Age 21"
+      "Equal Franchise Act 1928 \u2013 Age 21"
     ],
     "explanation": "The Equal Franchise Act 1928 gave women the vote on the same terms as men, at age 21. [web:25][web:28]",
     "category": "Government & Law"
@@ -3051,7 +3051,7 @@
     "correct_answers": [
       "Boer War"
     ],
-    "explanation": "The Second Boer War (1899–1902) was fought between the British and Boer settlers of Dutch descent in South Africa. [web:33]",
+    "explanation": "The Second Boer War (1899\u20131902) was fought between the British and Boer settlers of Dutch descent in South Africa. [web:33]",
     "category": "History"
   },
   {
@@ -3081,7 +3081,7 @@
     "correct_answers": [
       "Turing Machine"
     ],
-    "explanation": "Alan Turing’s theoretical concept of a ‘Turing machine’ became a fundamental model for modern computing. [web:22]",
+    "explanation": "Alan Turing\u2019s theoretical concept of a \u2018Turing machine\u2019 became a fundamental model for modern computing. [web:22]",
     "category": "Science & Innovation"
   },
   {
@@ -3126,7 +3126,7 @@
     "correct_answers": [
       "Margaret Thatcher"
     ],
-    "explanation": "Margaret Thatcher became Britain’s first female Prime Minister in 1979. [web:22]",
+    "explanation": "Margaret Thatcher became Britain\u2019s first female Prime Minister in 1979. [web:22]",
     "category": "Government & Law"
   },
   {
@@ -3157,7 +3157,7 @@
     "correct_answers": [
       "Roald Dahl"
     ],
-    "explanation": "Roald Dahl, born in Wales to Norwegian parents, wrote children’s classics including Charlie and the Chocolate Factory. [web:22]",
+    "explanation": "Roald Dahl, born in Wales to Norwegian parents, wrote children\u2019s classics including Charlie and the Chocolate Factory. [web:22]",
     "category": "Arts & Culture"
   },
   {
@@ -3223,7 +3223,7 @@
   },
   {
     "question_id": 215,
-    "question_detail": "Which football player captained England’s 1966 World Cup-winning team?",
+    "question_detail": "Which football player captained England\u2019s 1966 World Cup-winning team?",
     "possible_answers": [
       "Sir Bobby Charlton",
       "David Beckham",
@@ -3268,7 +3268,7 @@
   },
   {
     "question_id": 218,
-    "question_detail": "True or False: Northern Ireland and Scotland have their own banknotes, which are valid everywhere in the UK.",
+    "question_detail": "True or False: Northern Ireland and Scotland have their Crown banknotes, which are valid everywhere in the UK.",
     "possible_answers": [
       "True",
       "False"
@@ -3276,7 +3276,7 @@
     "correct_answers": [
       "True"
     ],
-    "explanation": "Scottish and Northern Irish banks issue their own banknotes; these are legal currency and generally accepted throughout the UK, although not legal tender outside their home nations. [web:73][web:76]",
+    "explanation": "Scottish and Northern Irish banks issue their Crown banknotes; these are legal currency and generally accepted throughout the UK, although not legal tender outside their home nations. [web:73][web:76]",
     "category": "Geography"
   },
   {
@@ -3331,7 +3331,7 @@
       "William Caxton",
       "John Gutenberg",
       "Geoffrey Chaucer",
-      "Richard III"
+      "Richard II"
     ],
     "correct_answers": [
       "William Caxton"
@@ -3351,7 +3351,7 @@
     "correct_answers": [
       "Aneurin (Nye) Bevan"
     ],
-    "explanation": "Health Minister Aneurin Bevan is credited with founding the NHS in 1948 under Clement Attlee’s Labour government. [web:14]",
+    "explanation": "Health Minister Aneurin Bevan is credited with founding the NHS in 1948 under Clement Attlee\u2019s Labour government. [web:14]",
     "category": "Government & Law"
   },
   {
@@ -3411,7 +3411,7 @@
     "correct_answers": [
       "Margaret Thatcher"
     ],
-    "explanation": "Margaret Thatcher became Britain’s first woman Prime Minister in 1979. [web:14]",
+    "explanation": "Margaret Thatcher became Britain\u2019s first woman Prime Minister in 1979. [web:14]",
     "category": "Government & Law"
   },
   {
@@ -3441,7 +3441,7 @@
     "correct_answers": [
       "Dame Ellen MacArthur"
     ],
-    "explanation": "In 2004–05, Dame Ellen MacArthur set a world record for the fastest solo circumnavigation of the globe by yacht. [web:22]",
+    "explanation": "In 2004\u201305, Dame Ellen MacArthur set a world record for the fastest solo circumnavigation of the globe by yacht. [web:22]",
     "category": "History"
   },
   {
@@ -3517,7 +3517,7 @@
     "correct_answers": [
       "Boudicca"
     ],
-    "explanation": "Boudicca was queen of the Iceni who led a revolt against Roman rule in Britain around AD 60–61. [web:33]",
+    "explanation": "Boudicca was queen of the Iceni who led a revolt against Roman rule in Britain around AD 60\u201361. [web:33]",
     "category": "History"
   },
   {
@@ -3547,7 +3547,7 @@
     "correct_answers": [
       "Serfs"
     ],
-    "explanation": "Serfs were peasants bound to a lord’s land, working it in return for protection and basic rights, and unable to leave without permission. [web:33]",
+    "explanation": "Serfs were peasants bound to a lord\u2019s land, working it in return for protection and basic rights, and unable to leave without permission. [web:33]",
     "category": "History"
   },
   {
@@ -3577,12 +3577,12 @@
     "correct_answers": [
       "St David"
     ],
-    "explanation": "St David is the patron saint of Wales, celebrated on St David’s Day, 1 March. [web:33]",
+    "explanation": "St David is the patron saint of Wales, celebrated on St David\u2019s Day, 1 March. [web:33]",
     "category": "Geography"
   },
   {
     "question_id": 239,
-    "question_detail": "Who designed the new St Paul’s Cathedral after the Great Fire of London?",
+    "question_detail": "Who designed the new St Paul\u2019s Cathedral after the Great Fire of London?",
     "possible_answers": [
       "Inigo Jones",
       "Sir Christopher Wren",
@@ -3592,7 +3592,7 @@
     "correct_answers": [
       "Sir Christopher Wren"
     ],
-    "explanation": "After the Great Fire of London in 1666, Sir Christopher Wren designed and oversaw the rebuilding of St Paul’s Cathedral. [web:22]",
+    "explanation": "After the Great Fire of London in 1666, Sir Christopher Wren designed and oversaw the rebuilding of St Paul\u2019s Cathedral. [web:22]",
     "category": "Architecture"
   },
   {
@@ -3713,7 +3713,7 @@
     "correct_answers": [
       "Tate Modern"
     ],
-    "explanation": "Tate Modern, on London’s South Bank, is a major gallery dedicated to modern and contemporary art.",
+    "explanation": "Tate Modern, on London\u2019s South Bank, is a major gallery dedicated to modern and contemporary art.",
     "category": "Arts & Culture"
   },
   {
@@ -3774,7 +3774,7 @@
     "correct_answers": [
       "Sir Tim Berners-Lee"
     ],
-    "explanation": "British computer scientist Sir Tim Berners‑Lee invented the World Wide Web in 1989–1990.",
+    "explanation": "British computer scientist Sir Tim Berners\u2011Lee invented the World Wide Web in 1989\u20131990.",
     "category": "Government & Law"
   },
   {
@@ -3864,7 +3864,7 @@
     "correct_answers": [
       "Roald Dahl"
     ],
-    "explanation": "Roald Dahl, born in Wales to Norwegian parents, wrote 'Charlie and the Chocolate Factory' and many other children’s books.",
+    "explanation": "Roald Dahl, born in Wales to Norwegian parents, wrote 'Charlie and the Chocolate Factory' and many other children\u2019s books.",
     "category": "Arts & Culture"
   },
   {
@@ -3879,7 +3879,7 @@
     "correct_answers": [
       "By-election"
     ],
-    "explanation": "If a Commons seat becomes vacant between general elections, a by‑election is held in that constituency.",
+    "explanation": "If a Commons seat becomes vacant between general elections, a by\u2011election is held in that constituency.",
     "category": "Architecture"
   },
   {
@@ -3899,7 +3899,7 @@
   },
   {
     "question_id": 260,
-    "question_detail": "Who captained England’s football team to the 1966 World Cup victory?",
+    "question_detail": "Who captained England\u2019s football team to the 1966 World Cup victory?",
     "possible_answers": [
       "Sir Ian Botham",
       "Sir Steve Redgrave",
@@ -3924,7 +3924,7 @@
     "correct_answers": [
       "Haggis"
     ],
-    "explanation": "Haggis, a savoury dish made from sheep offal, oats and spices, is widely regarded as Scotland’s national dish.",
+    "explanation": "Haggis, a savoury dish made from sheep offal, oats and spices, is widely regarded as Scotland\u2019s national dish.",
     "category": "Geography"
   },
   {
@@ -4000,7 +4000,7 @@
     "correct_answers": [
       "He was executed"
     ],
-    "explanation": "Charles I’s army was defeated at the Battles of Marston Moor and Naseby. Charles was held prisoner by the parliamentary army. As he was unwilling to reach any agreement with the Parliament, in 1649 he was executed.",
+    "explanation": "Charles I\u2019s army was defeated at the Battles of Marston Moor and Naseby. Charles was held prisoner by the parliamentary army. As he was unwilling to reach any agreement with the Parliament, in 1649 he was executed.",
     "category": "History"
   },
   {
@@ -4257,13 +4257,13 @@
   {
     "question_detail": "Which court handles minor criminal offences in Scotland?",
     "possible_answers": [
-      "Magistrates’ Court",
+      "Magistrates\u2019 Court",
       "Justice of the Peace Court",
       "High Court",
       "Youth Courts"
     ],
     "correct_answers": [
-      "Magistrates’ Court"
+      "Magistrates\u2019 Court"
     ],
     "explanation": "No explanation available",
     "category": "Government & Law",
@@ -4272,13 +4272,13 @@
   {
     "question_detail": "What country did Germany attack in 1939 that caused Second World War?",
     "possible_answers": [
-      "rance",
-      "ustria",
+      "France",
+      "Austria",
       "Poland",
-      "zechoslovakia"
+      "Czechoslovakia"
     ],
     "correct_answers": [
-      "rance"
+      "Poland"
     ],
     "explanation": "No explanation available",
     "category": "History",
@@ -4287,13 +4287,13 @@
   {
     "question_detail": "Where is Snowdonia National Park located?",
     "possible_answers": [
-      "ngland",
+      "England",
       "Northern Ireland",
       "Scotland",
       "Wales"
     ],
     "correct_answers": [
-      "ngland"
+      "Wales"
     ],
     "explanation": "No explanation available",
     "category": "General Knowledge",
@@ -4303,12 +4303,12 @@
     "question_detail": "Where does the Fringe Festival take place?",
     "possible_answers": [
       "Glasgow",
-      "inburgh",
+      "Edinburgh",
       "London",
-      "ornwall"
+      "Cornwall"
     ],
     "correct_answers": [
-      "Glasgow"
+      "Edinburgh"
     ],
     "explanation": "No explanation available",
     "category": "Society & Culture",
@@ -4320,10 +4320,10 @@
       "Scotland",
       "Wales",
       "Northern Ireland",
-      "ngland"
+      "England"
     ],
     "correct_answers": [
-      "Scotland"
+      "England"
     ],
     "explanation": "No explanation available",
     "category": "General Knowledge",
@@ -4332,13 +4332,13 @@
   {
     "question_detail": "Which court handles both serious and the most serious criminal offences in England, Wales, and Northern Ireland?",
     "possible_answers": [
-      "Magistrates’ Court",
+      "Magistrates' Court",
       "High Court",
-      "rown Court",
+      "Crown Court",
       "Sheriff Court"
     ],
     "correct_answers": [
-      "Magistrates’ Court"
+      "Crown Court"
     ],
     "explanation": "No explanation available",
     "category": "Government & Law",
@@ -4350,7 +4350,7 @@
       "Wallace and Gromit",
       "Tom and Jerry",
       "Shaun and Bitzer",
-      "ndy and Lou"
+      "Andy and Lou"
     ],
     "correct_answers": [
       "Wallace and Gromit"
@@ -4364,8 +4364,8 @@
     "possible_answers": [
       "The Lord of the Rings",
       "Harry Potter",
-      "nimal Farm",
-      "righton Rock"
+      "Animal Farm",
+      "Brighton Rock"
     ],
     "correct_answers": [
       "The Lord of the Rings"
@@ -4379,7 +4379,7 @@
     "possible_answers": [
       "Hiring teachers directly",
       "Monitoring and evaluating school performance",
-      "nsuring accountability",
+      "Ensuring accountability",
       "Managing classroom behaviour"
     ],
     "correct_answers": [
@@ -4393,7 +4393,7 @@
     "question_detail": "What are TWO devolved powers of the Welsh Parliament(Senedd)?",
     "possible_answers": [
       "Immigration",
-      "ucation and training",
+      "Education and training",
       "Health and social services",
       "Taxation"
     ],
@@ -4410,7 +4410,7 @@
       "William Shakespeare",
       "Isaac Newton",
       "Winston Churchill",
-      "harles Darwin"
+      "Charles Darwin"
     ],
     "correct_answers": [
       "William Shakespeare"
@@ -4438,7 +4438,7 @@
     "question_detail": "Where is Loch Lomond and the Trossachs National Park located?",
     "possible_answers": [
       "Scotland",
-      "ngland",
+      "England",
       "Wales",
       "Northern Ireland"
     ],
@@ -4468,7 +4468,7 @@
     "question_detail": "Hogmanay in Scotland is the equivalent of which celebration?",
     "possible_answers": [
       "hristmas",
-      "New Year’s Eve",
+      "New Year\u2019s Eve",
       "urns Night",
       "Halloween"
     ],
@@ -4484,11 +4484,11 @@
     "possible_answers": [
       "Queen Victoria",
       "Henry VIII",
-      "lizabeth I",
-      "harles II"
+      "Elizabeth I",
+      "Charles II"
     ],
     "correct_answers": [
-      "Queen Victoria"
+      "Elizabeth I"
     ],
     "explanation": "No explanation available",
     "category": "History",
@@ -4558,7 +4558,7 @@
     "question_detail": "Which TWO are popular British soap operas?",
     "possible_answers": [
       "Only Fools and Horses",
-      "’s Army",
+      "\u2019s Army",
       "oronation Street",
       "stEnders"
     ],
@@ -4600,7 +4600,7 @@
     "question_id": 306
   },
   {
-    "question_detail": "Which TWO of Henry VIII’s wives were accused of taking lovers and executed?",
+    "question_detail": "Which TWO of Henry VIII\u2019s wives were accused of taking lovers and executed?",
     "possible_answers": [
       "Jane Seymour",
       "nne of Cleves",
@@ -4630,7 +4630,7 @@
     "question_id": 308
   },
   {
-    "question_detail": "Which country’s coast did Captain James Cook map leading to British colonies established there?",
+    "question_detail": "Which country\u2019s coast did Captain James Cook map leading to British colonies established there?",
     "possible_answers": [
       "India",
       "ustralia",
@@ -4708,7 +4708,7 @@
     "question_detail": "Which TWO countries jointly developed the Concorde, the supersonic passenger aircraft, which first flew in 1969?",
     "possible_answers": [
       "United States",
-      "rance",
+      "France",
       "Germany",
       "United Kingdom"
     ],
@@ -4720,7 +4720,7 @@
     "question_id": 314
   },
   {
-    "question_detail": "Which TWO Roman forts were part of Hadrian’s Wall?",
+    "question_detail": "Which TWO Roman forts were part of Hadrian\u2019s Wall?",
     "possible_answers": [
       "Vindolanda",
       "Stonehenge",
@@ -4739,7 +4739,7 @@
     "possible_answers": [
       "King Henry VIII; it gave the king absolute power over the Church",
       "King Edward I; it created the first English Parliament",
-      "King John; it limited the king’s power and established the rule of law",
+      "King John; it limited the king\u2019s power and established the rule of law",
       "William the Conqueror; it declared him ruler of England after the Battle of Hastings"
     ],
     "correct_answers": [
@@ -4830,7 +4830,7 @@
       "scot",
       "intree",
       "Newmarket",
-      "ornwall"
+      "Cornwall"
     ],
     "correct_answers": [
       "scot"
@@ -4947,13 +4947,13 @@
   {
     "question_detail": "Which event during World War II best represents the Dunkirk spirit?",
     "possible_answers": [
-      "ombing raids on Britain during the Blitz in WWII",
-      "llied invasion of France on D-Day with the help of civilian boats in WWII",
-      "vacuation of soldiers from France with the help of civilian boats in WWII",
-      "The surrender of Germany at the end of WWII"
+      "ombing raids on Britain during the Blitz in WII",
+      "llied invasion of France on D-Day with the help of civilian boats in WII",
+      "vacuation of soldiers from France with the help of civilian boats in WII",
+      "The surrender of Germany at the end of WII"
     ],
     "correct_answers": [
-      "ombing raids on Britain during the Blitz in WWII"
+      "ombing raids on Britain during the Blitz in WII"
     ],
     "explanation": "No explanation available",
     "category": "History",
@@ -5095,7 +5095,7 @@
     "question_id": 339
   },
   {
-    "question_detail": "When is St Patrick’s Day celebrated in Northern Ireland?",
+    "question_detail": "When is St Patrick\u2019s Day celebrated in Northern Ireland?",
     "possible_answers": [
       "March",
       "March",
@@ -5144,7 +5144,7 @@
     "possible_answers": [
       "Health",
       "Immigration",
-      "ucation",
+      "Education",
       "Security"
     ],
     "correct_answers": [
@@ -5155,7 +5155,7 @@
     "question_id": 343
   },
   {
-    "question_detail": "When is St Andrew’s Day celebrated in Scotland?",
+    "question_detail": "When is St Andrew\u2019s Day celebrated in Scotland?",
     "possible_answers": [
       "March",
       "March",
@@ -5204,7 +5204,7 @@
     "possible_answers": [
       "Spain",
       "Germany",
-      "rance",
+      "France",
       "Italy"
     ],
     "correct_answers": [
@@ -5217,13 +5217,13 @@
   {
     "question_detail": "Who was brought back from the Netherlands to reinstate the monarchy in England, Scotland, and Ireland?",
     "possible_answers": [
-      "harles I",
+      "Charles I",
       "James II",
-      "harles II",
+      "Charles II",
       "William of Orange"
     ],
     "correct_answers": [
-      "harles I"
+      "Charles I"
     ],
     "explanation": "No explanation available",
     "category": "History",
@@ -5233,8 +5233,8 @@
     "question_detail": "Which king was defeated by Oliver Cromwell in the English Civil War and hid in an oak tree before escaping to Europe?",
     "possible_answers": [
       "James I",
-      "harles I",
-      "harles II",
+      "Charles I",
+      "Charles II",
       "Henry VIII"
     ],
     "correct_answers": [
@@ -5245,7 +5245,7 @@
     "question_id": 349
   },
   {
-    "question_detail": "Which important agreement related to the peace process in Northern Ireland was signed in 1998 during Tony Blair’s government?",
+    "question_detail": "Which important agreement related to the peace process in Northern Ireland was signed in 1998 during Tony Blair\u2019s government?",
     "possible_answers": [
       "St Andrews Agreement",
       "nglo-Irish Agreement",
@@ -5321,7 +5321,7 @@
     "question_detail": "From which country did refugees called Huguenots come between 1680 and 1720 to live in Britain?",
     "possible_answers": [
       "Spain",
-      "rance",
+      "France",
       "Germany",
       "Italy"
     ],
@@ -5392,10 +5392,10 @@
     "question_id": 359
   },
   {
-    "question_detail": "Which famous children’s author wrote Charlie and the Chocolate Factory?",
+    "question_detail": "Which famous children\u2019s author wrote Charlie and the Chocolate Factory?",
     "possible_answers": [
       "Jane Austen",
-      "harles Dickens",
+      "Charles Dickens",
       "Roald Dahl",
       "J.K. Rowling"
     ],
@@ -5424,13 +5424,13 @@
   {
     "question_detail": "Which TWO matters are reserved for the UK Parliament in Scotland, Wales, and Northern Ireland?",
     "possible_answers": [
-      "ucation",
+      "Education",
       "Immigration",
       "Health",
       "nce"
     ],
     "correct_answers": [
-      "ucation"
+      "Education"
     ],
     "explanation": "No explanation available",
     "category": "Architecture",
@@ -5440,7 +5440,7 @@
     "question_detail": "What modern country was William the Conqueror from?",
     "possible_answers": [
       "Germany",
-      "rance",
+      "France",
       "Italy",
       "Spain"
     ],
@@ -5482,15 +5482,15 @@
     "question_id": 365
   },
   {
-    "question_detail": "How are solicitors’ charges usually calculated?",
+    "question_detail": "How are solicitors\u2019 charges usually calculated?",
     "possible_answers": [
-      "sed on the client’s income",
+      "sed on the client\u2019s income",
       "sed on the type of court involved",
       "sed on the time spent on a case",
       "sed on the seriousness of the case"
     ],
     "correct_answers": [
-      "sed on the client’s income"
+      "sed on the client\u2019s income"
     ],
     "explanation": "No explanation available",
     "category": "General Knowledge",
@@ -5531,7 +5531,7 @@
     "possible_answers": [
       "Ireland",
       "Wales",
-      "rance",
+      "France",
       "Scotland"
     ],
     "correct_answers": [
@@ -5559,8 +5559,8 @@
     "possible_answers": [
       "Halloween",
       "oxing Day",
-      "pril Fool’s Day",
-      "Valentine’s Day"
+      "pril Fool\u2019s Day",
+      "Valentine\u2019s Day"
     ],
     "correct_answers": [
       "Halloween"

@@ -9,6 +9,16 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
   const [timeLeft, setTimeLeft] = useState(mode === 'timed' ? 45 * 60 : null);
   const [showNav, setShowNav] = useState(true);
   const [showExplanation, setShowExplanation] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  // Handle window resize
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   // Track which questions are from the flagged pool (if this is a flagged set exam)
   const [questionsFlaggedStatus, setQuestionsFlaggedStatus] = useState(() => {
@@ -403,25 +413,31 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
         />
 
         {/* Question Navigation Sidebar (Collapsible) */}
-        <div className={`sidebar ${showNav ? 'open' : ''}`}>
+        <div className={`sidebar ${showNav ? 'open' : ''}`} style={{ minWidth: isMobile ? '0' : 'auto' }}>
           {/* Exit Button at Top */}
           <div style={{ padding: '1rem', borderBottom: '1px solid var(--border)' }}>
             <button
               className="btn btn-danger"
               onClick={handleExit}
               style={{ width: '100%', justifyContent: 'center' }}
+              aria-label="Exit exam"
             >
               <Home size={18} /> Exit Exam
             </button>
           </div>
 
-          <div style={{ padding: '1rem', display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem' }}>
+          {/* Desktop Grid - 4 columns */}
+          <div style={{
+            padding: '1rem',
+            display: !isMobile ? 'grid' : 'none',
+            gridTemplateColumns: 'repeat(4, 1fr)',
+            gap: '0.5rem'
+          }}>
             {questions.map((q, idx) => {
               const isFlagged = flagged.has(q.question_id);
-              const wasOriginallyFlagged = isFromFlaggedSet ? questionsFlaggedStatus[q.question_id] : false;
               const hasAnswered = (answers[q.question_id] || []).length > 0;
 
-              let statusText = "Unanwsered";
+              let statusText = "Unanswered";
               if (idx === currentIdx) statusText = "Current Question";
               else if (isFlagged) statusText = "Flagged";
               else if (hasAnswered) statusText = "Answered";
@@ -431,8 +447,7 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
                   key={q.question_id}
                   onClick={() => {
                     setCurrentIdx(idx);
-                    // On mobile, close sidebar after selection
-                    if (window.innerWidth < 768) setShowNav(false);
+                    if (isMobile) setShowNav(false);
                   }}
                   aria-label={`Question ${idx + 1}: ${statusText}`}
                   aria-current={idx === currentIdx ? 'true' : undefined}
@@ -445,7 +460,8 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
                     fontWeight: 'bold',
                     position: 'relative',
                     cursor: 'pointer',
-                    boxShadow: idx === currentIdx ? '0 0 0 2px var(--bg-secondary), 0 0 0 4px var(--accent)' : 'none'
+                    boxShadow: idx === currentIdx ? '0 0 0 2px var(--bg-secondary), 0 0 0 4px var(--accent)' : 'none',
+                    fontSize: '0.9rem'
                   }}
                 >
                   {idx + 1}
@@ -460,6 +476,62 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
                       borderRadius: '50%'
                     }} />
                   )}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Mobile List - Compact */}
+          <div style={{
+            padding: '1rem',
+            display: isMobile ? 'flex' : 'none',
+            flexDirection: 'column',
+            gap: '0.5rem',
+            maxHeight: '70vh',
+            overflowY: 'auto'
+          }}>
+            {questions.map((q, idx) => {
+              const isFlagged = flagged.has(q.question_id);
+              const hasAnswered = (answers[q.question_id] || []).length > 0;
+
+              let statusText = "Unanswered";
+              let statusIcon = '';
+              if (idx === currentIdx) {
+                statusText = "Current";
+                statusIcon = '●';
+              } else if (isFlagged) {
+                statusText = "Flagged";
+                statusIcon = '⚡';
+              } else if (hasAnswered) {
+                statusText = "Answered";
+                statusIcon = '✓';
+              }
+
+              return (
+                <button
+                  key={q.question_id}
+                  onClick={() => {
+                    setCurrentIdx(idx);
+                    setShowNav(false);
+                  }}
+                  aria-label={`Question ${idx + 1}: ${statusText}`}
+                  aria-current={idx === currentIdx ? 'true' : undefined}
+                  style={{
+                    padding: '0.75rem',
+                    background: getStatusColor(idx),
+                    color: getTextColor(idx),
+                    borderRadius: '0.5rem',
+                    border: idx === currentIdx ? '2px solid var(--accent)' : '1px solid var(--border)',
+                    fontWeight: idx === currentIdx ? 'bold' : 'normal',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    fontSize: '0.9rem'
+                  }}
+                >
+                  <span>Q{idx + 1}</span>
+                  <span>{statusIcon}</span>
                 </button>
               );
             })}
