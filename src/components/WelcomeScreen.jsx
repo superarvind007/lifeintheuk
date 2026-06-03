@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Play, Flag, Clock, BookOpen, AlertCircle, Trash2, HelpCircle, Palette, Map, Check } from 'lucide-react';
 import { getFlaggedIds, saveFlaggedIds, getAnsweredIds, saveAnsweredIds } from '../utils';
 import questionsData from '../data/questions.json';
@@ -89,6 +89,21 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
 
   const unansweredCount = Math.max(0, totalQuestions - excludedCount);
   const [showCategoryFilter, setShowCategoryFilter] = useState(false);
+  const dropdownRef = useRef(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setShowCategoryFilter(false);
+      }
+    };
+
+    if (showCategoryFilter) {
+      document.addEventListener('mousedown', handleClickOutside);
+      return () => document.removeEventListener('mousedown', handleClickOutside);
+    }
+  }, [showCategoryFilter]);
 
   return (
     <div className="card" style={{ maxWidth: '700px', margin: '2rem auto', textAlign: 'center' }}>
@@ -106,7 +121,7 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
       </div>
 
       {/* Categories Filter - Dropdown (Desktop & Mobile) */}
-      <div style={{ marginBottom: '1.5rem', position: 'relative' }}>
+      <div ref={dropdownRef} style={{ marginBottom: '1.5rem', position: 'relative' }}>
         <button
           onClick={() => setShowCategoryFilter(!showCategoryFilter)}
           onKeyDown={(e) => {
@@ -121,11 +136,12 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
           style={{
             width: '100%',
             justifyContent: 'space-between',
-            padding: '0.75rem 1rem'
+            padding: '0.75rem 1rem',
+            transition: 'all 0.2s ease'
           }}
         >
           <span>Categories: {selectedCategories.includes('All') ? 'All' : selectedCategories.length + ' selected'}</span>
-          <span aria-hidden="false">{showCategoryFilter ? '▼' : '▶'}</span>
+          <span aria-hidden="false" style={{ transition: 'transform 0.2s ease' }}>{showCategoryFilter ? '▼' : '▶'}</span>
         </button>
 
         {showCategoryFilter && (
@@ -144,17 +160,32 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
               maxHeight: '300px',
               overflowY: 'auto',
               zIndex: 10,
-              boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)'
+              boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
+              animation: 'fadeInSlideDown 0.2s ease',
             }}
           >
+            <style>{`
+              @keyframes fadeInSlideDown {
+                from {
+                  opacity: 0;
+                  transform: translateY(-8px);
+                }
+                to {
+                  opacity: 1;
+                  transform: translateY(0);
+                }
+              }
+            `}</style>
             <button
               onClick={() => {
                 toggleCategory('All');
+                setShowCategoryFilter(false);
               }}
               onKeyDown={(e) => {
                 if (e.key === 'Enter' || e.key === ' ') {
                   e.preventDefault();
                   toggleCategory('All');
+                  setShowCategoryFilter(false);
                 }
               }}
               aria-pressed={selectedCategories.includes('All')}
@@ -166,7 +197,9 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
                 background: selectedCategories.includes('All') ? 'var(--accent)' : 'transparent',
                 color: selectedCategories.includes('All') ? 'white' : 'var(--text-primary)',
                 cursor: 'pointer',
-                borderBottom: '1px solid var(--border)'
+                borderBottom: '1px solid var(--border)',
+                transition: 'all 0.15s ease',
+                fontSize: '0.95rem'
               }}
             >
               <Check size={14} style={{ marginRight: '0.5rem', opacity: selectedCategories.includes('All') ? 1 : 0 }} aria-hidden="false" />
@@ -177,11 +210,13 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
                 key={cat}
                 onClick={() => {
                   toggleCategory(cat);
+                  setShowCategoryFilter(false);
                 }}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') {
                     e.preventDefault();
                     toggleCategory(cat);
+                    setShowCategoryFilter(false);
                   }
                 }}
                 aria-pressed={selectedCategories.includes(cat)}
@@ -196,7 +231,9 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
                   borderBottom: '1px solid var(--border)',
                   display: 'flex',
                   alignItems: 'center',
-                  justifyContent: 'space-between'
+                  justifyContent: 'space-between',
+                  transition: 'all 0.15s ease',
+                  fontSize: '0.95rem'
                 }}
               >
                 <span>
