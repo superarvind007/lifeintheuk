@@ -203,13 +203,11 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
               <button
                 onClick={() => {
                   toggleCategory('All');
-                  setShowCategoryFilter(false);
                 }}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') {
                     e.preventDefault();
                     toggleCategory('All');
-                    setShowCategoryFilter(false);
                   }
                 }}
                 aria-pressed={selectedCategories.includes('All')}
@@ -232,13 +230,11 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
                   key={cat}
                   onClick={() => {
                     toggleCategory(cat);
-                    setShowCategoryFilter(false);
                   }}
                   onKeyDown={(e) => {
                     if (e.key === 'Enter' || e.key === ' ') {
                       e.preventDefault();
                       toggleCategory(cat);
-                      setShowCategoryFilter(false);
                     }
                   }}
                   aria-pressed={selectedCategories.includes(cat)}
