@@ -157,10 +157,10 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
               border: '1px solid var(--border)',
               borderRadius: '0.5rem',
               marginTop: '0.5rem',
-              maxHeight: '300px',
+              maxHeight: '320px',
               overflowY: 'auto',
-              zIndex: 10,
-              boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
+              zIndex: 1000,
+              boxShadow: '0 8px 16px rgba(0, 0, 0, 0.25)',
               animation: 'fadeInSlideDown 0.2s ease',
             }}
           >
@@ -179,13 +179,11 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
             <button
               onClick={() => {
                 toggleCategory('All');
-                setShowCategoryFilter(false);
               }}
               onKeyDown={(e) => {
                 if (e.key === 'Enter' || e.key === ' ') {
                   e.preventDefault();
                   toggleCategory('All');
-                  setShowCategoryFilter(false);
                 }
               }}
               aria-pressed={selectedCategories.includes('All')}
@@ -210,13 +208,11 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
                 key={cat}
                 onClick={() => {
                   toggleCategory(cat);
-                  setShowCategoryFilter(false);
                 }}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') {
                     e.preventDefault();
                     toggleCategory(cat);
-                    setShowCategoryFilter(false);
                   }
                 }}
                 aria-pressed={selectedCategories.includes(cat)}
