@@ -603,13 +603,11 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
             )}
           </div>
 
-          {currentIdx === questions.length - 1 && (
-            <div style={{ padding: '1rem', borderTop: '1px solid var(--border)' }}>
-              <button className="btn btn-primary" onClick={handleSubmit} style={{ width: '100%', justifyContent: 'center' }} aria-label="Submit exam">
-                Submit Exam <CheckSquare size={18} aria-hidden="false" />
-              </button>
-            </div>
-          )}
+          <div style={{ padding: '1rem', borderTop: '1px solid var(--border)' }}>
+            <button className="btn btn-primary" onClick={handleSubmit} style={{ width: '100%', justifyContent: 'center' }} aria-label="Submit exam">
+              Submit Exam <CheckSquare size={18} aria-hidden="false" />
+            </button>
+          </div>
         </div>
 
         {/* Question Area */}
