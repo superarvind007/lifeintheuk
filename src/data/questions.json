@@ -12,7 +12,7 @@
       "Discovery of gravity"
     ],
     "explanation": "Isaac Newton is famous for formulating the law of universal gravitation after studying the motion of objects and planets.",
-    "category": "Science & Innovation"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 2,
@@ -42,7 +42,7 @@
       "Margaret Thatcher"
     ],
     "explanation": "Margaret Thatcher served as Prime Minister from 1979 to 1990, making her the longest-serving UK Prime Minister of the 20th century.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 4,
@@ -73,7 +73,7 @@
       "Looking after yourself and your family"
     ],
     "explanation": "Citizens are expected to be tolerant of others’ beliefs and to take responsibility for themselves and their families; voting and union membership are voluntary.",
-    "category": "UK Values & Principles"
+    "category": "UK Values & Rights"
   },
   {
     "question_id": 6,
@@ -88,7 +88,7 @@
       "Aintree"
     ],
     "explanation": "The Grand National, a famous steeplechase, takes place at Aintree Racecourse near Liverpool.",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 7,
@@ -118,7 +118,7 @@
       "Thistle"
     ],
     "explanation": "The national emblem of Scotland is the thistle, while England uses the rose, Wales the daffodil, and Ireland the shamrock.",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 9,
@@ -133,7 +133,7 @@
       "0.5%"
     ],
     "explanation": "In the 2009 Citizenship Survey, about 0.5% of respondents identified as Jewish.",
-    "category": "UK Values & Principles"
+    "category": "UK Values & Rights"
   },
   {
     "question_id": 10,
@@ -148,7 +148,7 @@
       "The discovery of penicillin"
     ],
     "explanation": "Alexander Fleming discovered penicillin in 1928, and this work on antibiotics earned him a share of the Nobel Prize in 1945.",
-    "category": "Science & Innovation"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 11,
@@ -194,7 +194,7 @@
       "Wiltshire"
     ],
     "explanation": "Stonehenge is a prehistoric stone circle located on Salisbury Plain in Wiltshire, southern England.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 14,
@@ -209,7 +209,7 @@
       "Steel and glass"
     ],
     "explanation": "The Crystal Palace was an innovative structure built largely from cast iron (steel) and glass for the Great Exhibition of 1851.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 15,
@@ -224,7 +224,7 @@
       "Frank Whittle"
     ],
     "explanation": "Sir Frank Whittle, a British engineer, is credited with inventing the turbojet engine in the 1930s.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 16,
@@ -239,7 +239,7 @@
       "31 October"
     ],
     "explanation": "Halloween is celebrated on the evening of 31 October, with traditions such as dressing up and trick-or-treating.",
-    "category": "Society & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 17,
@@ -269,7 +269,7 @@
       "Stratford-upon-Avon"
     ],
     "explanation": "William Shakespeare was born in Stratford-upon-Avon, a market town in Warwickshire, England.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 19,
@@ -299,7 +299,7 @@
       "Glass manufacturers - Italy, Weavers - France, Engineers - Germany, Builders - Holland"
     ],
     "explanation": "Skilled workers from across Europe came to medieval England, including glass makers from Italy, weavers from France, engineers from Germany, and builders from Holland.",
-    "category": "Economy & Industry"
+    "category": "Economy & Employment"
   },
   {
     "question_id": 21,
@@ -314,7 +314,7 @@
       "Domesday Book"
     ],
     "explanation": "William the Conqueror ordered the Domesday Book in 1085–1086 to record landholdings and resources in England.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 22,
@@ -329,7 +329,7 @@
       "Sir Steve Redgrave"
     ],
     "explanation": "Sir Steve Redgrave won rowing gold medals at five consecutive Olympic Games from 1984 to 2000.",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 23,
@@ -344,7 +344,7 @@
       "The Battle of Waterloo"
     ],
     "explanation": "The Battle of Waterloo in 1815 was the final major battle between Britain and France, ending the Napoleonic Wars.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 24,
@@ -359,7 +359,7 @@
       "Scotland"
     ],
     "explanation": "St Andrew’s Day on 30 November is the national day of Scotland and is especially celebrated there.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 25,
@@ -374,7 +374,7 @@
       "St Andrew"
     ],
     "explanation": "St Andrew is the patron saint of Scotland and is celebrated on St Andrew’s Day, 30 November.",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 26,
@@ -406,7 +406,7 @@
       "Darts"
     ],
     "explanation": "Pool and darts are long‑standing traditional pub games widely played in pubs across the UK.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 28,
@@ -436,7 +436,7 @@
       "18"
     ],
     "explanation": "In the UK, people must normally be at least 18 years old to buy alcohol in pubs, bars or nightclubs.",
-    "category": "Society & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 30,
@@ -451,7 +451,7 @@
       "Normandy"
     ],
     "explanation": "William was Duke of Normandy, a region in northern France, before becoming king after 1066.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 31,
@@ -466,7 +466,7 @@
       "To be subject to the law like other citizens"
     ],
     "explanation": "King John agreed to Magna Carta under baronial pressure, accepting that the monarch must obey the law like others.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 32,
@@ -496,7 +496,7 @@
       "John Logie Baird"
     ],
     "explanation": "Scottish inventor John Logie Baird developed early television technology and demonstrated broadcasts between London and Glasgow in the early 1930s.",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 34,
@@ -511,7 +511,7 @@
       "18"
     ],
     "explanation": "The minimum legal age to buy tobacco products in the UK is 18.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 35,
@@ -526,7 +526,7 @@
       "Highland Clearances"
     ],
     "explanation": "The Highland Clearances were the forced evictions of tenants from Scottish Highlands to make way for sheep and cattle farming.",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 36,
@@ -556,7 +556,7 @@
       "Bank holidays"
     ],
     "explanation": "Official public holidays in the UK are commonly known as bank holidays, when banks and many workplaces close.",
-    "category": "Economy & Industry"
+    "category": "Economy & Employment"
   },
   {
     "question_id": 38,
@@ -586,7 +586,7 @@
       "1215"
     ],
     "explanation": "Magna Carta was agreed between King John and his barons at Runnymede in 1215.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 40,
@@ -601,7 +601,7 @@
       "Florence Nightingale"
     ],
     "explanation": "Florence Nightingale became famous for organising nursing care for wounded soldiers during the Crimean War.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 41,
@@ -616,7 +616,7 @@
       "Nurse"
     ],
     "explanation": "Florence Nightingale is remembered as a pioneering nurse and reformer of hospital hygiene and training.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 42,
@@ -631,7 +631,7 @@
       "Mo Farah"
     ],
     "explanation": "Mo Farah became the first British athlete to win Olympic gold in the 10,000 metres at the 2012 London Games.",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 43,
@@ -646,7 +646,7 @@
       "Literature"
     ],
     "explanation": "The Man Booker Prize (now known as the Booker Prize) is a prestigious literary award for novels.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 44,
@@ -677,7 +677,7 @@
       "Auld Lang Syne"
     ],
     "explanation": "The New Year song 'Auld Lang Syne' is based on words by Scottish poet Robert Burns.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 46,
@@ -692,7 +692,7 @@
       "17"
     ],
     "explanation": "The usual minimum age to drive a car or most motorcycles in the UK is 17, after obtaining a provisional licence and meeting test requirements.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 47,
@@ -707,7 +707,7 @@
       "Battle of Bosworth Field"
     ],
     "explanation": "The Battle of Bosworth Field in 1485 ended the Wars of the Roses and brought Henry VII to the throne.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 48,
@@ -737,7 +737,7 @@
       "Potato"
     ],
     "explanation": "The Irish Great Famine of the 1840s was caused by repeated failures of the potato crop, the staple food of much of the population. [web:100][web:103][web:97]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 50,
@@ -752,7 +752,7 @@
       "David Hockney"
     ],
     "explanation": "David Hockney is a leading British artist closely associated with the Pop Art movement of the 1960s. [web:101][web:104]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 51,
@@ -797,7 +797,7 @@
       "Scotland"
     ],
     "explanation": "James I of England was previously James VI of Scotland, so he originally came from Scotland.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 54,
@@ -812,7 +812,7 @@
       "After the Second World War, 1945"
     ],
     "explanation": "The United Nations was created in 1945 after the Second World War to promote peace and international cooperation.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 55,
@@ -828,7 +828,7 @@
       "To help each other if they come under attack"
     ],
     "explanation": "NATO is a defensive alliance whose members seek to maintain peace and promise mutual defence if any member is attacked.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 56,
@@ -873,7 +873,7 @@
       "Independents"
     ],
     "explanation": "MPs who are not members of an organised political party in Parliament are known as independent MPs.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 59,
@@ -903,7 +903,7 @@
       "Synagogue"
     ],
     "explanation": "Jews worship in synagogues, where religious services and community activities take place.",
-    "category": "UK Values & Principles"
+    "category": "UK Values & Rights"
   },
   {
     "question_id": 61,
@@ -918,7 +918,7 @@
       "April Fool’s Day"
     ],
     "explanation": "On 1 April, April Fool’s Day, media outlets sometimes run humorous or fictitious stories as jokes.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 62,
@@ -933,7 +933,7 @@
       "Six Nations Championship"
     ],
     "explanation": "The Six Nations Championship is the leading annual Rugby Union competition involving England, Scotland, Wales, Ireland, France and Italy.",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 63,
@@ -948,7 +948,7 @@
       "Charlie Chaplin"
     ],
     "explanation": "Charlie Chaplin gained worldwide fame in silent films for his comic 'Little Tramp' character.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 64,
@@ -978,7 +978,7 @@
       "Cornwall"
     ],
     "explanation": "The Eden Project, a series of large biomes housing plants from around the world, is located in Cornwall in south‑west England.",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 66,
@@ -1038,7 +1038,7 @@
       "The Canterbury Tales"
     ],
     "explanation": "Geoffrey Chaucer’s 'The Canterbury Tales' follows a group of pilgrims travelling to Canterbury and telling stories on the way.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 70,
@@ -1068,7 +1068,7 @@
       "The Ashes"
     ],
     "explanation": "The Ashes is the famous Test cricket series contested periodically between England and Australia.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 72,
@@ -1098,7 +1098,7 @@
       "Sir Edwin Lutyens"
     ],
     "explanation": "The Cenotaph in Whitehall, London, was designed by Sir Edwin Lutyens as a memorial to the dead of World War I.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 74,
@@ -1173,7 +1173,7 @@
       "Lent"
     ],
     "explanation": "Lent is the 40-day period of fasting and reflection observed by many Christians in the lead-up to Easter.",
-    "category": "Society & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 79,
@@ -1188,7 +1188,7 @@
       "Emmeline Pankhurst"
     ],
     "explanation": "Emmeline Pankhurst co-founded the WSPU and led direct-action campaigns to win women the right to vote in the UK.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 80,
@@ -1203,7 +1203,7 @@
       "Economics"
     ],
     "explanation": "Adam Smith is regarded as the father of modern economics and wrote about free markets and the division of labour.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 81,
@@ -1218,7 +1218,7 @@
       "English composer and musician"
     ],
     "explanation": "Sir Edward Elgar was an English composer best known for works such as the Enigma Variations and Pomp and Circumstance marches.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 82,
@@ -1231,7 +1231,7 @@
       "False"
     ],
     "explanation": "Only the Church of England is an established church; there is no established church in Wales, Scotland, or Northern Ireland.",
-    "category": "Society & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 83,
@@ -1246,7 +1246,7 @@
       "Young people aged 16 and 17"
     ],
     "explanation": "National Citizen Service is a programme open mainly to young people aged 16 and 17 to develop skills and take part in community projects.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 84,
@@ -1261,7 +1261,7 @@
       "Sir Christopher Cockerell"
     ],
     "explanation": "Sir Christopher Cockerell invented the modern hovercraft in the 1950s, developing the air-cushion principle that allows it to travel over land and water.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 85,
@@ -1276,7 +1276,7 @@
       "Geoffrey Chaucer"
     ],
     "explanation": "The Canterbury Tales is a collection of stories written in Middle English by Geoffrey Chaucer about pilgrims travelling to Canterbury.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 86,
@@ -1292,7 +1292,7 @@
       "Macbeth"
     ],
     "explanation": "William Shakespeare wrote many plays including A Midsummer Night’s Dream and Macbeth; The Canterbury Tales is by Chaucer and Paradise Lost is by John Milton.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 87,
@@ -1322,7 +1322,7 @@
       "William the Conqueror"
     ],
     "explanation": "The Tower of London was begun by William the Conqueror in the 11th century as a fortress and royal residence.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 89,
@@ -1352,7 +1352,7 @@
       "Ian Fleming"
     ],
     "explanation": "The fictional British secret agent James Bond first appeared in novels written by Ian Fleming in the 1950s.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 91,
@@ -1367,7 +1367,7 @@
       "The National Trust"
     ],
     "explanation": "The National Trust is a charity that protects and opens to the public historic buildings, gardens, coastline, and countryside across the UK.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 92,
@@ -1382,7 +1382,7 @@
       "15p"
     ],
     "explanation": "There is no 15p coin in UK currency; common coins include 1p, 2p, 5p, 10p, 20p, 50p, £1, and £2.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 93,
@@ -1397,7 +1397,7 @@
       "Angles, Saxons, and Jutes"
     ],
     "explanation": "After the Romans left Britain, tribes such as the Angles, Saxons, and Jutes migrated from northern Europe and settled in parts of the country.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 94,
@@ -1412,7 +1412,7 @@
       "Oliver Cromwell"
     ],
     "explanation": "Following the execution of Charles I in 1649, Oliver Cromwell eventually became Lord Protector and ruled as head of state during the Commonwealth.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 95,
@@ -1427,7 +1427,7 @@
       "James Watt"
     ],
     "explanation": "James Watt greatly improved the efficiency of the steam engine in the 18th century, making it vital for industry and transport.",
-    "category": "Economy & Industry"
+    "category": "Economy & Employment"
   },
   {
     "question_id": 96,
@@ -1474,7 +1474,7 @@
       "King Charles I"
     ],
     "explanation": "After losing the English Civil War, King Charles I was tried and executed in 1649.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 99,
@@ -1489,7 +1489,7 @@
       "King Alfred"
     ],
     "explanation": "Alfred the Great is remembered for defending his kingdom against Viking invasions and laying foundations for a united England.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 100,
@@ -1520,7 +1520,7 @@
       "National Trust"
     ],
     "explanation": "Friends of the Earth campaigns on environmental issues and the National Trust conserves countryside, coastline and historic sites.",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 102,
@@ -1535,7 +1535,7 @@
       "Daffodil"
     ],
     "explanation": "The daffodil is a national symbol of Wales, worn especially on St David’s Day.",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 103,
@@ -1550,7 +1550,7 @@
       "Francis Crick"
     ],
     "explanation": "Francis Crick, with James Watson, proposed the double helix model of DNA in 1953.",
-    "category": "Science & Innovation"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 104,
@@ -1580,7 +1580,7 @@
       "Protestant church"
     ],
     "explanation": "The Church of England is a Protestant Christian church and is the established church in England.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 106,
@@ -1595,7 +1595,7 @@
       "Wimbledon"
     ],
     "explanation": "The Wimbledon Championships, the best-known tennis tournament in the UK, are held in Wimbledon, London.",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 107,
@@ -1610,7 +1610,7 @@
       "Peasants who worked for lords"
     ],
     "explanation": "Serfs were unfree peasants tied to a lord’s land, working it in return for protection and basic rights.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 108,
@@ -1625,7 +1625,7 @@
       "Ellie Simmonds"
     ],
     "explanation": "British swimmer Ellie Simmonds won multiple Paralympic gold medals across the 2008, 2012 and 2016 Games.",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 109,
@@ -1640,7 +1640,7 @@
       "Crown dependencies"
     ],
     "explanation": "Isle of Man and the Channel Islands are Crown dependencies: self-governing territories not part of the UK.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 110,
@@ -1670,7 +1670,7 @@
       "Shipbuilding industry"
     ],
     "explanation": "Traditional heavy industries such as shipbuilding, coal and steel suffered badly during the 1930s depression.",
-    "category": "Economy & Industry"
+    "category": "Economy & Employment"
   },
   {
     "question_id": 112,
@@ -1700,7 +1700,7 @@
       "Plague"
     ],
     "explanation": "The Black Death was an outbreak of bubonic plague that devastated much of Europe in the mid-14th century.",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 114,
@@ -1715,7 +1715,7 @@
       "Northern Ireland"
     ],
     "explanation": "The Giant’s Causeway is a UNESCO World Heritage Site on the north coast of Northern Ireland.",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 115,
@@ -1760,7 +1760,7 @@
       "Queen Elizabeth I"
     ],
     "explanation": "The Spanish Armada was defeated in 1588 during the reign of Queen Elizabeth I.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 118,
@@ -1775,7 +1775,7 @@
       "Diwali"
     ],
     "explanation": "Diwali, celebrated by Hindus, Sikhs and some other communities, is often called the Festival of Lights.",
-    "category": "Society & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 119,
@@ -1790,7 +1790,7 @@
       "Poland"
     ],
     "explanation": "Germany’s invasion of Poland in September 1939 led Britain and France to declare war, starting World War II in Europe.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 120,
@@ -1805,7 +1805,7 @@
       "Winston Churchill"
     ],
     "explanation": "Winston Churchill is widely remembered for his leadership and speeches as Prime Minister during most of World War II.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 121,
@@ -1820,7 +1820,7 @@
       "South-East Europe"
     ],
     "explanation": "Life in the UK material explains that the first farmers in Britain probably came from south-east Europe around 6,000 years ago. [web:33]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 122,
@@ -1835,7 +1835,7 @@
       "Baroness Tanni Grey-Thompson"
     ],
     "explanation": "Baroness Tanni Grey-Thompson won 11 Paralympic gold medals across five Paralympic Games. [web:34][web:37]",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 123,
@@ -1850,7 +1850,7 @@
       "Anglican"
     ],
     "explanation": "The Church of England is an Anglican, Protestant church and is the established church in England. [web:22]",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 124,
@@ -1866,7 +1866,7 @@
       "The Conservative Party"
     ],
     "explanation": "After the 2010 general election, the Conservative Party and the Liberal Democrats formed a coalition government. [web:14]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 125,
@@ -1879,7 +1879,7 @@
       "True"
     ],
     "explanation": "Sir Steve Redgrave won rowing gold medals at five consecutive Olympic Games from 1984 to 2000. [web:22]",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 126,
@@ -1924,7 +1924,7 @@
       "31 December"
     ],
     "explanation": "Hogmanay is the Scottish celebration of New Year’s Eve, held on 31 December. [web:14]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 129,
@@ -1939,7 +1939,7 @@
       "King Henry VII"
     ],
     "explanation": "Henry Tudor defeated Richard II at Bosworth in 1485 and became King Henry VII, founding the Tudor dynasty. [web:33]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 130,
@@ -1954,7 +1954,7 @@
       "Sir Mo Farah"
     ],
     "explanation": "Sir Mo Farah won four Olympic gold medals in distance running at the 2012 and 2016 Games. [web:22]",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 131,
@@ -1969,7 +1969,7 @@
       "Abolition of the Slave Trade Act"
     ],
     "explanation": "The Abolition of the Slave Trade Act 1807 made the trading of enslaved people illegal in the British Empire. [web:28]",
-    "category": "Economy & Industry"
+    "category": "Economy & Employment"
   },
   {
     "question_id": 132,
@@ -1982,7 +1982,7 @@
       "False"
     ],
     "explanation": "There is no established church in Northern Ireland; only the Church of England is established by law. [web:22]",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 133,
@@ -1997,7 +1997,7 @@
       "Wiltshire"
     ],
     "explanation": "Stonehenge stands on Salisbury Plain in the English county of Wiltshire. [web:33]",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 134,
@@ -2012,7 +2012,7 @@
       "Interlocking basalt columns"
     ],
     "explanation": "The Giant’s Causeway is famous for its natural formation of interlocking basalt columns on the coast of Northern Ireland. [web:22]",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 135,
@@ -2027,7 +2027,7 @@
       "Jet Engine"
     ],
     "explanation": "Sir Frank Whittle is credited with inventing the jet engine in the 1930s, revolutionising air travel. [web:35][web:38]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 136,
@@ -2043,7 +2043,7 @@
       "Norman French"
     ],
     "explanation": "Modern English developed mainly from Old English (Anglo‑Saxon) with major influence from Norman French after 1066. [web:33]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 137,
@@ -2058,7 +2058,7 @@
       "North West of Europe"
     ],
     "explanation": "The UK lies off the north‑west coast of mainland Europe. [web:22]",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 138,
@@ -2103,7 +2103,7 @@
       "One-third"
     ],
     "explanation": "Life in the UK sources state that about one‑third of the population died in the Black Death of 1348–49. [web:33]",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 141,
@@ -2119,7 +2119,7 @@
       "Participation in community life"
     ],
     "explanation": "Key British values highlighted in the Life in the UK test include respect and tolerance of different beliefs and participation in community life. [web:14]",
-    "category": "UK Values & Principles"
+    "category": "UK Values & Rights"
   },
   {
     "question_id": 142,
@@ -2149,7 +2149,7 @@
       "1066"
     ],
     "explanation": "William of Normandy defeated King Harold II at the Battle of Hastings in 1066. [web:33]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 144,
@@ -2164,7 +2164,7 @@
       "16"
     ],
     "explanation": "In the UK a person must normally be at least 16 years old to ride a moped with the correct licence and training. [web:24]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 145,
@@ -2179,7 +2179,7 @@
       "Lord Protector"
     ],
     "explanation": "During the Interregnum, Oliver Cromwell ruled England, Scotland and Ireland as Lord Protector rather than as king. [web:39][web:41][web:46]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 146,
@@ -2192,7 +2192,7 @@
       "True"
     ],
     "explanation": "The Cenotaph in Whitehall, central London, is the UK’s principal national war memorial. [web:22]",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 147,
@@ -2207,7 +2207,7 @@
       "To divorce his first wife"
     ],
     "explanation": "Henry VIII broke with the Pope and created the Church of England largely so he could annul his marriage to Catherine of Aragon. [web:33]",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 148,
@@ -2222,7 +2222,7 @@
       "After Germany invaded Poland."
     ],
     "explanation": "Britain declared war on Germany on 3 September 1939 after the German invasion of Poland. [web:22]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 149,
@@ -2235,7 +2235,7 @@
       "False"
     ],
     "explanation": "Boxing Day is a public holiday in the UK celebrated on 26 December, the day after Christmas. [web:14]",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 150,
@@ -2250,7 +2250,7 @@
       "Charles I"
     ],
     "explanation": "King Charles I was tried and executed in 1649 following defeat in the English Civil War. [web:33][web:46]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 151,
@@ -2280,7 +2280,7 @@
       "The Black Death"
     ],
     "explanation": "The epidemic of 1348–49 in Britain is known as the Black Death and killed about one‑third of the population. [web:33]",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 153,
@@ -2295,7 +2295,7 @@
       "Names of the kings"
     ],
     "explanation": "Late Iron Age tribal coinage in Britain began to carry the names of local kings or rulers as inscriptions. [web:44]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 154,
@@ -2310,7 +2310,7 @@
       "John Barbour"
     ],
     "explanation": "The epic poem The Bruce, celebrating Robert the Bruce and Bannockburn, was written by John Barbour in Scots. [web:33]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 155,
@@ -2372,7 +2372,7 @@
       "Australia"
     ],
     "explanation": "On his first Pacific voyage, Captain James Cook charted the coast of Australia, claiming it for Britain. [web:33]",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 159,
@@ -2388,7 +2388,7 @@
       "Liberal Democrats Party"
     ],
     "explanation": "Following the 2010 general election, the Conservatives and Liberal Democrats formed a coalition government. [web:14]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 160,
@@ -2401,7 +2401,7 @@
       "True"
     ],
     "explanation": "The BC Proms is an eight‑week summer season of daily classical music concerts, mainly at the Royal Albert Hall. [web:14]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 161,
@@ -2416,7 +2416,7 @@
       "St. George"
     ],
     "explanation": "St George is the patron saint of England, celebrated on St George’s Day, 23 April. [web:33]",
-    "category": "Society & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 162,
@@ -2431,7 +2431,7 @@
       "Beefeaters"
     ],
     "explanation": "The ceremonial guards and guides at the Tower of London are the Yeoman Warders, commonly called Beefeaters. [web:22]",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 163,
@@ -2446,7 +2446,7 @@
       "Reformation"
     ],
     "explanation": "The Reformation was the religious movement that challenged papal authority and promoted direct access to the Bible. [web:33]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 164,
@@ -2461,7 +2461,7 @@
       "Sir Christopher Wren"
     ],
     "explanation": "After the Great Fire of London in 1666, Sir Christopher Wren designed and oversaw the rebuilding of St Paul’s Cathedral. [web:22]",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 165,
@@ -2478,7 +2478,7 @@
       "Contributing to the community and environment"
     ],
     "explanation": "Life in the UK guidance highlights obeying the law, treating others fairly, and contributing to the community and environment as core responsibilities; following a particular religion is not required. [web:14]",
-    "category": "Society & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 166,
@@ -2493,7 +2493,7 @@
       "Emmeline Pankhurst"
     ],
     "explanation": "Emmeline Pankhurst co‑founded the WSPU and led militant campaigns for women’s suffrage in Britain. [web:33]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 167,
@@ -2508,7 +2508,7 @@
       "Ayr and Ascot"
     ],
     "explanation": "The Scottish Grand National is run at Ayr Racecourse, while Royal Ascot is held at Ascot Racecourse in Berkshire. [web:45][web:48]",
-    "category": "Society & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 168,
@@ -2523,7 +2523,7 @@
       "After World War II in 1945"
     ],
     "explanation": "The United Nations was founded in 1945, after World War II, to promote peace and international cooperation. [web:22]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 169,
@@ -2538,7 +2538,7 @@
       "Contemporary Art"
     ],
     "explanation": "The Turner Prize is a major British annual award given to an artist for an outstanding exhibition or work of contemporary art.",
-    "category": "Society & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 170,
@@ -2554,7 +2554,7 @@
       "Individual liberty"
     ],
     "explanation": "Core British values highlighted for the Life in the UK test include the rule of law and individual liberty, not intolerance or compulsory service.",
-    "category": "UK Values & Principles"
+    "category": "UK Values & Rights"
   },
   {
     "question_id": 171,
@@ -2570,7 +2570,7 @@
       "Norman French"
     ],
     "explanation": "Modern English developed mainly from Old English and Norman French, spoken in England after the Norman Conquest.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 172,
@@ -2600,7 +2600,7 @@
       "Gurdwara"
     ],
     "explanation": "A Sikh place of worship is called a gurdwara, where the Guru Granth Sahib is kept and services are held.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 174,
@@ -2613,7 +2613,7 @@
       "True"
     ],
     "explanation": "Elizabeth I was a Protestant and her religious settlement aimed to balance Catholic traditions with Protestant reforms.",
-    "category": "Society & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 175,
@@ -2628,7 +2628,7 @@
       "Theatreland"
     ],
     "explanation": "London’s West End theatre district is often referred to as Theatreland and is famous for stage productions.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 176,
@@ -2643,7 +2643,7 @@
       "23 April"
     ],
     "explanation": "St George’s Day, celebrating the patron saint of England, is observed on 23 April.",
-    "category": "Society & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 177,
@@ -2673,7 +2673,7 @@
       "Three times"
     ],
     "explanation": "London has hosted the Summer Olympics three times: in 1908, 1948 and 2012. [web:49][web:52][web:53]",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 179,
@@ -2704,7 +2704,7 @@
       "James II"
     ],
     "explanation": "At the Battle of the Boyne in 1690, the deposed king James II was defeated by William II.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 181,
@@ -2719,7 +2719,7 @@
       "11th November 1918"
     ],
     "explanation": "The Armistice ending fighting in the First World War took effect on 11 November 1918.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 182,
@@ -2734,7 +2734,7 @@
       "Sir Robert Watson-Watt"
     ],
     "explanation": "Scottish physicist Sir Robert Watson‑Watt is credited with pioneering radar for detecting aircraft in the 1930s.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 183,
@@ -2750,7 +2750,7 @@
       "Helping to create new laws"
     ],
     "explanation": "MPs represent their constituencies and scrutinise and help make laws; sentencing and policing are handled by other bodies.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 184,
@@ -2798,7 +2798,7 @@
       "Mary I"
     ],
     "explanation": "Mary I of England earned the nickname ‘Bloody Mary’ for persecuting Protestants during her reign.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 187,
@@ -2813,7 +2813,7 @@
       "26 December"
     ],
     "explanation": "Boxing Day, a bank holiday in the UK, falls on 26 December.",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 188,
@@ -2828,7 +2828,7 @@
       "16"
     ],
     "explanation": "The usual minimum age to ride a moped in the UK, with appropriate licence and training, is 16.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 189,
@@ -2843,7 +2843,7 @@
       "Battle of Hastings"
     ],
     "explanation": "The Bayeux Tapestry depicts the events leading up to and including the Battle of Hastings in 1066.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 190,
@@ -2858,7 +2858,7 @@
       "18"
     ],
     "explanation": "The minimum age to stand as an MP is 18, the same as the voting age.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 191,
@@ -2873,7 +2873,7 @@
       "Scotland"
     ],
     "explanation": "Scotland, particularly St Andrews, is widely regarded as the home of golf.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 192,
@@ -2901,7 +2901,7 @@
       "Orkney, Scotland"
     ],
     "explanation": "Skara Brae is a Neolithic village on Mainland in the Orkney archipelago of Scotland and is famed as the best-preserved prehistoric village in northern Europe. [web:59][web:60][web:66]",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 194,
@@ -2916,7 +2916,7 @@
       "Dame Kelly Holmes"
     ],
     "explanation": "Dame Kelly Holmes won gold in both the 800m and 1500m at the Athens 2004 Olympic Games. [web:64][web:67]",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 195,
@@ -2946,7 +2946,7 @@
       "Emperor Hadrian"
     ],
     "explanation": "Hadrian’s Wall in northern Britain was built on the orders of the Roman emperor Hadrian in the 2nd century. [web:33]",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 197,
@@ -2961,7 +2961,7 @@
       "Battle of Hastings"
     ],
     "explanation": "The Bayeux Tapestry tells the story of William of Normandy’s invasion of England and the Battle of Hastings in 1066. [web:33]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 198,
@@ -2976,7 +2976,7 @@
       "William Caxton"
     ],
     "explanation": "William Caxton introduced the printing press to England in the 1470s and was the first English printer. [web:33]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 199,
@@ -2991,7 +2991,7 @@
       "Lent"
     ],
     "explanation": "Lent is the 40‑day period of fasting and reflection before Easter in the Christian calendar. [web:33]",
-    "category": "Society & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 200,
@@ -3006,7 +3006,7 @@
       "Sir Bradley Wiggins"
     ],
     "explanation": "Sir Bradley Wiggins became the first British winner of the Tour de France in 2012. [web:67]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 201,
@@ -3037,7 +3037,7 @@
       "Tate Modern"
     ],
     "explanation": "Both the National Gallery on Trafalgar Square and Tate Modern on the South Bank are major art galleries in London; the British Library and Natural History Museum are not art galleries. [web:22]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 203,
@@ -3052,7 +3052,7 @@
       "Boer War"
     ],
     "explanation": "The Second Boer War (1899–1902) was fought between the British and Boer settlers of Dutch descent in South Africa. [web:33]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 204,
@@ -3082,7 +3082,7 @@
       "Turing Machine"
     ],
     "explanation": "Alan Turing’s theoretical concept of a ‘Turing machine’ became a fundamental model for modern computing. [web:22]",
-    "category": "Science & Innovation"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 206,
@@ -3097,7 +3097,7 @@
       "Sir Roger Bannister"
     ],
     "explanation": "In 1954 Sir Roger Bannister, a British athlete, became the first person to run a mile in under four minutes. [web:22]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 207,
@@ -3143,7 +3143,7 @@
       "House of Commons"
     ],
     "explanation": "By the late Middle Ages, the English Parliament had two houses: the House of Lords and the House of Commons. [web:19][web:23]",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 210,
@@ -3158,7 +3158,7 @@
       "Roald Dahl"
     ],
     "explanation": "Roald Dahl, born in Wales to Norwegian parents, wrote children’s classics including Charlie and the Chocolate Factory. [web:22]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 211,
@@ -3173,7 +3173,7 @@
       "Sir Arthur Conan Doyle"
     ],
     "explanation": "The fictional detective Sherlock Holmes was created by Scottish author Sir Arthur Conan Doyle. [web:22]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 212,
@@ -3188,7 +3188,7 @@
       "Crime, Policing and Immigration"
     ],
     "explanation": "The Home Secretary is responsible for internal affairs in England and Wales, including crime, policing, security, and immigration. [web:22]",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 213,
@@ -3204,7 +3204,7 @@
       "Debating important national issues"
     ],
     "explanation": "MPs debate national issues and scrutinise and help make laws, but policing and sentencing guidelines are handled by other authorities. [web:23]",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 214,
@@ -3219,7 +3219,7 @@
       "Jayne Torvill and Christopher Dean"
     ],
     "explanation": "British skaters Jayne Torvill and Christopher Dean won gold in ice dance at the Sarajevo 1984 Winter Olympics. [web:22]",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 215,
@@ -3234,7 +3234,7 @@
       "Bobby Moore"
     ],
     "explanation": "Centre-back Bobby Moore captained England to victory in the 1966 FIFA World Cup. [web:22]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 216,
@@ -3249,7 +3249,7 @@
       "Six"
     ],
     "explanation": "Henry VIII had six wives: Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard and Catherine Parr. [web:65][web:68]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 217,
@@ -3264,7 +3264,7 @@
       "Dame Kelly Holmes"
     ],
     "explanation": "Dame Kelly Holmes won gold in both the 800m and 1500m at the 2004 Athens Olympics, becoming a double Olympic champion for Britain. [web:64][web:70][web:71]",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 218,
@@ -3277,7 +3277,7 @@
       "True"
     ],
     "explanation": "Scottish and Northern Irish banks issue their Crown banknotes; these are legal currency and generally accepted throughout the UK, although not legal tender outside their home nations. [web:73][web:76]",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 219,
@@ -3292,7 +3292,7 @@
       "To divorce his first wife"
     ],
     "explanation": "Henry VIII broke with the Pope and created the Church of England largely so he could annul his marriage to Catherine of Aragon. [web:33]",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 220,
@@ -3307,7 +3307,7 @@
       "Jayne Torvill and Christopher Dean"
     ],
     "explanation": "British duo Jayne Torvill and Christopher Dean won gold in ice dancing at the 1984 Winter Olympics in Sarajevo. [web:22]",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 221,
@@ -3322,7 +3322,7 @@
       "Resurrection of Jesus Christ"
     ],
     "explanation": "Easter is the most important Christian festival and marks the resurrection of Jesus Christ from the dead. [web:14]",
-    "category": "Society & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 222,
@@ -3337,7 +3337,7 @@
       "William Caxton"
     ],
     "explanation": "William Caxton introduced the printing press to England in the 15th century and was the first English printer. [web:33]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 223,
@@ -3367,7 +3367,7 @@
       "Northern Ireland"
     ],
     "explanation": "Great Britain comprises England, Scotland and Wales; Northern Ireland is part of the UK but not of Great Britain. [web:22]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 225,
@@ -3382,7 +3382,7 @@
       "Ronald Reagan"
     ],
     "explanation": "Prime Minister Margaret Thatcher had a particularly close working relationship with US President Ronald Reagan in the 1980s. [web:14]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 226,
@@ -3397,7 +3397,7 @@
       "France"
     ],
     "explanation": "The Huguenots were French Protestants who fled persecution in France and many settled in Britain. [web:33]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 227,
@@ -3442,7 +3442,7 @@
       "Dame Ellen MacArthur"
     ],
     "explanation": "In 2004–05, Dame Ellen MacArthur set a world record for the fastest solo circumnavigation of the globe by yacht. [web:22]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 230,
@@ -3457,7 +3457,7 @@
       "Boers"
     ],
     "explanation": "The Boer War in South Africa was fought between Britain and Boer settlers of mainly Dutch origin. [web:33]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 231,
@@ -3487,7 +3487,7 @@
       "Responsible for crime, policing, and immigration"
     ],
     "explanation": "The Home Secretary heads the Home Office and is responsible for internal affairs including crime, policing, security and immigration. [web:22]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 233,
@@ -3503,7 +3503,7 @@
       "House of Commons"
     ],
     "explanation": "By the late Middle Ages, Parliament consisted of the House of Lords and the House of Commons. [web:23][web:33]",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 234,
@@ -3518,7 +3518,7 @@
       "Boudicca"
     ],
     "explanation": "Boudicca was queen of the Iceni who led a revolt against Roman rule in Britain around AD 60–61. [web:33]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 235,
@@ -3533,7 +3533,7 @@
       "William Wordsworth"
     ],
     "explanation": "The poem commonly known as 'Daffodils' ('I wandered lonely as a cloud') was written by William Wordsworth. [web:22]",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 236,
@@ -3548,7 +3548,7 @@
       "Serfs"
     ],
     "explanation": "Serfs were peasants bound to a lord’s land, working it in return for protection and basic rights, and unable to leave without permission. [web:33]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 237,
@@ -3578,7 +3578,7 @@
       "St David"
     ],
     "explanation": "St David is the patron saint of Wales, celebrated on St David’s Day, 1 March. [web:33]",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 239,
@@ -3593,7 +3593,7 @@
       "Sir Christopher Wren"
     ],
     "explanation": "After the Great Fire of London in 1666, Sir Christopher Wren designed and oversaw the rebuilding of St Paul’s Cathedral. [web:22]",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 240,
@@ -3608,7 +3608,7 @@
       "Television"
     ],
     "explanation": "Scottish inventor John Logie Baird developed one of the first working television systems and demonstrated TV in the 1920s. [web:22]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 241,
@@ -3623,7 +3623,7 @@
       "She led English Protestantism"
     ],
     "explanation": "Elizabeth I was a Protestant monarch whose religious settlement firmly established and led English Protestantism.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 242,
@@ -3638,7 +3638,7 @@
       "Robert the Bruce"
     ],
     "explanation": "In 1314 the Scottish forces led by King Robert the Bruce defeated the English at the Battle of Bannockburn. [web:78][web:81][web:84]",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 243,
@@ -3653,7 +3653,7 @@
       "At the end of Ramadan"
     ],
     "explanation": "Eid al-Fitr is the festival of breaking the fast and is celebrated at the end of the month of Ramadan.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 244,
@@ -3683,7 +3683,7 @@
       "1066"
     ],
     "explanation": "The Norman Conquest of 1066, when William of Normandy invaded and won at Hastings, is regarded as the last successful foreign invasion of England.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 246,
@@ -3714,7 +3714,7 @@
       "Tate Modern"
     ],
     "explanation": "Tate Modern, on London’s South Bank, is a major gallery dedicated to modern and contemporary art.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 248,
@@ -3730,7 +3730,7 @@
       "The Beatles"
     ],
     "explanation": "The Beatles and The Rolling Stones were two of the most famous British bands to emerge in the 1960s Swinging Sixties era.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 249,
@@ -3745,7 +3745,7 @@
       "The King became head of the Church"
     ],
     "explanation": "When Henry VIII created the Church of England, he replaced the Pope with the king as Supreme Head of the Church in England.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 250,
@@ -3760,7 +3760,7 @@
       "Beefeaters"
     ],
     "explanation": "The Yeoman Warders, popularly known as Beefeaters, guide visitors and tell the history of the Tower of London.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 251,
@@ -3790,7 +3790,7 @@
       "Baroness Tanni Grey-Thompson"
     ],
     "explanation": "Baroness Tanni Grey-Thompson won 16 Paralympic medals and six London Marathon titles during her wheelchair racing career. [web:85]",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 253,
@@ -3835,7 +3835,7 @@
       "William Wilberforce"
     ],
     "explanation": "William Wilberforce was a leading British MP and campaigner for the abolition of the transatlantic slave trade.",
-    "category": "Economy & Industry"
+    "category": "Economy & Employment"
   },
   {
     "question_id": 256,
@@ -3850,7 +3850,7 @@
       "Cardiff"
     ],
     "explanation": "Cardiff is the capital city of Wales.",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 257,
@@ -3865,7 +3865,7 @@
       "Roald Dahl"
     ],
     "explanation": "Roald Dahl, born in Wales to Norwegian parents, wrote 'Charlie and the Chocolate Factory' and many other children’s books.",
-    "category": "Arts & Culture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 258,
@@ -3880,7 +3880,7 @@
       "By-election"
     ],
     "explanation": "If a Commons seat becomes vacant between general elections, a by‑election is held in that constituency.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 259,
@@ -3910,7 +3910,7 @@
       "Bobby Moore"
     ],
     "explanation": "Bobby Moore captained the England football team that won the FIFA World Cup in 1966.",
-    "category": "Sport & Recreation"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 261,
@@ -3925,7 +3925,7 @@
       "Haggis"
     ],
     "explanation": "Haggis, a savoury dish made from sheep offal, oats and spices, is widely regarded as Scotland’s national dish.",
-    "category": "Geography"
+    "category": "Geography & Institutions"
   },
   {
     "question_id": 262,
@@ -3955,7 +3955,7 @@
       "The Archbishop of Canterbury"
     ],
     "explanation": "The Archbishop of Canterbury is the senior bishop and principal leader of the Church of England, its spiritual head under the monarch.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 264,
@@ -3971,7 +3971,7 @@
       "Defence"
     ],
     "explanation": "While many domestic matters are devolved, key areas such as immigration and defence remain reserved to the UK Parliament.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_id": 265,
@@ -3986,7 +3986,7 @@
       "Philosophy"
     ],
     "explanation": "David Hume was a famous philosopher who developed ideas about human nature during the 18th century and that have continued to influence philosophers over the years.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 266,
@@ -4001,7 +4001,7 @@
       "He was executed"
     ],
     "explanation": "Charles I’s army was defeated at the Battles of Marston Moor and Naseby. Charles was held prisoner by the parliamentary army. As he was unwilling to reach any agreement with the Parliament, in 1649 he was executed.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 267,
@@ -4016,7 +4016,7 @@
       "France"
     ],
     "explanation": "During the 18th century, trading and settlements overseas sometimes brought Britain into conflict with other countries, particularly France, which was expanding and trading in a similar way in many of the same areas of the world.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 268,
@@ -4044,7 +4044,7 @@
       "France"
     ],
     "explanation": "William the Conqueror was the Duke of Normandy (now northern France). He defeated Harold, the Saxon king of England, at the Battle of Hastings in 1066.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 270,
@@ -4072,7 +4072,7 @@
       "He was the first man in the world to run a mile in under four minutes."
     ],
     "explanation": "Sir Roger Bannister was the first man in the world to run a mile in under four minutes, in 1954.",
-    "category": "History"
+    "category": "British History & Heritage"
   },
   {
     "question_id": 272,
@@ -4087,7 +4087,7 @@
       "Education"
     ],
     "explanation": "The Scottish Parliament can legislate on: civil and criminal law, health, education, planning and additional tax-raising powers.",
-    "category": "Architecture"
+    "category": "Culture & Heritage"
   },
   {
     "question_detail": "Who was the designer of the Cenotaph in Whitehall?",
@@ -4101,7 +4101,7 @@
       "Sir Christopher Wren"
     ],
     "explanation": "Sir Christopher Wren designed the Cenotaph in Whitehall, a memorial to those who died in World War I.",
-    "category": "Architecture",
+    "category": "Culture & Heritage",
     "question_id": 273
   },
   {
@@ -4116,7 +4116,7 @@
       "To link factories to towns, cities and ports for transporting raw materials and manufactured goods"
     ],
     "explanation": "During the Industrial Revolution, canals were built to link factories with towns, cities, and ports for transporting raw materials and manufactured goods efficiently.",
-    "category": "Architecture",
+    "category": "Culture & Heritage",
     "question_id": 274
   },
   {
@@ -4131,7 +4131,7 @@
       "Philosophy"
     ],
     "explanation": "David Hume was a Scottish philosopher known for his work during the Enlightenment period. He made significant contributions to epistemology and empiricism.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 275
   },
   {
@@ -4146,7 +4146,7 @@
       "Ernest Rutherford"
     ],
     "explanation": "Ernest Rutherford conducted experiments that led to the first splitting of an atom in 1919, advancing nuclear physics.",
-    "category": "Science & Innovation",
+    "category": "British History & Heritage",
     "question_id": 276
   },
   {
@@ -4161,7 +4161,7 @@
       "Ballot paper"
     ],
     "explanation": "Before an election, you receive a poll card which tells you when and where to vote.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 277
   },
   {
@@ -4176,7 +4176,7 @@
       "Enlightenment"
     ],
     "explanation": "The Enlightenment was the 18th-century intellectual movement that emphasized reason, science, and philosophy, influencing politics, philosophy, and scientific thought.",
-    "category": "Science & Innovation",
+    "category": "British History & Heritage",
     "question_id": 278
   },
   {
@@ -4206,7 +4206,7 @@
       "Steel and glass"
     ],
     "explanation": "The Crystal Palace, built for the Great Exhibition of 1851, was constructed using iron framework and glass panels, designed by Joseph Paxton.",
-    "category": "Architecture",
+    "category": "Culture & Heritage",
     "question_id": 280
   },
   {
@@ -4221,7 +4221,7 @@
       "Francis Crick"
     ],
     "explanation": "Francis Crick, along with James Watson and Rosalind Franklin, discovered the double helix structure of DNA and won the Nobel Prize in Physiology or Medicine in 1962.",
-    "category": "Science & Innovation",
+    "category": "British History & Heritage",
     "question_id": 281
   },
   {
@@ -4236,7 +4236,7 @@
       "David Weir"
     ],
     "explanation": "David Weir is a British Paralympian who won multiple gold medals across different Paralympic Games.",
-    "category": "Sport & Recreation",
+    "category": "Culture & Heritage",
     "question_id": 282
   },
   {
@@ -4251,7 +4251,7 @@
       "Name of the dog and address of the owner"
     ],
     "explanation": "Dogs in public places must have a collar with the name and address of the owner for identification purposes.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 283
   },
   {
@@ -4281,7 +4281,7 @@
       "Poland"
     ],
     "explanation": "Germany's invasion of Poland on 1 September 1939 marked the beginning of World War II in Europe.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 285
   },
   {
@@ -4296,7 +4296,7 @@
       "Wales"
     ],
     "explanation": "Snowdonia National Park is located in North Wales and covers an area of 823 square miles.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 286
   },
   {
@@ -4311,7 +4311,7 @@
       "Edinburgh"
     ],
     "explanation": "The Edinburgh Festival Fringe takes place in Edinburgh, Scotland, during August and is the world's largest arts festival.",
-    "category": "Society & Culture",
+    "category": "Culture & Heritage",
     "question_id": 287
   },
   {
@@ -4326,7 +4326,7 @@
       "England"
     ],
     "explanation": "The Lake District National Park is located in the North West of England in Cumbria.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 288
   },
   {
@@ -4356,7 +4356,7 @@
       "Wallace and Gromit"
     ],
     "explanation": "Windsor Castle, located in Berkshire, is a royal residence and one of the oldest occupied castles in the world.",
-    "category": "Arts & Culture",
+    "category": "Culture & Heritage",
     "question_id": 290
   },
   {
@@ -4371,7 +4371,7 @@
       "The Lord of the Rings"
     ],
     "explanation": "The Tower of London, founded in 1066, served as a royal palace and is now a UNESCO World Heritage Site.",
-    "category": "Arts & Culture",
+    "category": "Culture & Heritage",
     "question_id": 291
   },
   {
@@ -4386,7 +4386,7 @@
       "Hiring teachers directly"
     ],
     "explanation": "The Houses of Parliament are located at the Palace of Westminster in London.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 292
   },
   {
@@ -4401,7 +4401,7 @@
       "Immigration"
     ],
     "explanation": "Buckingham Palace is the official London residence of the British monarch.",
-    "category": "Architecture",
+    "category": "Culture & Heritage",
     "question_id": 293
   },
   {
@@ -4416,7 +4416,7 @@
       "William Shakespeare"
     ],
     "explanation": "Westminster Abbey is a Gothic church in London where monarchs are crowned and many historical figures are buried.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 294
   },
   {
@@ -4431,7 +4431,7 @@
       "House of Lancaster"
     ],
     "explanation": "Big Ben is the name of the Great Bell inside the clock tower at the Palace of Westminster.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 295
   },
   {
@@ -4446,7 +4446,7 @@
       "Scotland"
     ],
     "explanation": "St Paul's Cathedral, designed by Sir Christopher Wren, is an iconic London landmark built after the Great Fire of 1666.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 296
   },
   {
@@ -4461,7 +4461,7 @@
       "Magna Carta"
     ],
     "explanation": "The London Eye is a giant observation wheel that provides panoramic views of London.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 297
   },
   {
@@ -4476,7 +4476,7 @@
       "Christmas"
     ],
     "explanation": "Tower Bridge, opened in 1894, is a combined bascule and suspension bridge spanning the River Thames.",
-    "category": "Society & Culture",
+    "category": "Culture & Heritage",
     "question_id": 298
   },
   {
@@ -4491,7 +4491,7 @@
       "Elizabeth I"
     ],
     "explanation": "British citizens have the right to vote in general elections and stand for Parliament.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 299
   },
   {
@@ -4506,7 +4506,7 @@
       "Coal mining"
     ],
     "explanation": "The monarch appoints the Prime Minister following a general election based on who can command a majority in Parliament.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 300
   },
   {
@@ -4536,7 +4536,7 @@
       "Keith Campbell"
     ],
     "explanation": "The Speaker ensures debates in the House of Commons are conducted fairly and maintains order.",
-    "category": "Science & Innovation",
+    "category": "British History & Heritage",
     "question_id": 302
   },
   {
@@ -4551,7 +4551,7 @@
       "Isle of Man"
     ],
     "explanation": "The Chancellor of the Exchequer is responsible for managing the UK's economy and finances.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 303
   },
   {
@@ -4566,7 +4566,7 @@
       "Only Fools and Horses"
     ],
     "explanation": "The Leader of the Opposition leads the largest opposition party and holds the government accountable.",
-    "category": "Arts & Culture",
+    "category": "Culture & Heritage",
     "question_id": 304
   },
   {
@@ -4581,7 +4581,7 @@
       "Dolly"
     ],
     "explanation": "Dolly the sheep was the first mammal to be successfully cloned from an adult cell in 1996 by scientists at the Roslin Institute in Scotland.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 305
   },
   {
@@ -4596,7 +4596,7 @@
       "Avebury, Wiltshire"
     ],
     "explanation": "By-elections are held when a Member of Parliament dies, resigns, or their seat becomes vacant.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 306
   },
   {
@@ -4611,7 +4611,7 @@
       "Jane Seymour"
     ],
     "explanation": "The House of Commons has 650 Members of Parliament, each representing a constituency.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 307
   },
   {
@@ -4626,7 +4626,7 @@
       "Mo Farah"
     ],
     "explanation": "Local councils are responsible for services such as rubbish collection, education, and planning.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 308
   },
   {
@@ -4641,7 +4641,7 @@
       "India"
     ],
     "explanation": "Councillors are elected representatives who serve on local councils and represent their ward.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 309
   },
   {
@@ -4656,7 +4656,7 @@
       "Germany"
     ],
     "explanation": "The House of Lords reviews legislation and provides expertise, and includes appointed and hereditary members.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 310
   },
   {
@@ -4671,7 +4671,7 @@
       "Anglican church"
     ],
     "explanation": "Magistrates' Courts handle the majority of criminal cases and deal with minor offences.",
-    "category": "Society & Culture",
+    "category": "Culture & Heritage",
     "question_id": 311
   },
   {
@@ -4686,7 +4686,7 @@
       "Stone Age people, names of gods"
     ],
     "explanation": "The Crown Court handles serious criminal cases and hears appeals from Magistrates' Courts.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 312
   },
   {
@@ -4701,7 +4701,7 @@
       "Every three years"
     ],
     "explanation": "A jury in the Crown Court consists of 12 members who determine guilt or innocence in serious cases.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 313
   },
   {
@@ -4716,7 +4716,7 @@
       "United States"
     ],
     "explanation": "Solicitors provide legal advice and representation, and conduct business transactions and conveyancing.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 314
   },
   {
@@ -4731,7 +4731,7 @@
       "Vindolanda"
     ],
     "explanation": "Barristers provide specialist legal advice and traditionally represent clients in higher courts.",
-    "category": "Arts & Culture",
+    "category": "Culture & Heritage",
     "question_id": 315
   },
   {
@@ -4746,7 +4746,7 @@
       "King Henry VIII; it gave the king absolute power over the Church"
     ],
     "explanation": "The Supreme Court is the highest court in the UK and hears appeals on important legal cases.",
-    "category": "Arts & Culture",
+    "category": "Culture & Heritage",
     "question_id": 316
   },
   {
@@ -4761,7 +4761,7 @@
       "Full and free consent of both parties"
     ],
     "explanation": "Citizens have the right to vote, to join the Armed Forces, and to work in the Civil Service.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 317
   },
   {
@@ -4776,7 +4776,7 @@
       "Television"
     ],
     "explanation": "Citizens have responsibilities to respect the law, pay taxes, and serve on juries when called.",
-    "category": "Arts & Culture",
+    "category": "Culture & Heritage",
     "question_id": 318
   },
   {
@@ -4791,7 +4791,7 @@
       "St Patrick"
     ],
     "explanation": "The Union Jack is the flag of the United Kingdom, combining crosses of St George, St Andrew, and St Patrick.",
-    "category": "Geography",
+    "category": "Geography & Institutions",
     "question_id": 319
   },
   {
@@ -4806,7 +4806,7 @@
       "Bonnie Prince Charlie"
     ],
     "explanation": "God Save the King is the national anthem of the United Kingdom.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 320
   },
   {
@@ -4821,7 +4821,7 @@
       "Resurrection of Jesus Christ"
     ],
     "explanation": "Christmas Day and Boxing Day are public holidays when most businesses and schools close.",
-    "category": "Society & Culture",
+    "category": "Culture & Heritage",
     "question_id": 321
   },
   {
@@ -4836,7 +4836,7 @@
       "Ascot"
     ],
     "explanation": "Easter is a Christian festival celebrating the resurrection of Jesus Christ.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 322
   },
   {
@@ -4851,7 +4851,7 @@
       "An engineer who designed buildings and bridges"
     ],
     "explanation": "Isambard Kingdom Brunel was a renowned British engineer who designed bridges, tunnels, and steamships, including the Clifton Suspension Bridge and the SS Great Britain.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 323
   },
   {
@@ -4866,7 +4866,7 @@
       "Formula 1(Motor Racing)"
     ],
     "explanation": "Hanukkah is the Jewish festival of lights, celebrated over eight days.",
-    "category": "Sport & Recreation",
+    "category": "Culture & Heritage",
     "question_id": 324
   },
   {
@@ -4881,7 +4881,7 @@
       "Red Rose"
     ],
     "explanation": "Eid ul-Fitr marks the end of Ramadan and is celebrated by Muslim communities.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 325
   },
   {
@@ -4896,7 +4896,7 @@
       "summer festival of pop music held in Manchester"
     ],
     "explanation": "The Proms is an eight-week summer season of orchestral classical music held in London.",
-    "category": "Society & Culture",
+    "category": "Culture & Heritage",
     "question_id": 326
   },
   {
@@ -4926,7 +4926,7 @@
       "Monarchy"
     ],
     "explanation": "Stonehenge is a prehistoric monument of standing stones located in Wiltshire, built around 3000 BC.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 328
   },
   {
@@ -4941,7 +4941,7 @@
       "Literature"
     ],
     "explanation": "The Roman Empire occupied Britain from AD 43 to AD 410, bringing roads, towns, and the Latin language.",
-    "category": "Arts & Culture",
+    "category": "Culture & Heritage",
     "question_id": 329
   },
   {
@@ -4956,7 +4956,7 @@
       "Bombing raids on Britain during the Blitz in WII"
     ],
     "explanation": "The Anglo-Saxons arrived in Britain in the 5th and 6th centuries and established kingdoms.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 330
   },
   {
@@ -4971,7 +4971,7 @@
       "The Great Fire"
     ],
     "explanation": "The Norman Conquest in 1066 brought significant changes to England's government and society.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 331
   },
   {
@@ -4986,7 +4986,7 @@
       "The national flag of England"
     ],
     "explanation": "The Magna Carta was signed in 1215 and established the principle that the monarch is subject to the law.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 332
   },
   {
@@ -5001,7 +5001,7 @@
       "Crimean War"
     ],
     "explanation": "The English Civil War (1642-1651) was fought between the monarchy and Parliament over power.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 333
   },
   {
@@ -5016,7 +5016,7 @@
       "Radar"
     ],
     "explanation": "The Industrial Revolution transformed Britain from an agricultural to a manufacturing economy.",
-    "category": "Science & Innovation",
+    "category": "British History & Heritage",
     "question_id": 334
   },
   {
@@ -5031,7 +5031,7 @@
       "Westminster, London"
     ],
     "explanation": "The British Empire expanded to include territories across the world, becoming a major global power.",
-    "category": "Geography",
+    "category": "Geography & Institutions",
     "question_id": 335
   },
   {
@@ -5046,7 +5046,7 @@
       "Christians"
     ],
     "explanation": "The British Museum houses artefacts from civilizations around the world, including the Rosetta Stone.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 336
   },
   {
@@ -5061,7 +5061,7 @@
       "Julius Caesar"
     ],
     "explanation": "The National Gallery in London contains one of the finest art collections in the world.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 337
   },
   {
@@ -5076,7 +5076,7 @@
       "Isle of Man"
     ],
     "explanation": "The Victoria and Albert Museum displays decorative arts, design, and sculpture.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 338
   },
   {
@@ -5091,7 +5091,7 @@
       "Agatha Christie"
     ],
     "explanation": "William Shakespeare was an English playwright and poet who created famous works like Hamlet and Macbeth.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 339
   },
   {
@@ -5106,7 +5106,7 @@
       "17 March"
     ],
     "explanation": "St Patrick's Day is celebrated on 17 March in Northern Ireland and throughout Ireland.",
-    "category": "Geography",
+    "category": "Geography & Institutions",
     "question_id": 340
   },
   {
@@ -5121,7 +5121,7 @@
       "Battle of Waterloo"
     ],
     "explanation": "Charles Dickens was a Victorian author famous for novels like Oliver Twist and A Tale of Two Cities.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 341
   },
   {
@@ -5136,7 +5136,7 @@
       "Clarice Cliff"
     ],
     "explanation": "The Beatles were a British rock band that revolutionized popular music in the 1960s.",
-    "category": "Arts & Culture",
+    "category": "Culture & Heritage",
     "question_id": 342
   },
   {
@@ -5151,7 +5151,7 @@
       "Health"
     ],
     "explanation": "David Bowie was a British musician and cultural icon who influenced rock and pop music.",
-    "category": "Architecture",
+    "category": "Culture & Heritage",
     "question_id": 343
   },
   {
@@ -5166,7 +5166,7 @@
       "30 November"
     ],
     "explanation": "St Andrew's Day is celebrated on 30 November in Scotland.",
-    "category": "Geography",
+    "category": "Geography & Institutions",
     "question_id": 344
   },
   {
@@ -5181,7 +5181,7 @@
       "Dame Kelly Holmes"
     ],
     "explanation": "Mo Farah is a British-Somali athlete who won gold medals in middle-distance running events.",
-    "category": "Sport & Recreation",
+    "category": "Culture & Heritage",
     "question_id": 345
   },
   {
@@ -5196,7 +5196,7 @@
       "Boer War"
     ],
     "explanation": "Jessica Ennis-Hill is a British multi-sport athlete known for her success in heptathlon.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 346
   },
   {
@@ -5226,7 +5226,7 @@
       "Charles I"
     ],
     "explanation": "The Football Association Cup (FA Cup) is the oldest association football competition in the world.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 348
   },
   {
@@ -5241,7 +5241,7 @@
       "James I"
     ],
     "explanation": "Wimbledon is the oldest tennis tournament in the world, held annually in London.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 349
   },
   {
@@ -5271,7 +5271,7 @@
       "Buckingham Palace in London"
     ],
     "explanation": "Big Ben is located in the Clock Tower (Elizabeth Tower) at the Palace of Westminster in London.",
-    "category": "Architecture",
+    "category": "Culture & Heritage",
     "question_id": 351
   },
   {
@@ -5286,7 +5286,7 @@
       "War of the Roses"
     ],
     "explanation": "The Hundred Years' War (1337-1453) was a conflict between England and France over succession to the French throne.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 352
   },
   {
@@ -5299,7 +5299,7 @@
       "True"
     ],
     "explanation": "England, Wales, and Scotland together form the island of Great Britain, while Northern Ireland is part of the island of Ireland.",
-    "category": "Geography",
+    "category": "Geography & Institutions",
     "question_id": 353
   },
   {
@@ -5314,7 +5314,7 @@
       "Holyrood, Edinburgh"
     ],
     "explanation": "The Scottish Parliament is located at Holyrood in Edinburgh and handles devolved matters for Scotland.",
-    "category": "Architecture",
+    "category": "Culture & Heritage",
     "question_id": 354
   },
   {
@@ -5329,7 +5329,7 @@
       "Spain"
     ],
     "explanation": "The Welsh Assembly (Senedd Cymru) is located in Cardiff and manages devolved powers for Wales.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 355
   },
   {
@@ -5344,7 +5344,7 @@
       "Boudicca"
     ],
     "explanation": "Boudicca was a British tribal leader who led a revolt against Roman occupation in AD 60-61.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 356
   },
   {
@@ -5358,7 +5358,7 @@
       "Address"
     ],
     "explanation": "To apply for a National Insurance number, you need to provide proof of identity and proof of address.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 357
   },
   {
@@ -5373,7 +5373,7 @@
       "Primary education"
     ],
     "explanation": "The UK economy is based on services (finance, retail), manufacturing, and agriculture.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 358
   },
   {
@@ -5388,7 +5388,7 @@
       "Harry Potter"
     ],
     "explanation": "The pound sterling is the currency of the United Kingdom, divided into 100 pence.",
-    "category": "Arts & Culture",
+    "category": "Culture & Heritage",
     "question_id": 359
   },
   {
@@ -5403,7 +5403,7 @@
       "Jane Austen"
     ],
     "explanation": "The Bank of England is the central bank of the UK and manages monetary policy.",
-    "category": "Arts & Culture",
+    "category": "Culture & Heritage",
     "question_id": 360
   },
   {
@@ -5418,7 +5418,7 @@
       "North America"
     ],
     "explanation": "The North American colonies declared independence from Britain in 1776, leading to the American Revolution.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 361
   },
   {
@@ -5448,7 +5448,7 @@
       "Germany"
     ],
     "explanation": "The Scottish Parliament has powers over devolved matters including education, health, and justice.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 363
   },
   {
@@ -5463,7 +5463,7 @@
       "Act of Union"
     ],
     "explanation": "The Highland Clearances were forced removal of Highland residents to make way for sheep farming.",
-    "category": "Geography",
+    "category": "Geography & Institutions",
     "question_id": 364
   },
   {
@@ -5478,7 +5478,7 @@
       "Limiting working hours for women and children to 10 hours per day"
     ],
     "explanation": "The Factories Act of 1847 limited working hours for women and children to 10 hours per day.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 365
   },
   {
@@ -5493,7 +5493,7 @@
       "Based on the time spent on a case"
     ],
     "explanation": "Solicitors' charges are typically based on the time spent on a case, charged at hourly rates.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 366
   },
   {
@@ -5508,7 +5508,7 @@
       "Clara Barton"
     ],
     "explanation": "Florence Nightingale revolutionized nursing and hospital hygiene during the Crimean War (1853-1856).",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 367
   },
   {
@@ -5523,7 +5523,7 @@
       "God Save the King"
     ],
     "explanation": "Auld Lang Syne is a Scottish song written by Robert Burns, traditionally sung at New Year celebrations.",
-    "category": "Arts & Culture",
+    "category": "Culture & Heritage",
     "question_id": 368
   },
   {
@@ -5538,7 +5538,7 @@
       "Ireland"
     ],
     "explanation": "Robert Burns was a Scottish poet born in 1759, celebrated as Scotland's national poet.",
-    "category": "History",
+    "category": "British History & Heritage",
     "question_id": 369
   },
   {
@@ -5551,7 +5551,7 @@
       "True"
     ],
     "explanation": "Ireland is not part of the United Kingdom; the UK comprises England, Scotland, Wales, and Northern Ireland.",
-    "category": "Geography",
+    "category": "Geography & Institutions",
     "question_id": 370
   },
   {
@@ -5566,7 +5566,7 @@
       "Halloween"
     ],
     "explanation": "April Fool's Day (1 April) is when newspapers and television traditionally make jokes and hoaxes.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 371
   },
   {
@@ -5581,7 +5581,7 @@
       "The Renaissance"
     ],
     "explanation": "The Luton Hoo Hotel and grounds contain important art collections and historical artefacts.",
-    "category": "Architecture",
+    "category": "Culture & Heritage",
     "question_id": 372
   },
   {
@@ -5609,7 +5609,7 @@
       "True"
     ],
     "explanation": "Civil servants are professionals who work for the government and implement policies, not govern directly.",
-    "category": "General Knowledge",
+    "category": "Culture & Heritage",
     "question_id": 374
   }
 ]

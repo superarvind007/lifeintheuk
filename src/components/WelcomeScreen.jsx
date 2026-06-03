@@ -4,9 +4,19 @@ import { getFlaggedIds, saveFlaggedIds, getAnsweredIds, saveAnsweredIds } from '
 import questionsData from '../data/questions.json';
 
 // Dynamically extract all unique categories from questions data
-const CATEGORIES = [...new Set(questionsData.map(q => q.category))]
-  .sort()
-  .filter(cat => cat); // Remove any falsy values
+// Ordered by official Life in the UK test structure
+const CATEGORY_ORDER = [
+  'UK Values & Rights',
+  'British History & Heritage',
+  'Geography & Institutions',
+  'Government & Law',
+  'Culture & Heritage',
+  'Economy & Employment',
+];
+
+const CATEGORIES = CATEGORY_ORDER.filter(cat =>
+  questionsData.some(q => q.category === cat)
+);
 
 const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
   const [mode, setMode] = useState('practice');
