@@ -167,13 +167,14 @@ function App() {
             width: '56px',
             height: '56px',
             borderRadius: '50%',
-            boxShadow: '0 4px 12px rgba(0,0,0,0.3)',
+            boxShadow: '0 8px 24px rgba(0,0,0,0.4), inset -2px -2px 4px rgba(0,0,0,0.3), inset 2px 2px 4px rgba(255,255,255,0.1)',
             zIndex: 50,
             padding: 0,
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            border: '2px dashed rgba(255, 255, 255, 0.3)'
+            border: 'none',
+            transition: 'all 0.2s ease'
           }}
           aria-label="Search questions here"
           title="Search questions here"

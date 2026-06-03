@@ -80,12 +80,14 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
           e.preventDefault();
           if (currentIdx < totalQuestions - 1) {
             setCurrentIdx(currentIdx + 1);
+            setShowExplanation(false);
           }
           break;
         case 'ArrowLeft':
           e.preventDefault();
           if (currentIdx > 0) {
             setCurrentIdx(currentIdx - 1);
+            setShowExplanation(false);
           }
           break;
         case 'ArrowDown':
@@ -93,6 +95,7 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
           const nextRowIdx = (currentRow + 1) * itemsPerRow + currentCol;
           if (nextRowIdx < totalQuestions) {
             setCurrentIdx(nextRowIdx);
+            setShowExplanation(false);
           }
           break;
         case 'ArrowUp':
@@ -100,6 +103,7 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
           if (currentRow > 0) {
             const prevRowIdx = (currentRow - 1) * itemsPerRow + currentCol;
             setCurrentIdx(prevRowIdx);
+            setShowExplanation(false);
           }
           break;
         default:
@@ -137,6 +141,11 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
       const answeredIds = getAnsweredIds();
       if (!answeredIds.includes(currentQ.question_id)) {
         saveAnsweredIds([...answeredIds, currentQ.question_id]);
+      }
+
+      // In practice mode, auto-show explanation when all required answers are selected
+      if (mode === 'practice' && qAnswers.length === requiredCount) {
+        setShowExplanation(true);
       }
     }
   };
@@ -307,6 +316,7 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
       return;
     }
 
+    setShowExplanation(false);
     setCurrentIdx(Math.min(questions.length - 1, currentIdx + 1));
   };
 
@@ -456,12 +466,14 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
                   onClick={() => {
                     setCurrentIdx(idx);
                     if (isMobile) setShowNav(false);
+                    setShowExplanation(false);
                   }}
                   onKeyDown={(e) => {
                     if (e.key === 'Enter' || e.key === ' ') {
                       e.preventDefault();
                       setCurrentIdx(idx);
                       if (isMobile) setShowNav(false);
+                      setShowExplanation(false);
                     }
                   }}
                   aria-label={`Question ${idx + 1}: ${statusText}`}
@@ -528,12 +540,14 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
                   onClick={() => {
                     setCurrentIdx(idx);
                     setShowNav(false);
+                    setShowExplanation(false);
                   }}
                   onKeyDown={(e) => {
                     if (e.key === 'Enter' || e.key === ' ') {
                       e.preventDefault();
                       setCurrentIdx(idx);
                       setShowNav(false);
+                      setShowExplanation(false);
                     }
                   }}
                   aria-label={`Question ${idx + 1}: ${statusText}`}

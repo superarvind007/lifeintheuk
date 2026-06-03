@@ -77,25 +77,8 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
     setSelectedCategories(newCategories);
   };
 
-  const handleCategoryKeyDown = (e, cat) => {
-    if (e.key === 'Enter' || e.key === ' ') {
-      e.preventDefault();
-      toggleCategory(cat);
-    }
-  };
-
   const unansweredCount = Math.max(0, totalQuestions - excludedCount);
   const [showCategoryFilter, setShowCategoryFilter] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-
-  // Handle window resize for mobile detection
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
 
   return (
     <div className="card" style={{ maxWidth: '700px', margin: '2rem auto', textAlign: 'center' }}>
@@ -112,157 +95,110 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
         </button>
       </div>
 
-      {/* Categories Bar - Desktop */}
-      {!isMobile && (
-        <div style={{ marginBottom: '1.5rem', overflowX: 'auto', paddingBottom: '0.5rem' }} role="group" aria-label="Question categories filter">
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', justifyContent: 'center' }}>
+      {/* Categories Filter - Dropdown (Desktop & Mobile) */}
+      <div style={{ marginBottom: '1.5rem', position: 'relative' }}>
+        <button
+          onClick={() => setShowCategoryFilter(!showCategoryFilter)}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              setShowCategoryFilter(!showCategoryFilter);
+            }
+          }}
+          className="btn btn-secondary"
+          aria-expanded={showCategoryFilter}
+          aria-label="Filter questions by category"
+          style={{
+            width: '100%',
+            justifyContent: 'space-between',
+            padding: '0.75rem 1rem'
+          }}
+        >
+          <span>Categories: {selectedCategories.includes('All') ? 'All' : selectedCategories.length + ' selected'}</span>
+          <span aria-hidden="false">{showCategoryFilter ? '▼' : '▶'}</span>
+        </button>
+
+        {showCategoryFilter && (
+          <div
+            role="group"
+            aria-label="Category options"
+            style={{
+              position: 'absolute',
+              top: '100%',
+              left: 0,
+              right: 0,
+              background: 'var(--bg-secondary)',
+              border: '1px solid var(--border)',
+              borderRadius: '0.5rem',
+              marginTop: '0.5rem',
+              maxHeight: '300px',
+              overflowY: 'auto',
+              zIndex: 10,
+              boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)'
+            }}
+          >
             <button
-              onClick={() => toggleCategory('All')}
-              onKeyDown={(e) => handleCategoryKeyDown(e, 'All')}
-              className={`btn ${selectedCategories.includes('All') ? 'btn-primary' : 'btn-secondary'}`}
+              onClick={() => {
+                toggleCategory('All');
+              }}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  toggleCategory('All');
+                }
+              }}
               aria-pressed={selectedCategories.includes('All')}
-              style={{ padding: '0.5rem 1rem', fontSize: '0.9rem', borderRadius: '2rem' }}
+              style={{
+                width: '100%',
+                padding: '0.75rem 1rem',
+                textAlign: 'left',
+                border: 'none',
+                background: selectedCategories.includes('All') ? 'var(--accent)' : 'transparent',
+                color: selectedCategories.includes('All') ? 'white' : 'var(--text-primary)',
+                cursor: 'pointer',
+                borderBottom: '1px solid var(--border)'
+              }}
             >
-              All
+              <Check size={14} style={{ marginRight: '0.5rem', opacity: selectedCategories.includes('All') ? 1 : 0 }} aria-hidden="false" />
+              All ({categoryCounts['All'] || 0})
             </button>
             {CATEGORIES.map(cat => (
               <button
                 key={cat}
-                onClick={() => toggleCategory(cat)}
-                onKeyDown={(e) => handleCategoryKeyDown(e, cat)}
-                className={`btn ${selectedCategories.includes(cat) ? 'btn-primary' : 'btn-secondary'}`}
-                aria-pressed={selectedCategories.includes(cat)}
-                style={{ padding: '0.5rem 1rem', fontSize: '0.9rem', borderRadius: '2rem', display: 'flex', alignItems: 'center', gap: '0.3rem' }}
-                aria-label={`Filter by ${cat} (${categoryCounts[cat] || 0} questions)`}
-              >
-                {selectedCategories.includes(cat) && <Check size={14} strokeWidth={3} aria-hidden="false" />}
-                {cat}
-                <span style={{
-                  marginLeft: '0.4rem',
-                  background: selectedCategories.includes(cat) ? 'rgba(255, 255, 255, 0.3)' : 'rgba(0, 0, 0, 0.1)',
-                  color: 'inherit',
-                  borderRadius: '0.8rem',
-                  padding: '0.1rem 0.5rem',
-                  fontSize: '0.8rem',
-                  fontWeight: 'inherit',
-                  minWidth: '20px',
-                  textAlign: 'center',
-                  lineHeight: '1'
-                }}>
-                  {categoryCounts[cat] || 0}
-                </span>
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Categories Filter - Mobile */}
-      {isMobile && (
-        <div style={{ marginBottom: '1.5rem', position: 'relative' }}>
-          <button
-            onClick={() => setShowCategoryFilter(!showCategoryFilter)}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                setShowCategoryFilter(!showCategoryFilter);
-              }
-            }}
-            className="btn btn-secondary"
-            aria-expanded={showCategoryFilter}
-            aria-label="Filter questions by category"
-            style={{
-              width: '100%',
-              justifyContent: 'space-between',
-              padding: '0.75rem 1rem'
-            }}
-          >
-            <span>Categories: {selectedCategories.includes('All') ? 'All' : selectedCategories.length + ' selected'}</span>
-            <span aria-hidden="false">{showCategoryFilter ? '▼' : '▶'}</span>
-          </button>
-
-          {showCategoryFilter && (
-            <div
-              role="group"
-              aria-label="Category options"
-              style={{
-                position: 'absolute',
-                top: '100%',
-                left: 0,
-                right: 0,
-                background: 'var(--bg-secondary)',
-                border: '1px solid var(--border)',
-                borderRadius: '0.5rem',
-                marginTop: '0.5rem',
-                maxHeight: '300px',
-                overflowY: 'auto',
-                zIndex: 10,
-                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)'
-              }}
-            >
-              <button
                 onClick={() => {
-                  toggleCategory('All');
+                  toggleCategory(cat);
                 }}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') {
                     e.preventDefault();
-                    toggleCategory('All');
+                    toggleCategory(cat);
                   }
                 }}
-                aria-pressed={selectedCategories.includes('All')}
+                aria-pressed={selectedCategories.includes(cat)}
                 style={{
                   width: '100%',
                   padding: '0.75rem 1rem',
                   textAlign: 'left',
                   border: 'none',
-                  background: selectedCategories.includes('All') ? 'var(--accent)' : 'transparent',
-                  color: selectedCategories.includes('All') ? 'white' : 'var(--text-primary)',
+                  background: selectedCategories.includes(cat) ? 'var(--accent)' : 'transparent',
+                  color: selectedCategories.includes(cat) ? 'white' : 'var(--text-primary)',
                   cursor: 'pointer',
-                  borderBottom: '1px solid var(--border)'
+                  borderBottom: '1px solid var(--border)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between'
                 }}
               >
-                <Check size={14} style={{ marginRight: '0.5rem', opacity: selectedCategories.includes('All') ? 1 : 0 }} aria-hidden="false" />
-                All ({categoryCounts['All'] || 0})
+                <span>
+                  <Check size={14} style={{ marginRight: '0.5rem', opacity: selectedCategories.includes(cat) ? 1 : 0 }} aria-hidden="false" />
+                  {cat}
+                </span>
+                <span style={{ fontSize: '0.8rem', opacity: 0.7 }}>({categoryCounts[cat] || 0})</span>
               </button>
-              {CATEGORIES.map(cat => (
-                <button
-                  key={cat}
-                  onClick={() => {
-                    toggleCategory(cat);
-                  }}
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                      e.preventDefault();
-                      toggleCategory(cat);
-                    }
-                  }}
-                  aria-pressed={selectedCategories.includes(cat)}
-                  style={{
-                    width: '100%',
-                    padding: '0.75rem 1rem',
-                    textAlign: 'left',
-                    border: 'none',
-                    background: selectedCategories.includes(cat) ? 'var(--accent)' : 'transparent',
-                    color: selectedCategories.includes(cat) ? 'white' : 'var(--text-primary)',
-                    cursor: 'pointer',
-                    borderBottom: '1px solid var(--border)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'space-between'
-                  }}
-                >
-                  <span>
-                    <Check size={14} style={{ marginRight: '0.5rem', opacity: selectedCategories.includes(cat) ? 1 : 0 }} aria-hidden="false" />
-                    {cat}
-                  </span>
-                  <span style={{ fontSize: '0.8rem', opacity: 0.7 }}>({categoryCounts[cat] || 0})</span>
-                </button>
-              ))}
-            </div>
-          )}
-        </div>
-      )}
+            ))}
+          </div>
+        )}
+      </div>
 
       <div style={{
         background: 'var(--bg-secondary)',
