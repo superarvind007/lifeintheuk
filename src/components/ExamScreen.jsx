@@ -281,7 +281,7 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
     return {
       background: isSelected ? 'rgba(59, 130, 246, 0.1)' : 'rgba(255,255,255,0.03)',
       border: isSelected ? '2px solid var(--accent)' : '1px solid var(--border)',
-      color: isSelected ? 'white' : 'var(--text-secondary)'
+      color: isSelected ? 'var(--text-primary)' : 'var(--text-secondary)'
     };
   };
 
