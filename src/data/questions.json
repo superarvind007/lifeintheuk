@@ -12,7 +12,7 @@
       "Discovery of gravity"
     ],
     "explanation": "Isaac Newton is famous for formulating the law of universal gravitation after studying the motion of objects and planets.",
-    "category": "Government & Law"
+    "category": "Science & Innovation"
   },
   {
     "question_id": 2,
@@ -148,7 +148,7 @@
       "The discovery of penicillin"
     ],
     "explanation": "Alexander Fleming discovered penicillin in 1928, and this work on antibiotics earned him a share of the Nobel Prize in 1945.",
-    "category": "History"
+    "category": "Science & Innovation"
   },
   {
     "question_id": 11,
@@ -194,7 +194,7 @@
       "Wiltshire"
     ],
     "explanation": "Stonehenge is a prehistoric stone circle located on Salisbury Plain in Wiltshire, southern England.",
-    "category": "Geography"
+    "category": "Architecture"
   },
   {
     "question_id": 14,
@@ -209,7 +209,7 @@
       "Steel and glass"
     ],
     "explanation": "The Crystal Palace was an innovative structure built largely from cast iron (steel) and glass for the Great Exhibition of 1851.",
-    "category": "Geography"
+    "category": "Architecture"
   },
   {
     "question_id": 15,
@@ -269,7 +269,7 @@
       "Stratford-upon-Avon"
     ],
     "explanation": "William Shakespeare was born in Stratford-upon-Avon, a market town in Warwickshire, England.",
-    "category": "History"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 19,
@@ -299,7 +299,7 @@
       "Glass manufacturers - Italy, Weavers - France, Engineers - Germany, Builders - Holland"
     ],
     "explanation": "Skilled workers from across Europe came to medieval England, including glass makers from Italy, weavers from France, engineers from Germany, and builders from Holland.",
-    "category": "History"
+    "category": "Economy & Industry"
   },
   {
     "question_id": 21,
@@ -329,7 +329,7 @@
       "Sir Steve Redgrave"
     ],
     "explanation": "Sir Steve Redgrave won rowing gold medals at five consecutive Olympic Games from 1984 to 2000.",
-    "category": "Government & Law"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 23,
@@ -359,7 +359,7 @@
       "Scotland"
     ],
     "explanation": "St Andrew’s Day on 30 November is the national day of Scotland and is especially celebrated there.",
-    "category": "Geography"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 25,
@@ -406,7 +406,7 @@
       "Darts"
     ],
     "explanation": "Pool and darts are long‑standing traditional pub games widely played in pubs across the UK.",
-    "category": "Society & Culture"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 28,
@@ -466,7 +466,7 @@
       "To be subject to the law like other citizens"
     ],
     "explanation": "King John agreed to Magna Carta under baronial pressure, accepting that the monarch must obey the law like others.",
-    "category": "Government & Law"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 32,
@@ -556,7 +556,7 @@
       "Bank holidays"
     ],
     "explanation": "Official public holidays in the UK are commonly known as bank holidays, when banks and many workplaces close.",
-    "category": "Government & Law"
+    "category": "Economy & Industry"
   },
   {
     "question_id": 38,
@@ -586,7 +586,7 @@
       "1215"
     ],
     "explanation": "Magna Carta was agreed between King John and his barons at Runnymede in 1215.",
-    "category": "History"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 40,
@@ -631,7 +631,7 @@
       "Mo Farah"
     ],
     "explanation": "Mo Farah became the first British athlete to win Olympic gold in the 10,000 metres at the 2012 London Games.",
-    "category": "Government & Law"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 43,
@@ -646,7 +646,7 @@
       "Literature"
     ],
     "explanation": "The Man Booker Prize (now known as the Booker Prize) is a prestigious literary award for novels.",
-    "category": "History"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 44,
@@ -677,7 +677,7 @@
       "Auld Lang Syne"
     ],
     "explanation": "The New Year song 'Auld Lang Syne' is based on words by Scottish poet Robert Burns.",
-    "category": "Society & Culture"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 46,
@@ -752,7 +752,7 @@
       "David Hockney"
     ],
     "explanation": "David Hockney is a leading British artist closely associated with the Pop Art movement of the 1960s. [web:101][web:104]",
-    "category": "Society & Culture"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 51,
@@ -873,7 +873,7 @@
       "Independents"
     ],
     "explanation": "MPs who are not members of an organised political party in Parliament are known as independent MPs.",
-    "category": "Government & Law"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 59,
@@ -933,7 +933,7 @@
       "Six Nations Championship"
     ],
     "explanation": "The Six Nations Championship is the leading annual Rugby Union competition involving England, Scotland, Wales, Ireland, France and Italy.",
-    "category": "Geography"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 63,
@@ -948,7 +948,7 @@
       "Charlie Chaplin"
     ],
     "explanation": "Charlie Chaplin gained worldwide fame in silent films for his comic 'Little Tramp' character.",
-    "category": "Government & Law"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 64,
@@ -1038,7 +1038,7 @@
       "The Canterbury Tales"
     ],
     "explanation": "Geoffrey Chaucer’s 'The Canterbury Tales' follows a group of pilgrims travelling to Canterbury and telling stories on the way.",
-    "category": "Society & Culture"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 70,
@@ -1068,7 +1068,7 @@
       "The Ashes"
     ],
     "explanation": "The Ashes is the famous Test cricket series contested periodically between England and Australia.",
-    "category": "Society & Culture"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 72,
@@ -1098,7 +1098,7 @@
       "Sir Edwin Lutyens"
     ],
     "explanation": "The Cenotaph in Whitehall, London, was designed by Sir Edwin Lutyens as a memorial to the dead of World War I.",
-    "category": "History"
+    "category": "Architecture"
   },
   {
     "question_id": 74,
@@ -1188,7 +1188,7 @@
       "Emmeline Pankhurst"
     ],
     "explanation": "Emmeline Pankhurst co-founded the WSPU and led direct-action campaigns to win women the right to vote in the UK.",
-    "category": "Government & Law"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 80,
@@ -1218,7 +1218,7 @@
       "English composer and musician"
     ],
     "explanation": "Sir Edward Elgar was an English composer best known for works such as the Enigma Variations and Pomp and Circumstance marches.",
-    "category": "History"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 82,
@@ -1231,7 +1231,7 @@
       "False"
     ],
     "explanation": "Only the Church of England is an established church; there is no established church in Wales, Scotland, or Northern Ireland.",
-    "category": "Geography"
+    "category": "Society & Culture"
   },
   {
     "question_id": 83,
@@ -1246,7 +1246,7 @@
       "Young people aged 16 and 17"
     ],
     "explanation": "National Citizen Service is a programme open mainly to young people aged 16 and 17 to develop skills and take part in community projects.",
-    "category": "UK Values & Principles"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 84,
@@ -1261,7 +1261,7 @@
       "Sir Christopher Cockerell"
     ],
     "explanation": "Sir Christopher Cockerell invented the modern hovercraft in the 1950s, developing the air-cushion principle that allows it to travel over land and water.",
-    "category": "UK Values & Principles"
+    "category": "Architecture"
   },
   {
     "question_id": 85,
@@ -1276,7 +1276,7 @@
       "Geoffrey Chaucer"
     ],
     "explanation": "The Canterbury Tales is a collection of stories written in Middle English by Geoffrey Chaucer about pilgrims travelling to Canterbury.",
-    "category": "History"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 86,
@@ -1292,7 +1292,7 @@
       "Macbeth"
     ],
     "explanation": "William Shakespeare wrote many plays including A Midsummer Night’s Dream and Macbeth; The Canterbury Tales is by Chaucer and Paradise Lost is by John Milton.",
-    "category": "History"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 87,
@@ -1322,7 +1322,7 @@
       "William the Conqueror"
     ],
     "explanation": "The Tower of London was begun by William the Conqueror in the 11th century as a fortress and royal residence.",
-    "category": "History"
+    "category": "Architecture"
   },
   {
     "question_id": 89,
@@ -1352,7 +1352,7 @@
       "Ian Fleming"
     ],
     "explanation": "The fictional British secret agent James Bond first appeared in novels written by Ian Fleming in the 1950s.",
-    "category": "Society & Culture"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 91,
@@ -1367,7 +1367,7 @@
       "The National Trust"
     ],
     "explanation": "The National Trust is a charity that protects and opens to the public historic buildings, gardens, coastline, and countryside across the UK.",
-    "category": "Geography"
+    "category": "Architecture"
   },
   {
     "question_id": 92,
@@ -1427,7 +1427,7 @@
       "James Watt"
     ],
     "explanation": "James Watt greatly improved the efficiency of the steam engine in the 18th century, making it vital for industry and transport.",
-    "category": "History"
+    "category": "Economy & Industry"
   },
   {
     "question_id": 96,
@@ -1550,7 +1550,7 @@
       "Francis Crick"
     ],
     "explanation": "Francis Crick, with James Watson, proposed the double helix model of DNA in 1953.",
-    "category": "History"
+    "category": "Architecture"
   },
   {
     "question_id": 104,
@@ -1580,7 +1580,7 @@
       "Protestant church"
     ],
     "explanation": "The Church of England is a Protestant Christian church and is the established church in England.",
-    "category": "History"
+    "category": "Architecture"
   },
   {
     "question_id": 106,
@@ -1595,7 +1595,7 @@
       "Wimbledon"
     ],
     "explanation": "The Wimbledon Championships, the best-known tennis tournament in the UK, are held in Wimbledon, London.",
-    "category": "Geography"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 107,
@@ -1625,7 +1625,7 @@
       "Ellie Simmonds"
     ],
     "explanation": "British swimmer Ellie Simmonds won multiple Paralympic gold medals across the 2008, 2012 and 2016 Games.",
-    "category": "Government & Law"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 109,
@@ -1640,7 +1640,7 @@
       "Crown dependencies"
     ],
     "explanation": "Isle of Man and the Channel Islands are Crown dependencies: self-governing territories not part of the UK.",
-    "category": "Government & Law"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 110,
@@ -1670,7 +1670,7 @@
       "Shipbuilding industry"
     ],
     "explanation": "Traditional heavy industries such as shipbuilding, coal and steel suffered badly during the 1930s depression.",
-    "category": "Society & Culture"
+    "category": "Economy & Industry"
   },
   {
     "question_id": 112,
@@ -1790,7 +1790,7 @@
       "Poland"
     ],
     "explanation": "Germany’s invasion of Poland in September 1939 led Britain and France to declare war, starting World War II in Europe.",
-    "category": "History"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 120,
@@ -1805,7 +1805,7 @@
       "Winston Churchill"
     ],
     "explanation": "Winston Churchill is widely remembered for his leadership and speeches as Prime Minister during most of World War II.",
-    "category": "Government & Law"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 121,
@@ -1835,7 +1835,7 @@
       "Tanni Grey-Thompson"
     ],
     "explanation": "Baroness Tanni Grey-Thompson won 11 Paralympic gold medals across five Paralympic Games. [web:34][web:37]",
-    "category": "Government & Law"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 123,
@@ -1850,7 +1850,7 @@
       "Anglican"
     ],
     "explanation": "The Church of England is an Anglican, Protestant church and is the established church in England. [web:22]",
-    "category": "History"
+    "category": "Architecture"
   },
   {
     "question_id": 124,
@@ -1866,7 +1866,7 @@
       "The Conservative Party"
     ],
     "explanation": "After the 2010 general election, the Conservative Party and the Liberal Democrats formed a coalition government. [web:14]",
-    "category": "Government & Law"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 125,
@@ -1879,7 +1879,7 @@
       "True"
     ],
     "explanation": "Sir Steve Redgrave won rowing gold medals at five consecutive Olympic Games from 1984 to 2000. [web:22]",
-    "category": "Government & Law"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 126,
@@ -1954,7 +1954,7 @@
       "Sir Mo Farah"
     ],
     "explanation": "Sir Mo Farah won four Olympic gold medals in distance running at the 2012 and 2016 Games. [web:22]",
-    "category": "Government & Law"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 131,
@@ -1969,7 +1969,7 @@
       "Abolition of the Slave Trade Act"
     ],
     "explanation": "The Abolition of the Slave Trade Act 1807 made the trading of enslaved people illegal in the British Empire. [web:28]",
-    "category": "Government & Law"
+    "category": "Economy & Industry"
   },
   {
     "question_id": 132,
@@ -1982,7 +1982,7 @@
       "False"
     ],
     "explanation": "There is no established church in Northern Ireland; only the Church of England is established by law. [web:22]",
-    "category": "Government & Law"
+    "category": "Architecture"
   },
   {
     "question_id": 133,
@@ -1997,7 +1997,7 @@
       "Wiltshire"
     ],
     "explanation": "Stonehenge stands on Salisbury Plain in the English county of Wiltshire. [web:33]",
-    "category": "Geography"
+    "category": "Architecture"
   },
   {
     "question_id": 134,
@@ -2192,7 +2192,7 @@
       "True"
     ],
     "explanation": "The Cenotaph in Whitehall, central London, is the UK’s principal national war memorial. [web:22]",
-    "category": "Geography"
+    "category": "Architecture"
   },
   {
     "question_id": 147,
@@ -2207,7 +2207,7 @@
       "To divorce his first wife"
     ],
     "explanation": "Henry VIII broke with the Pope and created the Church of England largely so he could annul his marriage to Catherine of Aragon. [web:33]",
-    "category": "History"
+    "category": "Architecture"
   },
   {
     "question_id": 148,
@@ -2235,7 +2235,7 @@
       "False"
     ],
     "explanation": "Boxing Day is a public holiday in the UK celebrated on 26 December, the day after Christmas. [web:14]",
-    "category": "Society & Culture"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 150,
@@ -2310,7 +2310,7 @@
       "John Barbour"
     ],
     "explanation": "The epic poem The Bruce, celebrating Robert the Bruce and Bannockburn, was written by John Barbour in Scots. [web:33]",
-    "category": "Society & Culture"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 155,
@@ -2388,7 +2388,7 @@
       "Liberal Democrats Party"
     ],
     "explanation": "Following the 2010 general election, the Conservatives and Liberal Democrats formed a coalition government. [web:14]",
-    "category": "Government & Law"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 160,
@@ -2401,7 +2401,7 @@
       "True"
     ],
     "explanation": "The BBC Proms is an eight‑week summer season of daily classical music concerts, mainly at the Royal Albert Hall. [web:14]",
-    "category": "Society & Culture"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 161,
@@ -2431,7 +2431,7 @@
       "Beefeaters"
     ],
     "explanation": "The ceremonial guards and guides at the Tower of London are the Yeoman Warders, commonly called Beefeaters. [web:22]",
-    "category": "History"
+    "category": "Architecture"
   },
   {
     "question_id": 163,
@@ -2446,7 +2446,7 @@
       "Reformation"
     ],
     "explanation": "The Reformation was the religious movement that challenged papal authority and promoted direct access to the Bible. [web:33]",
-    "category": "Society & Culture"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 164,
@@ -2461,7 +2461,7 @@
       "Sir Christopher Wren"
     ],
     "explanation": "After the Great Fire of London in 1666, Sir Christopher Wren designed and oversaw the rebuilding of St Paul’s Cathedral. [web:22]",
-    "category": "Geography"
+    "category": "Architecture"
   },
   {
     "question_id": 165,
@@ -2493,7 +2493,7 @@
       "Emmeline Pankhurst"
     ],
     "explanation": "Emmeline Pankhurst co‑founded the WSPU and led militant campaigns for women’s suffrage in Britain. [web:33]",
-    "category": "Government & Law"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 167,
@@ -2508,7 +2508,7 @@
       "Ayr and Ascot"
     ],
     "explanation": "The Scottish Grand National is run at Ayr Racecourse, while Royal Ascot is held at Ascot Racecourse in Berkshire. [web:45][web:48]",
-    "category": "History"
+    "category": "Society & Culture"
   },
   {
     "question_id": 168,
@@ -2628,7 +2628,7 @@
       "Theatreland"
     ],
     "explanation": "London’s West End theatre district is often referred to as Theatreland and is famous for stage productions.",
-    "category": "Geography"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 176,
@@ -2673,7 +2673,7 @@
       "Three times"
     ],
     "explanation": "London has hosted the Summer Olympics three times: in 1908, 1948 and 2012. [web:49][web:52][web:53]",
-    "category": "Government & Law"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 179,
@@ -2750,7 +2750,7 @@
       "Helping to create new laws"
     ],
     "explanation": "MPs represent their constituencies and scrutinise and help make laws; sentencing and policing are handled by other bodies.",
-    "category": "Government & Law"
+    "category": "Architecture"
   },
   {
     "question_id": 184,
@@ -2813,7 +2813,7 @@
       "26 December"
     ],
     "explanation": "Boxing Day, a bank holiday in the UK, falls on 26 December.",
-    "category": "History"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 188,
@@ -2858,7 +2858,7 @@
       "18"
     ],
     "explanation": "The minimum age to stand as an MP is 18, the same as the voting age.",
-    "category": "Government & Law"
+    "category": "Architecture"
   },
   {
     "question_id": 191,
@@ -2873,7 +2873,7 @@
       "Scotland"
     ],
     "explanation": "Scotland, particularly St Andrews, is widely regarded as the home of golf.",
-    "category": "Geography"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 192,
@@ -2916,7 +2916,7 @@
       "Dame Kelly Holmes"
     ],
     "explanation": "Dame Kelly Holmes won gold in both the 800m and 1500m at the Athens 2004 Olympic Games. [web:64][web:67]",
-    "category": "Government & Law"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 195,
@@ -2946,7 +2946,7 @@
       "Emperor Hadrian"
     ],
     "explanation": "Hadrian’s Wall in northern Britain was built on the orders of the Roman emperor Hadrian in the 2nd century. [web:33]",
-    "category": "History"
+    "category": "Architecture"
   },
   {
     "question_id": 197,
@@ -2976,7 +2976,7 @@
       "William Caxton"
     ],
     "explanation": "William Caxton introduced the printing press to England in the 1470s and was the first English printer. [web:33]",
-    "category": "History"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 199,
@@ -3037,7 +3037,7 @@
       "Tate Modern"
     ],
     "explanation": "Both the National Gallery on Trafalgar Square and Tate Modern on the South Bank are major art galleries in London; the British Library and Natural History Museum are not art galleries. [web:22]",
-    "category": "Geography"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 203,
@@ -3082,7 +3082,7 @@
       "Turing Machine"
     ],
     "explanation": "Alan Turing’s theoretical concept of a ‘Turing machine’ became a fundamental model for modern computing. [web:22]",
-    "category": "Government & Law"
+    "category": "Science & Innovation"
   },
   {
     "question_id": 206,
@@ -3143,7 +3143,7 @@
       "House of Commons"
     ],
     "explanation": "By the late Middle Ages, the English Parliament had two houses: the House of Lords and the House of Commons. [web:19][web:23]",
-    "category": "Government & Law"
+    "category": "Architecture"
   },
   {
     "question_id": 210,
@@ -3158,7 +3158,7 @@
       "Roald Dahl"
     ],
     "explanation": "Roald Dahl, born in Wales to Norwegian parents, wrote children’s classics including Charlie and the Chocolate Factory. [web:22]",
-    "category": "Geography"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 211,
@@ -3173,7 +3173,7 @@
       "Sir Arthur Conan Doyle"
     ],
     "explanation": "The fictional detective Sherlock Holmes was created by Scottish author Sir Arthur Conan Doyle. [web:22]",
-    "category": "Society & Culture"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 212,
@@ -3204,7 +3204,7 @@
       "Debating important national issues"
     ],
     "explanation": "MPs debate national issues and scrutinise and help make laws, but policing and sentencing guidelines are handled by other authorities. [web:23]",
-    "category": "Government & Law"
+    "category": "Architecture"
   },
   {
     "question_id": 214,
@@ -3219,7 +3219,7 @@
       "Jayne Torvill and Christopher Dean"
     ],
     "explanation": "British skaters Jayne Torvill and Christopher Dean won gold in ice dance at the Sarajevo 1984 Winter Olympics. [web:22]",
-    "category": "Government & Law"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 215,
@@ -3234,7 +3234,7 @@
       "Bobby Moore"
     ],
     "explanation": "Centre-back Bobby Moore captained England to victory in the 1966 FIFA World Cup. [web:22]",
-    "category": "Society & Culture"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 216,
@@ -3264,7 +3264,7 @@
       "Dame Kelly Holmes"
     ],
     "explanation": "Dame Kelly Holmes won gold in both the 800m and 1500m at the 2004 Athens Olympics, becoming a double Olympic champion for Britain. [web:64][web:70][web:71]",
-    "category": "Government & Law"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 218,
@@ -3292,7 +3292,7 @@
       "To divorce his first wife"
     ],
     "explanation": "Henry VIII broke with the Pope and created the Church of England largely so he could annul his marriage to Catherine of Aragon. [web:33]",
-    "category": "History"
+    "category": "Architecture"
   },
   {
     "question_id": 220,
@@ -3307,7 +3307,7 @@
       "Jayne Torvill and Christopher Dean"
     ],
     "explanation": "British duo Jayne Torvill and Christopher Dean won gold in ice dancing at the 1984 Winter Olympics in Sarajevo. [web:22]",
-    "category": "Government & Law"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 221,
@@ -3337,7 +3337,7 @@
       "William Caxton"
     ],
     "explanation": "William Caxton introduced the printing press to England in the 15th century and was the first English printer. [web:33]",
-    "category": "History"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 223,
@@ -3367,7 +3367,7 @@
       "Northern Ireland"
     ],
     "explanation": "Great Britain comprises England, Scotland and Wales; Northern Ireland is part of the UK but not of Great Britain. [web:22]",
-    "category": "Geography"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 225,
@@ -3503,7 +3503,7 @@
       "House of Commons"
     ],
     "explanation": "By the late Middle Ages, Parliament consisted of the House of Lords and the House of Commons. [web:23][web:33]",
-    "category": "Government & Law"
+    "category": "Architecture"
   },
   {
     "question_id": 234,
@@ -3533,7 +3533,7 @@
       "William Wordsworth"
     ],
     "explanation": "The poem commonly known as 'Daffodils' ('I wandered lonely as a cloud') was written by William Wordsworth. [web:22]",
-    "category": "Society & Culture"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 236,
@@ -3593,7 +3593,7 @@
       "Sir Christopher Wren"
     ],
     "explanation": "After the Great Fire of London in 1666, Sir Christopher Wren designed and oversaw the rebuilding of St Paul’s Cathedral. [web:22]",
-    "category": "Geography"
+    "category": "Architecture"
   },
   {
     "question_id": 240,
@@ -3714,7 +3714,7 @@
       "Tate Modern"
     ],
     "explanation": "Tate Modern, on London’s South Bank, is a major gallery dedicated to modern and contemporary art.",
-    "category": "Society & Culture"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 248,
@@ -3730,7 +3730,7 @@
       "The Beatles"
     ],
     "explanation": "The Beatles and The Rolling Stones were two of the most famous British bands to emerge in the 1960s Swinging Sixties era.",
-    "category": "Society & Culture"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 249,
@@ -3745,7 +3745,7 @@
       "The King became head of the Church"
     ],
     "explanation": "When Henry VIII created the Church of England, he replaced the Pope with the king as Supreme Head of the Church in England.",
-    "category": "History"
+    "category": "Architecture"
   },
   {
     "question_id": 250,
@@ -3760,7 +3760,7 @@
       "Beefeaters"
     ],
     "explanation": "The Yeoman Warders, popularly known as Beefeaters, guide visitors and tell the history of the Tower of London.",
-    "category": "History"
+    "category": "Architecture"
   },
   {
     "question_id": 251,
@@ -3790,7 +3790,7 @@
       "Baroness Tanni Grey-Thompson"
     ],
     "explanation": "Baroness Tanni Grey-Thompson won 16 Paralympic medals and six London Marathon titles during her wheelchair racing career. [web:85]",
-    "category": "Government & Law"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 253,
@@ -3835,7 +3835,7 @@
       "William Wilberforce"
     ],
     "explanation": "William Wilberforce was a leading British MP and campaigner for the abolition of the transatlantic slave trade.",
-    "category": "Government & Law"
+    "category": "Economy & Industry"
   },
   {
     "question_id": 256,
@@ -3865,7 +3865,7 @@
       "Roald Dahl"
     ],
     "explanation": "Roald Dahl, born in Wales to Norwegian parents, wrote 'Charlie and the Chocolate Factory' and many other children’s books.",
-    "category": "Geography"
+    "category": "Arts & Culture"
   },
   {
     "question_id": 258,
@@ -3880,7 +3880,7 @@
       "By-election"
     ],
     "explanation": "If a Commons seat becomes vacant between general elections, a by‑election is held in that constituency.",
-    "category": "Government & Law"
+    "category": "Architecture"
   },
   {
     "question_id": 259,
@@ -3910,7 +3910,7 @@
       "Bobby Moore"
     ],
     "explanation": "Bobby Moore captained the England football team that won the FIFA World Cup in 1966.",
-    "category": "Society & Culture"
+    "category": "Sport & Recreation"
   },
   {
     "question_id": 261,
@@ -3955,7 +3955,7 @@
       "The Archbishop of Canterbury"
     ],
     "explanation": "The Archbishop of Canterbury is the senior bishop and principal leader of the Church of England, its spiritual head under the monarch.",
-    "category": "History"
+    "category": "Architecture"
   },
   {
     "question_id": 264,
@@ -3971,7 +3971,7 @@
       "Defence"
     ],
     "explanation": "While many domestic matters are devolved, key areas such as immigration and defence remain reserved to the UK Parliament.",
-    "category": "Government & Law"
+    "category": "Architecture"
   },
   {
     "question_id": 265,
@@ -4087,7 +4087,7 @@
       "Education"
     ],
     "explanation": "The Scottish Parliament can legislate on: civil and criminal law, health, education, planning and additional tax-raising powers.",
-    "category": "Government & Law"
+    "category": "Architecture"
   },
   {
     "question_detail": "Who was the designer of the Cenotaph in Whitehall?",
@@ -4101,7 +4101,7 @@
       "Sir Christopher Wren"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Architecture",
     "question_id": 273
   },
   {
@@ -4116,7 +4116,7 @@
       "To provide drinking water to industrial towns and cities"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Architecture",
     "question_id": 274
   },
   {
@@ -4146,7 +4146,7 @@
       "rnest Rutherford"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Science & Innovation",
     "question_id": 276
   },
   {
@@ -4176,7 +4176,7 @@
       "wakening"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Science & Innovation",
     "question_id": 278
   },
   {
@@ -4206,7 +4206,7 @@
       "rick and wood"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Architecture",
     "question_id": 280
   },
   {
@@ -4221,7 +4221,7 @@
       "Sir Robert Edwards"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Architecture",
     "question_id": 281
   },
   {
@@ -4236,7 +4236,7 @@
       "vid Weir"
     ],
     "explanation": "No explanation available",
-    "category": "Government & Law",
+    "category": "Sport & Recreation",
     "question_id": 282
   },
   {
@@ -4356,7 +4356,7 @@
       "Wallace and Gromit"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Arts & Culture",
     "question_id": 290
   },
   {
@@ -4371,7 +4371,7 @@
       "The Lord of the Rings"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Arts & Culture",
     "question_id": 291
   },
   {
@@ -4401,7 +4401,7 @@
       "Immigration"
     ],
     "explanation": "No explanation available",
-    "category": "Government & Law",
+    "category": "Architecture",
     "question_id": 293
   },
   {
@@ -4476,7 +4476,7 @@
       "hristmas"
     ],
     "explanation": "No explanation available",
-    "category": "Geography",
+    "category": "Society & Culture",
     "question_id": 298
   },
   {
@@ -4536,7 +4536,7 @@
       "Keith Campbell"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Science & Innovation",
     "question_id": 302
   },
   {
@@ -4566,7 +4566,7 @@
       "Only Fools and Horses"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Arts & Culture",
     "question_id": 304
   },
   {
@@ -4671,7 +4671,7 @@
       "nglican church"
     ],
     "explanation": "No explanation available",
-    "category": "Geography",
+    "category": "Architecture",
     "question_id": 311
   },
   {
@@ -4731,7 +4731,7 @@
       "Vindolanda"
     ],
     "explanation": "No explanation available",
-    "category": "Society & Culture",
+    "category": "Arts & Culture",
     "question_id": 315
   },
   {
@@ -4746,7 +4746,7 @@
       "King Henry VIII; it gave the king absolute power over the Church"
     ],
     "explanation": "No explanation available",
-    "category": "Society & Culture",
+    "category": "Arts & Culture",
     "question_id": 316
   },
   {
@@ -4776,7 +4776,7 @@
       "Television"
     ],
     "explanation": "No explanation available",
-    "category": "Society & Culture",
+    "category": "Arts & Culture",
     "question_id": 318
   },
   {
@@ -4806,7 +4806,7 @@
       "onnie Prince Charlie"
     ],
     "explanation": "No explanation available",
-    "category": "Government & Law",
+    "category": "Arts & Culture",
     "question_id": 320
   },
   {
@@ -4866,7 +4866,7 @@
       "ricket"
     ],
     "explanation": "No explanation available",
-    "category": "Society & Culture",
+    "category": "Sport & Recreation",
     "question_id": 324
   },
   {
@@ -5001,7 +5001,7 @@
       "rimean War"
     ],
     "explanation": "No explanation available",
-    "category": "History",
+    "category": "Arts & Culture",
     "question_id": 333
   },
   {
@@ -5016,7 +5016,7 @@
       "Radar"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Science & Innovation",
     "question_id": 334
   },
   {
@@ -5061,7 +5061,7 @@
       "Julius Caesar"
     ],
     "explanation": "No explanation available",
-    "category": "Geography",
+    "category": "Architecture",
     "question_id": 337
   },
   {
@@ -5136,7 +5136,7 @@
       "larice Cliff"
     ],
     "explanation": "No explanation available",
-    "category": "Society & Culture",
+    "category": "Arts & Culture",
     "question_id": 342
   },
   {
@@ -5151,7 +5151,7 @@
       "Health"
     ],
     "explanation": "No explanation available",
-    "category": "Government & Law",
+    "category": "Architecture",
     "question_id": 343
   },
   {
@@ -5181,7 +5181,7 @@
       "me Kelly Holmes"
     ],
     "explanation": "No explanation available",
-    "category": "Government & Law",
+    "category": "Sport & Recreation",
     "question_id": 345
   },
   {
@@ -5271,7 +5271,7 @@
       "uckingham Palace in London"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Architecture",
     "question_id": 351
   },
   {
@@ -5314,7 +5314,7 @@
       "Holyrood, Edinburgh"
     ],
     "explanation": "No explanation available",
-    "category": "Government & Law",
+    "category": "Architecture",
     "question_id": 354
   },
   {
@@ -5388,7 +5388,7 @@
       "Harry Potter"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Arts & Culture",
     "question_id": 359
   },
   {
@@ -5403,7 +5403,7 @@
       "Jane Austen"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Arts & Culture",
     "question_id": 360
   },
   {
@@ -5433,7 +5433,7 @@
       "ucation"
     ],
     "explanation": "No explanation available",
-    "category": "Government & Law",
+    "category": "Architecture",
     "question_id": 362
   },
   {
@@ -5478,7 +5478,7 @@
       "Limiting working hours for women and children to 10 hours per day"
     ],
     "explanation": "No explanation available",
-    "category": "General Knowledge",
+    "category": "Arts & Culture",
     "question_id": 365
   },
   {
@@ -5508,7 +5508,7 @@
       "lara Barton"
     ],
     "explanation": "No explanation available",
-    "category": "Government & Law",
+    "category": "Arts & Culture",
     "question_id": 367
   },
   {
@@ -5523,7 +5523,7 @@
       "God Save the King"
     ],
     "explanation": "No explanation available",
-    "category": "Geography",
+    "category": "Arts & Culture",
     "question_id": 368
   },
   {
@@ -5551,7 +5551,7 @@
       "True"
     ],
     "explanation": "No explanation available",
-    "category": "History",
+    "category": "Arts & Culture",
     "question_id": 370
   },
   {
@@ -5581,7 +5581,7 @@
       "The Renaissance"
     ],
     "explanation": "No explanation available",
-    "category": "Geography",
+    "category": "Architecture",
     "question_id": 372
   },
   {
