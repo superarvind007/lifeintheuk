@@ -171,8 +171,8 @@ function App() {
             zIndex: 50,
             padding: 0
           }}
-          aria-label="Search Questions"
-          title="Search Questions"
+          aria-label="Search questions here"
+          title="Search questions here"
         >
           <Search size={24} />
         </button>

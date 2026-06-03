@@ -57,14 +57,49 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
     }
   }, [mode, timeLeft]);
 
-  // Show explanation automatically in practice mode after answering
+  // Handle arrow key navigation
   useEffect(() => {
-    if (mode === 'practice' && currentAnswers.length === requiredCount) {
-      setShowExplanation(true);
-    } else {
-      setShowExplanation(false);
-    }
-  }, [currentIdx, mode, currentAnswers.length, requiredCount]);
+    const handleKeyDown = (e) => {
+      const totalQuestions = questions.length;
+      const itemsPerRow = 4;
+      const currentRow = Math.floor(currentIdx / itemsPerRow);
+      const currentCol = currentIdx % itemsPerRow;
+
+      switch (e.key) {
+        case 'ArrowRight':
+          e.preventDefault();
+          if (currentIdx < totalQuestions - 1) {
+            setCurrentIdx(currentIdx + 1);
+          }
+          break;
+        case 'ArrowLeft':
+          e.preventDefault();
+          if (currentIdx > 0) {
+            setCurrentIdx(currentIdx - 1);
+          }
+          break;
+        case 'ArrowDown':
+          e.preventDefault();
+          const nextRowIdx = (currentRow + 1) * itemsPerRow + currentCol;
+          if (nextRowIdx < totalQuestions) {
+            setCurrentIdx(nextRowIdx);
+          }
+          break;
+        case 'ArrowUp':
+          e.preventDefault();
+          if (currentRow > 0) {
+            const prevRowIdx = (currentRow - 1) * itemsPerRow + currentCol;
+            setCurrentIdx(prevRowIdx);
+          }
+          break;
+        default:
+          break;
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [currentIdx, questions.length]);
 
   const handleToggleOption = (idx) => {
     const currentAnswers = answers[currentQ.question_id] || [];
@@ -464,6 +499,20 @@ const ExamScreen = ({ mode, questions, initialFlags, initialAnswers, onSubmit, i
         {/* Question Area */}
         <div className="exam-content">
           <div className={`card ${shake ? 'shake' : ''}`} style={{ maxWidth: '800px', width: '100%', margin: '0 auto', transition: 'border-color 0.3s' }}>
+            <div style={{
+              display: 'inline-block',
+              background: 'var(--bg-tertiary)',
+              color: 'var(--text-secondary)',
+              padding: '0.25rem 0.75rem',
+              borderRadius: '0.4rem',
+              fontSize: '0.75rem',
+              fontWeight: '600',
+              textTransform: 'uppercase',
+              letterSpacing: '0.5px',
+              marginBottom: '1rem'
+            }}>
+              {currentQ.category}
+            </div>
             <p style={{ fontSize: '1.2rem', marginBottom: '1.5rem', lineHeight: '1.6' }}>
               {currentQ.question_detail}
             </p>

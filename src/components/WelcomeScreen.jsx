@@ -115,7 +115,7 @@ const WelcomeScreen = ({ onStart, totalQuestions, theme, onToggleTheme }) => {
               {cat}
               <span style={{
                 marginLeft: '0.4rem',
-                background: 'var(--error)',
+                background: theme === 'light' ? 'var(--accent)' : 'var(--error)',
                 color: 'white',
                 borderRadius: '0.8rem',
                 padding: '0.1rem 0.5rem',
